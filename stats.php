@@ -6,7 +6,7 @@ require_once('definitions.php');
 
 $starttime = microtime(true);
 
-$logdir     = '/var/log/openarena';
+$logdir     = './logfiles';
 $logfiles   = getLogFiles($logdir);
 $size       = 0;
 
