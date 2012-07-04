@@ -1,0 +1,2443 @@
+1340879267|Client 0 connecting with 0 challenge ping
+1340879267|ClientUserinfoChanged: 2 n\TT\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\5006EE991E7059B8A9A743273410593A
+1340879267|ClientConnect: 2
+1340879267|broadcast: print "TT^7 connected\n"
+1340879269|ClientUserinfoChanged: 2 n\TT\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\5006EE991E7059B8A9A743273410593A
+1340879269|ClientBegin: 2
+1340879271|ClientUserinfoChanged: 2 n\TT\t\1\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\5006EE991E7059B8A9A743273410593A
+1340879271|ClientUserinfoChanged: 2 n\TT\t\1\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\5006EE991E7059B8A9A743273410593A
+1340879271|Playerstore: Nothing to restore. Guid: 5006EE991E7059B8A9A743273410593A
+1340879271|broadcast: print "TT^7 entered the game\n"
+1340879271|ClientBegin: 2
+1340879274|Item: 2 weapon_rocketlauncher
+1340879278|Item: 2 ammo_rockets
+1340879281|Item: 2 weapon_shotgun
+1340879285|Item: 2 team_CTF_blueflag
+1340879285|broadcast: print "TT^7 got the BLUE flag!\n"
+1340879285|CTF: 2 2 0: TT got the BLUE flag!
+1340879285|PlayerScore: 2 0: TT now has 0 points
+1340879286|Item: 2 ammo_shells
+1340879287|Item: 2 ammo_cells
+1340879290|Client 1 connecting with 40 challenge ping
+1340879290|ClientUserinfoChanged: 3 n\Thijs G\t\3\model\skelebot/metal\hmodel\skelebot/metal\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\7A788D51E4ED819681A5D70F9CF0BBFB
+1340879290|ClientConnect: 3
+1340879290|broadcast: print "Thijs G^7 connected\n"
+1340879291|Item: 2 weapon_railgun
+1340879294|Item: 2 weapon_rocketlauncher
+1340879295|ClientUserinfoChanged: 3 n\Thijs G\t\3\model\skelebot/metal\hmodel\skelebot/metal\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\7A788D51E4ED819681A5D70F9CF0BBFB
+1340879295|ClientBegin: 3
+1340879295|Item: 2 item_enviro
+1340879298|Item: 2 item_armor_combat
+1340879298|Item: 2 ammo_shells
+1340879300|ClientUserinfoChanged: 3 n\Thijs G\t\3\model\skelebot/metal\hmodel\skelebot/metal\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\7A788D51E4ED819681A5D70F9CF0BBFB
+1340879300|ClientBegin: 3
+1340879305|Item: 2 team_CTF_redflag
+1340879305|broadcast: print "TT^7 captured the BLUE flag!\n"
+1340879305|CTF: 2 2 1: TT captured the BLUE flag!
+1340879305|Award: 2 4: TT gained the CAPTURE award!
+1340879305|PlayerScore: 2 5: TT now has 5 points
+1340879309|Item: 2 weapon_shotgun
+1340879312|ClientUserinfoChanged: 3 n\Thijs G\t\2\model\skelebot/metal\hmodel\skelebot/metal\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\7A788D51E4ED819681A5D70F9CF0BBFB
+1340879312|ClientUserinfoChanged: 3 n\Thijs G\t\2\model\skelebot/metal\hmodel\skelebot/metal\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\7A788D51E4ED819681A5D70F9CF0BBFB
+1340879312|Playerstore: Nothing to restore. Guid: 7A788D51E4ED819681A5D70F9CF0BBFB
+1340879312|broadcast: print "Thijs G^7 entered the game\n"
+1340879312|ClientBegin: 3
+1340879313|Item: 3 weapon_shotgun
+1340879315|Item: 3 ammo_bullets
+1340879319|Item: 2 item_health
+1340879320|Kill: 2 3 7: TT killed Thijs G by MOD_ROCKET_SPLASH
+1340879320|PlayerScore: 2 6: TT now has 6 points
+1340879320|Challenge: 2 205 1: Client 2 got award 205
+1340879320|Challenge: 2 1 1: Client 2 got award 1
+1340879320|Challenge: 3 2 1: Client 3 got award 2
+1340879321|Item: 2 team_CTF_blueflag
+1340879321|broadcast: print "TT^7 got the BLUE flag!\n"
+1340879321|CTF: 2 2 0: TT got the BLUE flag!
+1340879321|PlayerScore: 2 6: TT now has 6 points
+1340879322|Item: 2 item_health
+1340879325|Item: 2 weapon_rocketlauncher
+1340879331|Item: 2 ammo_slugs
+1340879333|Item: 3 weapon_shotgun
+1340879334|Item: 2 item_health
+1340879336|Item: 2 team_CTF_redflag
+1340879336|broadcast: print "TT^7 captured the BLUE flag!\n"
+1340879336|CTF: 2 2 1: TT captured the BLUE flag!
+1340879336|Award: 2 4: TT gained the CAPTURE award!
+1340879336|Challenge: 2 303 1: Client 2 got award 303
+1340879336|PlayerScore: 2 11: TT now has 11 points
+1340879338|Item: 2 weapon_shotgun
+1340879339|Kill: 2 3 7: TT killed Thijs G by MOD_ROCKET_SPLASH
+1340879339|PlayerScore: 2 12: TT now has 12 points
+1340879339|Challenge: 2 205 1: Client 2 got award 205
+1340879339|Challenge: 2 1 1: Client 2 got award 1
+1340879339|Challenge: 3 2 1: Client 3 got award 2
+1340879339|PlayerScore: 2 13: TT now has 13 points
+1340879339|Challenge: 2 305 1: Client 2 got award 305
+1340879339|Award: 2 3: TT gained the DEFENCE award!
+1340879342|Item: 3 ammo_lightning
+1340879343|Item: 3 item_armor_body
+1340879343|Item: 2 ammo_bullets
+1340879344|Item: 2 item_health
+1340879346|Item: 2 weapon_shotgun
+1340879347|Item: 3 item_health_small
+1340879347|Item: 3 item_health_small
+1340879347|Item: 3 item_health_small
+1340879347|Item: 2 ammo_rockets
+1340879348|Item: 3 item_health_small
+1340879348|Item: 2 item_health_small
+1340879349|Item: 2 item_health_small
+1340879349|Item: 3 ammo_rockets
+1340879349|Item: 2 item_health_small
+1340879349|Item: 2 item_health_small
+1340879350|Item: 3 weapon_shotgun
+1340879351|Item: 2 ammo_lightning
+1340879352|Item: 3 ammo_shells
+1340879352|Item: 2 item_armor_body
+1340879353|Item: 3 ammo_bullets
+1340879353|Item: 3 ammo_cells
+1340879354|Item: 2 item_health
+1340879355|Client 2 connecting with 40 challenge ping
+1340879355|ClientUserinfoChanged: 4 n\Enrique\t\3\model\beret/headcrash\hmodel\beret/headcrash\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\F74DAB2AEA8C391DAE504D100A2685F0
+1340879355|ClientConnect: 4
+1340879355|broadcast: print "Enrique^7 connected\n"
+1340879355|Item: 3 weapon_railgun
+1340879355|Item: 2 ammo_shells
+1340879356|Item: 2 item_armor_combat
+1340879358|Item: 2 item_health
+1340879359|ClientUserinfoChanged: 4 n\Enrique\t\3\model\beret/headcrash\hmodel\beret/headcrash\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\F74DAB2AEA8C391DAE504D100A2685F0
+1340879359|ClientBegin: 4
+1340879359|Item: 2 weapon_plasmagun
+1340879362|Item: 2 team_CTF_blueflag
+1340879362|broadcast: print "TT^7 got the BLUE flag!\n"
+1340879362|CTF: 2 2 0: TT got the BLUE flag!
+1340879362|PlayerScore: 2 13: TT now has 13 points
+1340879363|ClientUserinfoChanged: 4 n\Enrique\t\2\model\beret/headcrash\hmodel\beret/headcrash\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\F74DAB2AEA8C391DAE504D100A2685F0
+1340879363|Playerstore: Nothing to restore. Guid: F74DAB2AEA8C391DAE504D100A2685F0
+1340879363|broadcast: print "Enrique^7 entered the game\n"
+1340879363|ClientBegin: 4
+1340879367|Item: 3 ammo_bullets
+1340879367|Item: 2 item_health
+1340879369|Item: 4 weapon_rocketlauncher
+1340879370|Item: 2 ammo_rockets
+1340879370|Item: 2 item_health_large
+1340879375|Client 3 connecting with 0 challenge ping
+1340879375|ClientUserinfoChanged: 5 n\Thz\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\4341ED6FB66DC405AEBD295E9FF32349
+1340879375|ClientConnect: 5
+1340879375|broadcast: print "Thz^7 connected\n"
+1340879375|Item: 2 weapon_rocketlauncher
+1340879376|Kill: 4 2 6: Enrique killed TT by MOD_ROCKET
+1340879376|PlayerScore: 4 1: Enrique now has 1 points
+1340879376|Challenge: 4 205 1: Client 4 got award 205
+1340879376|Challenge: 4 1 1: Client 4 got award 1
+1340879376|Challenge: 2 2 1: Client 2 got award 2
+1340879376|PlayerScore: 4 3: Enrique now has 3 points
+1340879376|broadcast: print "Enrique^7 fragged RED's flag carrier!\n"
+1340879376|CTF: 4 1 3: Enrique fragged RED's flag carrier!
+1340879377|Item: 4 weapon_rocketlauncher
+1340879377|Item: 4 team_CTF_blueflag
+1340879377|broadcast: print "Enrique^7 returned the BLUE flag!\n"
+1340879377|PlayerScore: 4 4: Enrique now has 4 points
+1340879377|CTF: 4 2 2: Enrique returned the BLUE flag!
+1340879379|Item: 2 weapon_shotgun
+1340879380|Item: 4 item_health
+1340879380|ClientUserinfoChanged: 5 n\Thz\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\4341ED6FB66DC405AEBD295E9FF32349
+1340879380|ClientBegin: 5
+1340879381|Item: 3 item_enviro
+1340879382|Kill: 2 4 1: TT killed Enrique by MOD_SHOTGUN
+1340879382|PlayerScore: 2 14: TT now has 14 points
+1340879382|Challenge: 2 203 1: Client 2 got award 203
+1340879382|Challenge: 2 1 1: Client 2 got award 1
+1340879382|Challenge: 4 2 1: Client 4 got award 2
+1340879382|PlayerScore: 2 15: TT now has 15 points
+1340879382|Challenge: 2 305 1: Client 2 got award 305
+1340879382|Award: 2 3: TT gained the DEFENCE award!
+1340879382|ClientUserinfoChanged: 5 n\Thz\t\1\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\4341ED6FB66DC405AEBD295E9FF32349
+1340879382|Playerstore: Nothing to restore. Guid: 4341ED6FB66DC405AEBD295E9FF32349
+1340879382|broadcast: print "Thz^7 entered the game\n"
+1340879382|ClientBegin: 5
+1340879383|Item: 2 weapon_rocketlauncher
+1340879384|Item: 5 weapon_railgun
+1340879386|Item: 4 weapon_rocketlauncher
+1340879386|Item: 5 ammo_shells
+1340879388|Item: 2 weapon_plasmagun
+1340879389|Item: 4 item_armor_combat
+1340879390|Item: 2 weapon_rocketlauncher
+1340879392|Item: 4 weapon_lightning
+1340879395|Item: 5 weapon_rocketlauncher
+1340879398|Item: 4 team_CTF_redflag
+1340879398|broadcast: print "Enrique^7 got the RED flag!\n"
+1340879398|CTF: 4 1 0: Enrique got the RED flag!
+1340879398|PlayerScore: 4 4: Enrique now has 4 points
+1340879400|Item: 3 weapon_lightning
+1340879400|Item: 2 weapon_rocketlauncher
+1340879402|Item: 4 weapon_railgun
+1340879404|Item: 2 team_CTF_blueflag
+1340879404|broadcast: print "TT^7 got the BLUE flag!\n"
+1340879404|CTF: 2 2 0: TT got the BLUE flag!
+1340879404|PlayerScore: 2 15: TT now has 15 points
+1340879407|Item: 2 weapon_shotgun
+1340879408|Kill: 5 4 7: Thz killed Enrique by MOD_ROCKET_SPLASH
+1340879408|PlayerScore: 5 1: Thz now has 1 points
+1340879408|Challenge: 5 205 1: Client 5 got award 205
+1340879408|Challenge: 5 1 1: Client 5 got award 1
+1340879408|Challenge: 4 2 1: Client 4 got award 2
+1340879408|PlayerScore: 5 3: Thz now has 3 points
+1340879408|broadcast: print "Thz^7 fragged BLUE's flag carrier!\n"
+1340879408|CTF: 5 2 3: Thz fragged BLUE's flag carrier!
+1340879409|Item: 5 team_CTF_redflag
+1340879409|broadcast: print "Thz^7 returned the RED flag!\n"
+1340879409|PlayerScore: 5 4: Thz now has 4 points
+1340879409|CTF: 5 1 2: Thz returned the RED flag!
+1340879409|Item: 5 weapon_rocketlauncher
+1340879411|Item: 4 ammo_lightning
+1340879412|Item: 4 item_armor_body
+1340879414|Item: 2 weapon_shotgun
+1340879415|Item: 4 weapon_shotgun
+1340879415|Kill: 3 2 10: Thijs G killed TT by MOD_RAILGUN
+1340879415|PlayerScore: 3 1: Thijs G now has 1 points
+1340879415|Challenge: 3 208 1: Client 3 got award 208
+1340879415|Challenge: 3 1 1: Client 3 got award 1
+1340879415|Challenge: 2 2 1: Client 2 got award 2
+1340879415|PlayerScore: 3 3: Thijs G now has 3 points
+1340879415|broadcast: print "Thijs G^7 fragged RED's flag carrier!\n"
+1340879415|CTF: 3 1 3: Thijs G fragged RED's flag carrier!
+1340879417|Item: 3 team_CTF_blueflag
+1340879417|broadcast: print "Thijs G^7 returned the BLUE flag!\n"
+1340879417|PlayerScore: 3 4: Thijs G now has 4 points
+1340879417|CTF: 3 2 2: Thijs G returned the BLUE flag!
+1340879417|Item: 5 team_CTF_blueflag
+1340879417|broadcast: print "Thz^7 got the BLUE flag!\n"
+1340879417|CTF: 5 2 0: Thz got the BLUE flag!
+1340879417|PlayerScore: 5 4: Thz now has 4 points
+1340879417|Item: 3 weapon_rocketlauncher
+1340879419|Item: 5 item_health
+1340879420|Item: 3 item_health
+1340879420|Kill: 4 5 1: Enrique killed Thz by MOD_SHOTGUN
+1340879420|PlayerScore: 4 5: Enrique now has 5 points
+1340879420|Challenge: 4 203 1: Client 4 got award 203
+1340879420|Challenge: 4 1 1: Client 4 got award 1
+1340879420|Challenge: 5 2 1: Client 5 got award 2
+1340879420|PlayerScore: 4 7: Enrique now has 7 points
+1340879420|broadcast: print "Enrique^7 fragged RED's flag carrier!\n"
+1340879420|CTF: 4 1 3: Enrique fragged RED's flag carrier!
+1340879420|Item: 4 weapon_rocketlauncher
+1340879420|Item: 4 team_CTF_blueflag
+1340879420|broadcast: print "Enrique^7 returned the BLUE flag!\n"
+1340879420|PlayerScore: 4 8: Enrique now has 8 points
+1340879420|CTF: 4 2 2: Enrique returned the BLUE flag!
+1340879421|Item: 3 team_CTF_redflag
+1340879421|broadcast: print "Thijs G^7 got the RED flag!\n"
+1340879421|CTF: 3 1 0: Thijs G got the RED flag!
+1340879421|PlayerScore: 3 4: Thijs G now has 4 points
+1340879424|Item: 4 weapon_shotgun
+1340879424|Item: 5 weapon_rocketlauncher
+1340879424|Kill: 3 2 6: Thijs G killed TT by MOD_ROCKET
+1340879424|PlayerScore: 3 5: Thijs G now has 5 points
+1340879424|Challenge: 3 205 1: Client 3 got award 205
+1340879424|Challenge: 3 1 1: Client 3 got award 1
+1340879424|Challenge: 2 2 1: Client 2 got award 2
+1340879424|PlayerScore: 3 7: Thijs G now has 7 points
+1340879424|Challenge: 3 305 1: Client 3 got award 305
+1340879424|Award: 3 3: Thijs G gained the DEFENCE award!
+1340879424|Kill: 3 3 7: Thijs G killed Thijs G by MOD_ROCKET_SPLASH
+1340879425|Item: 4 ammo_shells
+1340879426|Item: 4 ammo_cells
+1340879429|Item: 5 team_CTF_redflag
+1340879429|broadcast: print "Thz^7 returned the RED flag!\n"
+1340879429|PlayerScore: 5 5: Thz now has 5 points
+1340879429|CTF: 5 1 2: Thz returned the RED flag!
+1340879429|Item: 5 weapon_rocketlauncher
+1340879429|Item: 3 weapon_plasmagun
+1340879429|Item: 4 weapon_shotgun
+1340879430|Item: 2 weapon_grenadelauncher
+1340879431|Item: 2 ammo_rockets
+1340879432|Item: 5 ammo_bullets
+1340879432|Item: 2 weapon_shotgun
+1340879435|Item: 2 ammo_cells
+1340879436|Item: 2 weapon_railgun
+1340879436|Item: 3 weapon_grenadelauncher
+1340879437|Item: 3 item_health_small
+1340879437|Item: 3 item_health_small
+1340879438|Item: 3 item_health_small
+1340879438|Item: 4 weapon_plasmagun
+1340879439|Item: 3 item_health_small
+1340879439|Item: 5 weapon_rocketlauncher
+1340879441|Item: 4 item_armor_combat
+1340879441|Item: 4 ammo_shells
+1340879443|Item: 3 item_armor_body
+1340879444|Kill: 4 5 6: Enrique killed Thz by MOD_ROCKET
+1340879444|PlayerScore: 4 9: Enrique now has 9 points
+1340879444|Challenge: 4 205 1: Client 4 got award 205
+1340879444|Challenge: 4 1 1: Client 4 got award 1
+1340879444|Challenge: 5 2 1: Client 5 got award 2
+1340879445|Item: 2 weapon_railgun
+1340879445|Item: 4 item_health
+1340879446|Item: 4 weapon_rocketlauncher
+1340879446|Item: 3 ammo_cells
+1340879447|Item: 2 ammo_cells
+1340879448|Item: 5 weapon_rocketlauncher
+1340879451|Item: 3 weapon_railgun
+1340879451|Item: 4 team_CTF_redflag
+1340879451|broadcast: print "Enrique^7 got the RED flag!\n"
+1340879451|CTF: 4 1 0: Enrique got the RED flag!
+1340879451|PlayerScore: 4 9: Enrique now has 9 points
+1340879452|Item: 4 weapon_shotgun
+1340879452|Kill: 5 2 7: Thz killed TT by MOD_ROCKET_SPLASH
+1340879453|Kill: 4 5 6: Enrique killed Thz by MOD_ROCKET
+1340879453|PlayerScore: 4 10: Enrique now has 10 points
+1340879453|Challenge: 4 205 1: Client 4 got award 205
+1340879453|Challenge: 4 1 1: Client 4 got award 1
+1340879453|Challenge: 5 2 1: Client 5 got award 2
+1340879455|Item: 3 ammo_bullets
+1340879457|Item: 2 weapon_rocketlauncher
+1340879457|Kill: 2 5 6: TT killed Thz by MOD_ROCKET
+1340879457|Kill: 2 4 7: TT killed Enrique by MOD_ROCKET_SPLASH
+1340879457|PlayerScore: 2 16: TT now has 16 points
+1340879457|Challenge: 2 205 1: Client 2 got award 205
+1340879457|Challenge: 2 1 1: Client 2 got award 1
+1340879457|Challenge: 4 2 1: Client 4 got award 2
+1340879457|PlayerScore: 2 18: TT now has 18 points
+1340879457|broadcast: print "TT^7 fragged BLUE's flag carrier!\n"
+1340879457|CTF: 2 2 3: TT fragged BLUE's flag carrier!
+1340879458|Item: 2 weapon_rocketlauncher
+1340879458|Item: 2 team_CTF_redflag
+1340879458|broadcast: print "TT^7 returned the RED flag!\n"
+1340879458|PlayerScore: 2 19: TT now has 19 points
+1340879458|CTF: 2 1 2: TT returned the RED flag!
+1340879460|Item: 5 weapon_shotgun
+1340879460|Item: 4 ammo_lightning
+1340879460|Item: 5 weapon_rocketlauncher
+1340879460|Item: 5 weapon_railgun
+1340879463|Item: 2 item_health_small
+1340879463|Item: 2 item_health_small
+1340879463|Item: 2 item_health_small
+1340879463|Item: 4 weapon_rocketlauncher
+1340879464|Item: 2 item_health_small
+1340879465|Item: 4 item_enviro
+1340879466|Item: 2 ammo_lightning
+1340879466|Item: 3 ammo_cells
+1340879467|Item: 2 item_armor_body
+1340879467|Item: 4 item_armor_combat
+1340879473|Item: 2 item_health
+1340879474|Item: 4 ammo_grenades
+1340879477|Item: 4 weapon_rocketlauncher
+1340879477|Item: 5 team_CTF_blueflag
+1340879477|broadcast: print "Thz^7 got the BLUE flag!\n"
+1340879477|CTF: 5 2 0: Thz got the BLUE flag!
+1340879477|PlayerScore: 5 5: Thz now has 5 points
+1340879479|Item: 2 ammo_rockets
+1340879479|Item: 3 ammo_shells
+1340879480|Item: 4 item_health
+1340879480|Item: 2 item_health_small
+1340879481|Item: 2 item_health_small
+1340879481|Item: 2 item_health_small
+1340879481|Item: 2 item_health_small
+1340879481|Kill: 4 2 7: Enrique killed TT by MOD_ROCKET_SPLASH
+1340879481|PlayerScore: 4 11: Enrique now has 11 points
+1340879481|Challenge: 4 205 1: Client 4 got award 205
+1340879481|Challenge: 4 1 1: Client 4 got award 1
+1340879481|Challenge: 2 2 1: Client 2 got award 2
+1340879481|PlayerScore: 4 12: Enrique now has 12 points
+1340879481|Challenge: 4 305 1: Client 4 got award 305
+1340879481|Award: 4 3: Enrique gained the DEFENCE award!
+1340879485|Item: 2 weapon_rocketlauncher
+1340879490|Item: 4 item_armor_body
+1340879490|Item: 2 ammo_bullets
+1340879490|Item: 5 team_CTF_redflag
+1340879490|broadcast: print "Thz^7 captured the BLUE flag!\n"
+1340879490|CTF: 5 2 1: Thz captured the BLUE flag!
+1340879490|Award: 5 4: Thz gained the CAPTURE award!
+1340879490|Challenge: 5 303 1: Client 5 got award 303
+1340879490|PlayerScore: 5 10: Thz now has 10 points
+1340879490|PlayerScore: 2 19: TT now has 19 points
+1340879493|Item: 4 ammo_rockets
+1340879493|Item: 5 ammo_cells
+1340879496|Item: 3 team_CTF_redflag
+1340879496|broadcast: print "Thijs G^7 got the RED flag!\n"
+1340879496|CTF: 3 1 0: Thijs G got the RED flag!
+1340879496|PlayerScore: 3 7: Thijs G now has 7 points
+1340879498|Item: 2 weapon_rocketlauncher
+1340879498|Item: 3 ammo_bullets
+1340879498|Item: 4 item_health
+1340879499|Item: 5 ammo_cells
+1340879501|Item: 3 item_health
+1340879502|Item: 4 weapon_shotgun
+1340879502|Kill: 5 3 6: Thz killed Thijs G by MOD_ROCKET
+1340879502|PlayerScore: 5 11: Thz now has 11 points
+1340879502|Challenge: 5 205 1: Client 5 got award 205
+1340879502|Challenge: 5 1 1: Client 5 got award 1
+1340879502|Challenge: 3 2 1: Client 3 got award 2
+1340879502|PlayerScore: 5 13: Thz now has 13 points
+1340879502|broadcast: print "Thz^7 fragged BLUE's flag carrier!\n"
+1340879502|CTF: 5 2 3: Thz fragged BLUE's flag carrier!
+1340879503|Item: 2 item_health
+1340879503|Item: 5 weapon_railgun
+1340879503|Item: 5 team_CTF_redflag
+1340879503|broadcast: print "Thz^7 returned the RED flag!\n"
+1340879503|PlayerScore: 5 14: Thz now has 14 points
+1340879503|CTF: 5 1 2: Thz returned the RED flag!
+1340879505|Item: 3 weapon_railgun
+1340879505|Kill: 4 2 6: Enrique killed TT by MOD_ROCKET
+1340879505|PlayerScore: 4 13: Enrique now has 13 points
+1340879505|Challenge: 4 205 1: Client 4 got award 205
+1340879505|Challenge: 4 1 1: Client 4 got award 1
+1340879505|Challenge: 2 2 1: Client 2 got award 2
+1340879507|Item: 4 weapon_rocketlauncher
+1340879507|Item: 4 team_CTF_redflag
+1340879507|broadcast: print "Enrique^7 got the RED flag!\n"
+1340879507|CTF: 4 1 0: Enrique got the RED flag!
+1340879507|PlayerScore: 4 13: Enrique now has 13 points
+1340879509|Kill: 5 4 7: Thz killed Enrique by MOD_ROCKET_SPLASH
+1340879509|PlayerScore: 5 15: Thz now has 15 points
+1340879509|Challenge: 5 205 1: Client 5 got award 205
+1340879509|Challenge: 5 1 1: Client 5 got award 1
+1340879509|Challenge: 4 2 1: Client 4 got award 2
+1340879509|PlayerScore: 5 17: Thz now has 17 points
+1340879509|broadcast: print "Thz^7 fragged BLUE's flag carrier!\n"
+1340879509|CTF: 5 2 3: Thz fragged BLUE's flag carrier!
+1340879509|Item: 2 weapon_rocketlauncher
+1340879509|Item: 3 item_armor_combat
+1340879510|Item: 3 ammo_shells
+1340879510|Item: 5 ammo_rockets
+1340879510|Item: 5 team_CTF_redflag
+1340879510|broadcast: print "Thz^7 returned the RED flag!\n"
+1340879510|PlayerScore: 5 18: Thz now has 18 points
+1340879510|CTF: 5 1 2: Thz returned the RED flag!
+1340879511|Item: 5 weapon_rocketlauncher
+1340879511|Item: 4 ammo_lightning
+1340879512|Item: 5 weapon_shotgun
+1340879513|Item: 3 weapon_plasmagun
+1340879514|Kill: 2 3 7: TT killed Thijs G by MOD_ROCKET_SPLASH
+1340879514|PlayerScore: 2 20: TT now has 20 points
+1340879514|Challenge: 2 205 1: Client 2 got award 205
+1340879514|Challenge: 2 1 1: Client 2 got award 1
+1340879514|Challenge: 3 2 1: Client 3 got award 2
+1340879515|Item: 2 weapon_railgun
+1340879515|Item: 4 weapon_rocketlauncher
+1340879517|Item: 5 weapon_rocketlauncher
+1340879518|Item: 3 weapon_railgun
+1340879519|Kill: 4 2 7: Enrique killed TT by MOD_ROCKET_SPLASH
+1340879519|PlayerScore: 4 14: Enrique now has 14 points
+1340879519|Challenge: 4 205 1: Client 4 got award 205
+1340879519|Challenge: 4 1 1: Client 4 got award 1
+1340879519|Challenge: 2 2 1: Client 2 got award 2
+1340879520|Item: 5 item_enviro
+1340879521|Item: 4 item_health
+1340879522|Item: 3 ammo_cells
+1340879523|Item: 3 ammo_bullets
+1340879523|Item: 2 ammo_rockets
+1340879524|Item: 4 item_health
+1340879526|Item: 2 weapon_shotgun
+1340879526|Item: 4 weapon_shotgun
+1340879529|Item: 5 team_CTF_blueflag
+1340879529|broadcast: print "Thz^7 got the BLUE flag!\n"
+1340879529|CTF: 5 2 0: Thz got the BLUE flag!
+1340879529|PlayerScore: 5 18: Thz now has 18 points
+1340879530|Item: 2 weapon_railgun
+1340879533|Item: 3 ammo_bullets
+1340879535|Item: 2 weapon_lightning
+1340879535|Kill: 5 3 6: Thz killed Thijs G by MOD_ROCKET
+1340879535|PlayerScore: 5 19: Thz now has 19 points
+1340879535|Challenge: 5 205 1: Client 5 got award 205
+1340879535|Challenge: 5 1 1: Client 5 got award 1
+1340879535|Challenge: 3 2 1: Client 3 got award 2
+1340879535|PlayerScore: 5 21: Thz now has 21 points
+1340879535|Challenge: 5 305 1: Client 5 got award 305
+1340879535|Award: 5 3: Thz gained the DEFENCE award!
+1340879539|Item: 5 item_health
+1340879540|Item: 3 weapon_plasmagun
+1340879540|Kill: 5 4 7: Thz killed Enrique by MOD_ROCKET_SPLASH
+1340879540|PlayerScore: 5 22: Thz now has 22 points
+1340879540|Challenge: 5 205 1: Client 5 got award 205
+1340879540|Challenge: 5 1 1: Client 5 got award 1
+1340879540|Challenge: 4 2 1: Client 4 got award 2
+1340879540|PlayerScore: 5 24: Thz now has 24 points
+1340879540|Challenge: 5 305 1: Client 5 got award 305
+1340879540|Award: 5 3: Thz gained the DEFENCE award!
+1340879541|Item: 2 ammo_slugs
+1340879542|Item: 5 item_health
+1340879542|Item: 3 item_armor_combat
+1340879543|Item: 3 weapon_rocketlauncher
+1340879544|Item: 5 team_CTF_redflag
+1340879544|broadcast: print "Thz^7 captured the BLUE flag!\n"
+1340879544|CTF: 5 2 1: Thz captured the BLUE flag!
+1340879544|Award: 5 4: Thz gained the CAPTURE award!
+1340879544|Challenge: 5 303 1: Client 5 got award 303
+1340879544|PlayerScore: 5 29: Thz now has 29 points
+1340879544|PlayerScore: 2 20: TT now has 20 points
+1340879544|Item: 4 item_armor_body
+1340879546|Item: 3 weapon_plasmagun
+1340879547|Kill: 2 4 11: TT killed Enrique by MOD_LIGHTNING
+1340879547|PlayerScore: 2 21: TT now has 21 points
+1340879547|Challenge: 2 206 1: Client 2 got award 206
+1340879547|Challenge: 2 1 1: Client 2 got award 1
+1340879547|Challenge: 4 2 1: Client 4 got award 2
+1340879548|Item: 5 ammo_bullets
+1340879549|Item: 2 ammo_cells
+1340879550|Item: 3 team_CTF_redflag
+1340879550|broadcast: print "Thijs G^7 got the RED flag!\n"
+1340879550|CTF: 3 1 0: Thijs G got the RED flag!
+1340879550|PlayerScore: 3 7: Thijs G now has 7 points
+1340879550|Item: 5 weapon_rocketlauncher
+1340879550|Item: 2 item_health
+1340879553|Item: 2 team_CTF_blueflag
+1340879553|broadcast: print "TT^7 got the BLUE flag!\n"
+1340879553|CTF: 2 2 0: TT got the BLUE flag!
+1340879553|PlayerScore: 2 21: TT now has 21 points
+1340879554|Item: 3 weapon_railgun
+1340879555|Item: 3 ammo_cells
+1340879557|Kill: 4 2 3: Enrique killed TT by MOD_MACHINEGUN
+1340879557|PlayerScore: 4 15: Enrique now has 15 points
+1340879557|Challenge: 4 202 1: Client 4 got award 202
+1340879557|Challenge: 4 1 1: Client 4 got award 1
+1340879557|Challenge: 2 2 1: Client 2 got award 2
+1340879557|PlayerScore: 4 17: Enrique now has 17 points
+1340879557|broadcast: print "Enrique^7 fragged RED's flag carrier!\n"
+1340879557|CTF: 4 1 3: Enrique fragged RED's flag carrier!
+1340879558|Item: 5 weapon_rocketlauncher
+1340879558|Item: 4 weapon_railgun
+1340879558|Item: 4 team_CTF_blueflag
+1340879558|broadcast: print "Enrique^7 returned the BLUE flag!\n"
+1340879558|PlayerScore: 4 18: Enrique now has 18 points
+1340879558|CTF: 4 2 2: Enrique returned the BLUE flag!
+1340879559|Item: 4 weapon_shotgun
+1340879559|Item: 3 weapon_lightning
+1340879560|Item: 2 weapon_shotgun
+1340879562|Item: 4 item_health_small
+1340879563|Item: 4 item_health_small
+1340879563|Item: 4 item_health_small
+1340879563|Item: 4 item_health_small
+1340879563|Item: 2 weapon_plasmagun
+1340879565|Item: 4 ammo_lightning
+1340879566|Item: 3 team_CTF_blueflag
+1340879566|broadcast: print "Thijs G^7 captured the RED flag!\n"
+1340879566|CTF: 3 1 1: Thijs G captured the RED flag!
+1340879566|Award: 3 4: Thijs G gained the CAPTURE award!
+1340879566|Challenge: 3 303 1: Client 3 got award 303
+1340879566|PlayerScore: 3 12: Thijs G now has 12 points
+1340879566|PlayerScore: 4 18: Enrique now has 18 points
+1340879566|PlayerScore: 4 19: Enrique now has 19 points
+1340879566|Challenge: 4 304 1: Client 4 got award 304
+1340879566|Award: 4 5: Enrique gained the ASSIST award!
+1340879566|PlayerScore: 4 21: Enrique now has 21 points
+1340879566|Challenge: 4 304 1: Client 4 got award 304
+1340879566|Award: 4 5: Enrique gained the ASSIST award!
+1340879567|Item: 5 item_health
+1340879568|Item: 3 ammo_cells
+1340879569|Item: 4 item_health
+1340879569|Item: 3 ammo_bullets
+1340879574|Item: 5 weapon_shotgun
+1340879574|Kill: 3 5 10: Thijs G killed Thz by MOD_RAILGUN
+1340879574|PlayerScore: 3 13: Thijs G now has 13 points
+1340879574|Challenge: 3 208 1: Client 3 got award 208
+1340879574|Challenge: 3 1 1: Client 3 got award 1
+1340879574|Challenge: 5 2 1: Client 5 got award 2
+1340879574|PlayerScore: 3 14: Thijs G now has 14 points
+1340879574|Challenge: 3 305 1: Client 3 got award 305
+1340879574|Award: 3 3: Thijs G gained the DEFENCE award!
+1340879577|Item: 2 ammo_bullets
+1340879578|Item: 4 weapon_shotgun
+1340879578|Item: 2 item_health
+1340879579|Item: 5 weapon_rocketlauncher
+1340879579|Kill: 2 4 8: TT killed Enrique by MOD_PLASMA
+1340879579|PlayerScore: 2 22: TT now has 22 points
+1340879579|Challenge: 2 207 1: Client 2 got award 207
+1340879579|Challenge: 2 1 1: Client 2 got award 1
+1340879579|Challenge: 4 2 1: Client 4 got award 2
+1340879581|Item: 2 team_CTF_blueflag
+1340879581|broadcast: print "TT^7 got the BLUE flag!\n"
+1340879581|CTF: 2 2 0: TT got the BLUE flag!
+1340879581|PlayerScore: 2 22: TT now has 22 points
+1340879582|Item: 4 weapon_shotgun
+1340879582|Kill: 4 2 3: Enrique killed TT by MOD_MACHINEGUN
+1340879582|PlayerScore: 4 22: Enrique now has 22 points
+1340879582|Challenge: 4 202 1: Client 4 got award 202
+1340879582|Challenge: 4 1 1: Client 4 got award 1
+1340879582|Challenge: 2 2 1: Client 2 got award 2
+1340879582|PlayerScore: 4 24: Enrique now has 24 points
+1340879582|broadcast: print "Enrique^7 fragged RED's flag carrier!\n"
+1340879582|CTF: 4 1 3: Enrique fragged RED's flag carrier!
+1340879583|Item: 3 weapon_shotgun
+1340879583|Item: 4 team_CTF_blueflag
+1340879583|broadcast: print "Enrique^7 returned the BLUE flag!\n"
+1340879583|PlayerScore: 4 25: Enrique now has 25 points
+1340879583|CTF: 4 2 2: Enrique returned the BLUE flag!
+1340879583|Item: 4 weapon_plasmagun
+1340879587|Item: 3 weapon_rocketlauncher
+1340879588|Item: 2 weapon_rocketlauncher
+1340879589|Item: 3 item_enviro
+1340879591|Kill: 5 4 6: Thz killed Enrique by MOD_ROCKET
+1340879591|PlayerScore: 5 30: Thz now has 30 points
+1340879591|Challenge: 5 205 1: Client 5 got award 205
+1340879591|Challenge: 5 1 1: Client 5 got award 1
+1340879591|Challenge: 4 2 1: Client 4 got award 2
+1340879593|Item: 5 weapon_rocketlauncher
+1340879593|Item: 2 ammo_shells
+1340879593|Item: 2 item_armor_combat
+1340879597|Item: 4 weapon_plasmagun
+1340879597|Kill: 4 5 8: Enrique killed Thz by MOD_PLASMA
+1340879597|PlayerScore: 4 26: Enrique now has 26 points
+1340879597|Challenge: 4 207 1: Client 4 got award 207
+1340879597|Challenge: 4 1 1: Client 4 got award 1
+1340879597|Challenge: 5 2 1: Client 5 got award 2
+1340879598|Item: 3 team_CTF_redflag
+1340879598|broadcast: print "Thijs G^7 got the RED flag!\n"
+1340879598|CTF: 3 1 0: Thijs G got the RED flag!
+1340879598|PlayerScore: 3 14: Thijs G now has 14 points
+1340879598|Item: 4 weapon_rocketlauncher
+1340879600|Item: 2 team_CTF_blueflag
+1340879600|broadcast: print "TT^7 got the BLUE flag!\n"
+1340879600|CTF: 2 2 0: TT got the BLUE flag!
+1340879600|PlayerScore: 2 22: TT now has 22 points
+1340879600|Item: 4 item_health
+1340879601|Item: 5 weapon_rocketlauncher
+1340879601|Item: 2 ammo_rockets
+1340879601|Item: 3 ammo_cells
+1340879603|Item: 4 weapon_grenadelauncher
+1340879603|Item: 4 item_health_small
+1340879604|Kill: 2 4 7: TT killed Enrique by MOD_ROCKET_SPLASH
+1340879604|PlayerScore: 2 23: TT now has 23 points
+1340879604|Challenge: 2 205 1: Client 2 got award 205
+1340879604|Challenge: 2 1 1: Client 2 got award 1
+1340879604|Challenge: 4 2 1: Client 4 got award 2
+1340879604|PlayerScore: 2 25: TT now has 25 points
+1340879604|Challenge: 2 305 1: Client 2 got award 305
+1340879604|Award: 2 3: TT gained the DEFENCE award!
+1340879607|Item: 2 item_health
+1340879607|Item: 4 ammo_lightning
+1340879608|Item: 2 ammo_rockets
+1340879614|Item: 4 weapon_rocketlauncher
+1340879617|Item: 2 ammo_shells
+1340879617|Item: 5 weapon_rocketlauncher
+1340879617|Item: 3 weapon_plasmagun
+1340879619|Item: 4 weapon_shotgun
+1340879620|Item: 5 ammo_bullets
+1340879622|Kill: 2 4 6: TT killed Enrique by MOD_ROCKET
+1340879622|PlayerScore: 2 26: TT now has 26 points
+1340879622|Challenge: 2 205 1: Client 2 got award 205
+1340879622|Challenge: 2 1 1: Client 2 got award 1
+1340879622|Challenge: 4 2 1: Client 4 got award 2
+1340879622|PlayerScore: 2 28: TT now has 28 points
+1340879622|Challenge: 2 305 1: Client 2 got award 305
+1340879622|Award: 2 3: TT gained the DEFENCE award!
+1340879623|Kill: 3 5 6: Thijs G killed Thz by MOD_ROCKET
+1340879623|PlayerScore: 3 15: Thijs G now has 15 points
+1340879623|Challenge: 3 205 1: Client 3 got award 205
+1340879623|Challenge: 3 1 1: Client 3 got award 1
+1340879623|Challenge: 5 2 1: Client 5 got award 2
+1340879623|PlayerScore: 3 17: Thijs G now has 17 points
+1340879623|Challenge: 3 305 1: Client 3 got award 305
+1340879623|Award: 3 3: Thijs G gained the DEFENCE award!
+1340879623|Item: 3 item_health_small
+1340879625|Item: 2 weapon_rocketlauncher
+1340879626|Item: 3 weapon_rocketlauncher
+1340879626|Item: 5 weapon_rocketlauncher
+1340879627|Item: 4 weapon_rocketlauncher
+1340879627|Item: 2 item_health
+1340879628|Item: 3 ammo_shells
+1340879629|Item: 3 ammo_bullets
+1340879629|Item: 3 ammo_cells
+1340879630|Item: 2 ammo_rockets
+1340879631|Kill: 5 4 7: Thz killed Enrique by MOD_ROCKET_SPLASH
+1340879631|PlayerScore: 5 31: Thz now has 31 points
+1340879631|Challenge: 5 205 1: Client 5 got award 205
+1340879631|Challenge: 5 1 1: Client 5 got award 1
+1340879631|Challenge: 4 2 1: Client 4 got award 2
+1340879631|Item: 3 weapon_railgun
+1340879631|Item: 2 item_health
+1340879632|Item: 5 ammo_grenades
+1340879632|Item: 3 item_health
+1340879632|Item: 5 weapon_rocketlauncher
+1340879633|Item: 5 item_armor_combat
+1340879633|Item: 2 item_health_small
+1340879634|Item: 2 item_health_small
+1340879634|Item: 2 item_health_small
+1340879634|Item: 2 item_health_small
+1340879634|Item: 5 item_health
+1340879636|Item: 4 weapon_plasmagun
+1340879638|Item: 2 item_armor_body
+1340879638|Item: 5 item_health
+1340879639|Item: 2 ammo_lightning
+1340879639|Kill: 3 5 10: Thijs G killed Thz by MOD_RAILGUN
+1340879639|PlayerScore: 3 18: Thijs G now has 18 points
+1340879639|Challenge: 3 208 1: Client 3 got award 208
+1340879639|Challenge: 3 1 1: Client 3 got award 1
+1340879639|Challenge: 5 2 1: Client 5 got award 2
+1340879639|PlayerScore: 3 19: Thijs G now has 19 points
+1340879639|Challenge: 3 305 1: Client 3 got award 305
+1340879639|Award: 3 3: Thijs G gained the DEFENCE award!
+1340879642|Item: 2 weapon_grenadelauncher
+1340879642|Item: 3 weapon_rocketlauncher
+1340879643|Item: 5 weapon_rocketlauncher
+1340879645|Item: 3 ammo_rockets
+1340879646|Item: 3 weapon_grenadelauncher
+1340879646|Item: 4 weapon_rocketlauncher
+1340879646|Item: 3 item_health_small
+1340879646|Item: 3 item_health_small
+1340879647|Item: 3 item_health_small
+1340879649|Item: 3 ammo_lightning
+1340879650|Item: 4 ammo_shells
+1340879650|Item: 3 item_armor_body
+1340879652|Item: 4 weapon_lightning
+1340879653|Item: 4 ammo_slugs
+1340879654|Item: 3 weapon_grenadelauncher
+1340879656|Item: 2 weapon_grenadelauncher
+1340879656|Item: 4 ammo_cells
+1340879658|Item: 4 ammo_shells
+1340879664|Item: 2 ammo_rockets
+1340879668|Item: 4 item_health
+1340879669|Item: 5 weapon_grenadelauncher
+1340879671|Item: 4 weapon_shotgun
+1340879672|Item: 4 item_health
+1340879675|Kill: 5 5 5: Thz killed Thz by MOD_GRENADE_SPLASH
+1340879676|Item: 4 weapon_shotgun
+1340879677|Item: 3 item_health
+1340879677|Item: 5 weapon_railgun
+1340879678|Item: 2 weapon_rocketlauncher
+1340879679|Item: 4 ammo_bullets
+1340879680|Item: 3 weapon_rocketlauncher
+1340879681|Item: 3 weapon_plasmagun
+1340879683|Kill: 2 4 7: TT killed Enrique by MOD_ROCKET_SPLASH
+1340879683|PlayerScore: 2 29: TT now has 29 points
+1340879683|Challenge: 2 205 1: Client 2 got award 205
+1340879683|Challenge: 2 1 1: Client 2 got award 1
+1340879683|Challenge: 4 2 1: Client 4 got award 2
+1340879683|PlayerScore: 2 31: TT now has 31 points
+1340879683|Challenge: 2 305 1: Client 2 got award 305
+1340879683|Award: 2 3: TT gained the DEFENCE award!
+1340879684|Item: 3 item_health
+1340879684|Item: 5 weapon_plasmagun
+1340879686|Item: 4 weapon_shotgun
+1340879686|Item: 2 weapon_shotgun
+1340879687|Item: 5 weapon_rocketlauncher
+1340879687|Item: 3 weapon_shotgun
+1340879687|Item: 2 ammo_rockets
+1340879688|Item: 2 item_health_small
+1340879689|Item: 2 item_health_small
+1340879689|Item: 3 ammo_rockets
+1340879689|Item: 2 item_health_small
+1340879689|Item: 2 item_health_small
+1340879690|Item: 3 weapon_grenadelauncher
+1340879690|Item: 3 item_health_small
+1340879690|Item: 3 item_health_small
+1340879690|Item: 3 item_health_small
+1340879690|Item: 5 ammo_shells
+1340879690|Item: 5 item_armor_combat
+1340879691|Item: 3 item_health_small
+1340879691|Item: 2 ammo_lightning
+1340879692|Item: 4 item_enviro
+1340879692|Item: 2 item_armor_body
+1340879693|Item: 3 ammo_lightning
+1340879694|Item: 5 weapon_rocketlauncher
+1340879694|Item: 3 item_armor_body
+1340879696|Item: 4 weapon_plasmagun
+1340879704|Item: 2 ammo_slugs
+1340879704|Item: 4 weapon_shotgun
+1340879706|Item: 3 item_health
+1340879707|Kill: 5 3 7: Thz killed Thijs G by MOD_ROCKET_SPLASH
+1340879707|PlayerScore: 5 32: Thz now has 32 points
+1340879707|Challenge: 5 205 1: Client 5 got award 205
+1340879707|Challenge: 5 1 1: Client 5 got award 1
+1340879707|Challenge: 3 2 1: Client 3 got award 2
+1340879707|PlayerScore: 5 34: Thz now has 34 points
+1340879707|broadcast: print "Thz^7 fragged BLUE's flag carrier!\n"
+1340879707|CTF: 5 2 3: Thz fragged BLUE's flag carrier!
+1340879707|Item: 2 item_health_large
+1340879708|Item: 5 team_CTF_redflag
+1340879708|broadcast: print "Thz^7 returned the RED flag!\n"
+1340879708|PlayerScore: 5 35: Thz now has 35 points
+1340879708|CTF: 5 1 2: Thz returned the RED flag!
+1340879708|Item: 5 weapon_rocketlauncher
+1340879708|Item: 2 ammo_rockets
+1340879711|Item: 5 weapon_rocketlauncher
+1340879711|Item: 4 ammo_slugs
+1340879712|Item: 3 weapon_plasmagun
+1340879712|Item: 5 item_enviro
+1340879714|Item: 4 weapon_lightning
+1340879716|Item: 2 team_CTF_redflag
+1340879716|broadcast: print "TT^7 captured the BLUE flag!\n"
+1340879716|CTF: 2 2 1: TT captured the BLUE flag!
+1340879716|Award: 2 4: TT gained the CAPTURE award!
+1340879716|Challenge: 2 303 1: Client 2 got award 303
+1340879716|PlayerScore: 2 36: TT now has 36 points
+1340879716|broadcast: print "Red hit the capturelimit.\n"
+1340879716|Exit: Capturelimit hit.
+1340879716|red:5  blue:1
+1340879716|score: 36  ping: 2  client: 2 TT
+1340879716|score: 35  ping: 0  client: 5 Thz
+1340879716|score: 26  ping: 3  client: 4 Enrique
+1340879716|score: 19  ping: 1  client: 3 Thijs G
+1340879716|PlayerScore: 5 35: Thz now has 35 points
+1340879716|PlayerScore: 5 36: Thz now has 36 points
+1340879716|Challenge: 5 304 1: Client 5 got award 304
+1340879716|Award: 5 5: Thz gained the ASSIST award!
+1340879716|PlayerScore: 5 38: Thz now has 38 points
+1340879716|Challenge: 5 304 1: Client 5 got award 304
+1340879716|Award: 5 5: Thz gained the ASSIST award!
+1340879717|Item: 5 team_CTF_blueflag
+1340879717|broadcast: print "Thz^7 got the BLUE flag!\n"
+1340879717|CTF: 5 2 0: Thz got the BLUE flag!
+1340879717|PlayerScore: 5 38: Thz now has 38 points
+1340879722|g_gametype will be changed upon restarting.
+1340879722|==== ShutdownGame ====
+1340879722|ShutdownGame:
+1340879722|------------------------------------------------------------
+1340879722|AAS shutdown.
+1340879722|------ Server Initialization ------
+1340879722|Server: oa_dm3
+1340879722|Hunk_Clear: reset the hunk ok
+1340879722|----- FS_Startup -----
+1340879722|Current search path:
+1340879722|/home/jeroen/.openarena/baseoa
+1340879722|/usr/lib/openarena-server/baseoa
+1340879722|/usr/lib/openarena-server/baseoa/pak6-patch088.pk3 (711 files)
+1340879722|/usr/lib/openarena-server/baseoa/pak6-patch085.pk3 (559 files)
+1340879722|/usr/lib/openarena-server/baseoa/pak6-misc.pk3 (229 files)
+1340879722|/usr/lib/openarena-server/baseoa/pak5-TA.pk3 (139 files)
+1340879722|/usr/lib/openarena-server/baseoa/pak4-textures.pk3 (1753 files)
+1340879722|/usr/lib/openarena-server/baseoa/pak2-players.pk3 (669 files)
+1340879722|/usr/lib/openarena-server/baseoa/pak2-players-mature.pk3 (231 files)
+1340879722|/usr/lib/openarena-server/baseoa/pak1-maps.pk3 (100 files)
+1340879722|/usr/lib/openarena-server/baseoa/pak0.pk3 (1042 files)
+1340879722|
+1340879722|----------------------
+1340879722|5433 files in pk3 files
+1340879722|Loading vm file vm/qagame.qvm...
+1340879722|File "vm/qagame.qvm" found in "/usr/lib/openarena-server/baseoa/pak6-patch088.pk3"
+1340879722|...which has vmMagic VM_MAGIC_USE_NATIVE.
+1340879722|... trying pak6-patch088/qagame
+1340879722|... trying qagame
+1340879722|Loading DLL file /usr/lib/openarena-server/baseoa/qagamex86_64.so instead.
+1340879722|Loading DLL file: /usr/lib/openarena-server/baseoa/qagamex86_64.so
+1340879722|Sys_LoadGameDll(/usr/lib/openarena-server/baseoa/qagamex86_64.so) found vmMain function at 0x7fd4f0a16ab6
+1340879722|------- Game Initialization -------
+1340879722|gamename: baseoa
+1340879722|gamedate: Apr  1 2012
+1340879722|------------------------------------------------------------
+1340879722|InitGame: \com_protocol\71\sv_hostname\Spil OA Server\sv_maxclients\16\sv_minPing\0\sv_maxPing\400\sv_maxRate\25000\sv_allowdownload\1\sv_privateClients\2\capturelimit\5\timelimit\0\fraglimit\15\bot_minplayers\0\g_allowvote\1\g_voteGametypes\/0/3/4/5/8/10\g_delagHitscan\1\dmflags\88\g_instantgib\0\g_rockets\0\sv_dlRate\100\g_voteMaxTimelimit\1000\g_voteMinTimelimit\0\g_voteMaxFraglimit\0\g_voteMinFraglimit\0\g_gametype\0\g_lms_mode\0\elimination_roundtime\120\g_doWarmup\0\videoflags\7\g_maxGameClients\0\sv_minRate\0\sv_floodProtect\1\version\ioq3 1.36+svn2224-3/Debian linux-x86_64 Mar 31 2012\com_gamename\Quake3Arena\mapname\oa_dm3\gamename\baseoa\elimflags\0\voteflags\2\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_altExcellent\0\g_timestamp\2012-06-28 12:35:22
+1340879722|Info: ServerInfo length: 788 of 1024
+1340879722|Gametype changed, clearing session data.
+1340879722|!readconfig: loaded 0 levels, 0 admins, 0 bans, 0 commands, 0 warnings
+1340879722|Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+1340879722|info_intermission doesn't have a spawn function
+1340879722|0 teams with 0 entities
+1340879722|22 items registered
+1340879722|-----------------------------------
+1340879722|------- BotLib Initialization -------
+1340879722|loaded weapons.c
+1340879722|loaded items.c
+1340879722|loaded syn.c
+1340879722|loaded rnd.c
+1340879722|loaded match.c
+1340879722|loaded rchat.c
+1340879722|------------ Map Loading ------------
+1340879722|trying to load maps/oa_dm3.aas
+1340879722|loaded maps/oa_dm3.aas
+1340879722|item_botroam in solid at (1160.0 504.0 40.0)
+1340879722|item_botroam in solid at (-768.0 840.0 104.0)
+1340879722|found 53 level items
+1340879722|-------------------------------------
+1340879722|33 bots parsed
+1340879722|58 arenas parsed
+1340879722|G_PickTarget called with NULL targetname
+1340879722|G_PickTarget called with NULL targetname
+1340879722|AAS initialized.
+1340879722|ClientUserinfoChanged: 2 n\TT\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\5006EE991E7059B8A9A743273410593A
+1340879722|ClientConnect: 2
+1340879722|ClientUserinfoChanged: 3 n\Thijs G\t\0\model\skelebot/metal\hmodel\skelebot/metal\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\7A788D51E4ED819681A5D70F9CF0BBFB
+1340879722|ClientConnect: 3
+1340879722|ClientUserinfoChanged: 4 n\Enrique\t\0\model\beret/headcrash\hmodel\beret/headcrash\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\F74DAB2AEA8C391DAE504D100A2685F0
+1340879722|ClientConnect: 4
+1340879722|ClientUserinfoChanged: 5 n\Thz\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\4341ED6FB66DC405AEBD295E9FF32349
+1340879722|ClientConnect: 5
+1340879722|-----------------------------------
+1340879724|ClientUserinfoChanged: 2 n\TT\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\5006EE991E7059B8A9A743273410593A
+1340879724|Playerstore: Nothing to restore. Guid: 5006EE991E7059B8A9A743273410593A
+1340879724|broadcast: print "TT^7 entered the game\n"
+1340879724|ClientBegin: 2
+1340879725|ClientUserinfoChanged: 4 n\Enrique\t\0\model\beret/headcrash\hmodel\beret/headcrash\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\F74DAB2AEA8C391DAE504D100A2685F0
+1340879725|Playerstore: Nothing to restore. Guid: F74DAB2AEA8C391DAE504D100A2685F0
+1340879725|broadcast: print "Enrique^7 entered the game\n"
+1340879725|ClientBegin: 4
+1340879726|ClientUserinfoChanged: 3 n\Thijs G\t\0\model\skelebot/metal\hmodel\skelebot/metal\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\7A788D51E4ED819681A5D70F9CF0BBFB
+1340879726|Playerstore: Nothing to restore. Guid: 7A788D51E4ED819681A5D70F9CF0BBFB
+1340879726|broadcast: print "Thijs G^7 entered the game\n"
+1340879726|ClientBegin: 3
+1340879726|ClientUserinfoChanged: 5 n\Thz\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\4341ED6FB66DC405AEBD295E9FF32349
+1340879726|Playerstore: Nothing to restore. Guid: 4341ED6FB66DC405AEBD295E9FF32349
+1340879726|broadcast: print "Thz^7 entered the game\n"
+1340879726|ClientBegin: 5
+1340879728|Item: 2 ammo_cells
+1340879729|Item: 5 ammo_cells
+1340879729|Item: 2 item_health_mega
+1340879732|Item: 4 weapon_lightning
+1340879733|Item: 2 ammo_cells
+1340879737|Item: 2 weapon_rocketlauncher
+1340879738|Item: 3 item_health_mega
+1340879739|broadcast: print "Thz called a vote.\n"
+1340879740|Item: 2 ammo_cells
+1340879741|Kill: 2 4 6: TT killed Enrique by MOD_ROCKET
+1340879741|PlayerScore: 2 1: TT now has 1 points
+1340879741|Challenge: 2 205 1: Client 2 got award 205
+1340879741|Challenge: 2 1 1: Client 2 got award 1
+1340879741|Challenge: 4 2 1: Client 4 got award 2
+1340879741|Item: 5 ammo_shells
+1340879742|Item: 2 weapon_lightning
+1340879745|Item: 4 ammo_slugs
+1340879747|Item: 4 ammo_shells
+1340879747|Item: 2 ammo_bullets
+1340879748|Item: 4 weapon_plasmagun
+1340879752|Item: 3 ammo_lightning
+1340879752|Item: 2 ammo_slugs
+1340879753|Item: 4 ammo_rockets
+1340879753|Item: 2 ammo_bullets
+1340879754|Item: 4 ammo_shells
+1340879754|Item: 2 ammo_rockets
+1340879756|Kill: 4 5 8: Enrique killed Thz by MOD_PLASMA
+1340879756|PlayerScore: 4 1: Enrique now has 1 points
+1340879756|Challenge: 4 207 1: Client 4 got award 207
+1340879756|Challenge: 4 1 1: Client 4 got award 1
+1340879756|Challenge: 5 2 1: Client 5 got award 2
+1340879761|Item: 3 weapon_rocketlauncher
+1340879761|Item: 4 item_health
+1340879765|Item: 5 weapon_plasmagun
+1340879768|Item: 4 item_health_mega
+1340879768|Item: 5 ammo_cells
+1340879768|broadcast: print "Vote failed.\n"
+1340879770|Item: 3 weapon_shotgun
+1340879771|Item: 3 ammo_rockets
+1340879773|Item: 5 ammo_cells
+1340879774|Item: 3 ammo_shells
+1340879777|Item: 4 weapon_rocketlauncher
+1340879778|Item: 3 item_quad
+1340879785|Item: 4 ammo_cells
+1340879785|Item: 2 ammo_slugs
+1340879786|Item: 5 ammo_grenades
+1340879788|Item: 3 weapon_shotgun
+1340879790|Item: 5 weapon_plasmagun
+1340879790|Item: 4 ammo_bullets
+1340879795|Item: 5 item_invis
+1340879795|Item: 2 weapon_rocketlauncher
+1340879795|Item: 4 ammo_slugs
+1340879796|Item: 2 ammo_cells
+1340879796|Kill: 3 2 6: Thijs G killed TT by MOD_ROCKET
+1340879796|PlayerScore: 3 1: Thijs G now has 1 points
+1340879796|Challenge: 3 205 1: Client 3 got award 205
+1340879796|Challenge: 3 1 1: Client 3 got award 1
+1340879796|Challenge: 2 2 1: Client 2 got award 2
+1340879796|Challenge: 3 401 1: Client 3 got award 401
+1340879799|Item: 4 ammo_rockets
+1340879802|Item: 3 weapon_shotgun
+1340879802|Item: 5 ammo_shells
+1340879804|Kill: 3 4 6: Thijs G killed Enrique by MOD_ROCKET
+1340879804|PlayerScore: 3 2: Thijs G now has 2 points
+1340879804|Challenge: 3 205 1: Client 3 got award 205
+1340879804|Challenge: 3 1 1: Client 3 got award 1
+1340879804|Challenge: 4 2 1: Client 4 got award 2
+1340879804|Challenge: 3 401 1: Client 3 got award 401
+1340879804|Kill: 4 3 7: Enrique killed Thijs G by MOD_ROCKET_SPLASH
+1340879804|PlayerScore: 4 2: Enrique now has 2 points
+1340879804|Challenge: 4 205 1: Client 4 got award 205
+1340879804|Challenge: 4 1 1: Client 4 got award 1
+1340879804|Challenge: 3 2 1: Client 3 got award 2
+1340879804|Challenge: 4 406 1: Client 4 got award 406
+1340879804|Item: 2 ammo_rockets
+1340879806|Item: 2 item_health_mega
+1340879808|Item: 5 item_health
+1340879808|Kill: 5 3 9: Thz killed Thijs G by MOD_PLASMA_SPLASH
+1340879808|PlayerScore: 5 1: Thz now has 1 points
+1340879808|Challenge: 5 207 1: Client 5 got award 207
+1340879808|Challenge: 5 1 1: Client 5 got award 1
+1340879808|Challenge: 3 2 1: Client 3 got award 2
+1340879808|Challenge: 5 404 1: Client 5 got award 404
+1340879810|Item: 5 ammo_cells
+1340879813|Item: 2 weapon_rocketlauncher
+1340879814|Item: 5 weapon_plasmagun
+1340879816|Item: 2 weapon_rocketlauncher
+1340879816|Item: 3 ammo_cells
+1340879816|Kill: 2 4 7: TT killed Enrique by MOD_ROCKET_SPLASH
+1340879816|PlayerScore: 2 2: TT now has 2 points
+1340879816|Challenge: 2 205 1: Client 2 got award 205
+1340879816|Challenge: 2 1 1: Client 2 got award 1
+1340879816|Challenge: 4 2 1: Client 4 got award 2
+1340879816|Item: 5 ammo_shells
+1340879820|Item: 3 ammo_shells
+1340879820|Item: 4 ammo_shells
+1340879820|Item: 3 ammo_cells
+1340879822|Item: 4 weapon_shotgun
+1340879823|Item: 4 weapon_rocketlauncher
+1340879823|Item: 4 ammo_rockets
+1340879823|Item: 4 weapon_rocketlauncher
+1340879823|Item: 4 item_quad
+1340879826|Item: 3 ammo_slugs
+1340879827|Item: 3 ammo_shells
+1340879829|Item: 3 weapon_plasmagun
+1340879830|Item: 4 ammo_bullets
+1340879835|Item: 3 ammo_slugs
+1340879835|Item: 4 ammo_slugs
+1340879837|Kill: 2 4 7: TT killed Enrique by MOD_ROCKET_SPLASH
+1340879837|PlayerScore: 2 3: TT now has 3 points
+1340879837|Challenge: 2 205 1: Client 2 got award 205
+1340879837|Challenge: 2 1 1: Client 2 got award 1
+1340879837|Challenge: 4 2 1: Client 4 got award 2
+1340879837|Item: 5 ammo_cells
+1340879838|Item: 3 ammo_bullets
+1340879839|Item: 2 weapon_rocketlauncher
+1340879842|Item: 3 item_armor_body
+1340879843|Item: 4 weapon_shotgun
+1340879844|Item: 5 ammo_cells
+1340879844|Item: 5 weapon_rocketlauncher
+1340879845|Item: 2 weapon_plasmagun
+1340879851|Item: 4 item_health_mega
+1340879852|Item: 3 ammo_shells
+1340879852|Item: 2 item_health
+1340879854|broadcast: print "Thz called a vote.\n"
+1340879857|Item: 3 ammo_shells
+1340879857|Item: 4 weapon_plasmagun
+1340879858|Item: 5 item_health
+1340879859|Item: 2 ammo_rockets
+1340879859|Item: 5 weapon_shotgun
+1340879861|Item: 2 ammo_shells
+1340879862|Item: 2 ammo_cells
+1340879862|broadcast: print "Vote passed.\n"
+1340879862|Kill: 4 2 8: Enrique killed TT by MOD_PLASMA
+1340879862|PlayerScore: 4 3: Enrique now has 3 points
+1340879862|Challenge: 4 207 1: Client 4 got award 207
+1340879862|Challenge: 4 1 1: Client 4 got award 1
+1340879862|Challenge: 2 2 1: Client 2 got award 2
+1340879863|Item: 5 ammo_shells
+1340879864|Item: 4 weapon_rocketlauncher
+1340879865|Item: 5 ammo_rockets
+1340879865|g_gametype will be changed upon restarting.
+1340879865|==== ShutdownGame ====
+1340879865|ShutdownGame:
+1340879865|------------------------------------------------------------
+1340879865|AAS shutdown.
+1340879865|------ Server Initialization ------
+1340879865|Server: oa_ctf2
+1340879865|Hunk_Clear: reset the hunk ok
+1340879865|----- FS_Startup -----
+1340879865|Current search path:
+1340879865|/home/jeroen/.openarena/baseoa
+1340879865|/usr/lib/openarena-server/baseoa
+1340879865|/usr/lib/openarena-server/baseoa/pak6-patch088.pk3 (711 files)
+1340879865|/usr/lib/openarena-server/baseoa/pak6-patch085.pk3 (559 files)
+1340879865|/usr/lib/openarena-server/baseoa/pak6-misc.pk3 (229 files)
+1340879865|/usr/lib/openarena-server/baseoa/pak5-TA.pk3 (139 files)
+1340879865|/usr/lib/openarena-server/baseoa/pak4-textures.pk3 (1753 files)
+1340879865|/usr/lib/openarena-server/baseoa/pak2-players.pk3 (669 files)
+1340879865|/usr/lib/openarena-server/baseoa/pak2-players-mature.pk3 (231 files)
+1340879865|/usr/lib/openarena-server/baseoa/pak1-maps.pk3 (100 files)
+1340879865|/usr/lib/openarena-server/baseoa/pak0.pk3 (1042 files)
+1340879865|
+1340879865|----------------------
+1340879865|5433 files in pk3 files
+1340879866|Loading vm file vm/qagame.qvm...
+1340879866|File "vm/qagame.qvm" found in "/usr/lib/openarena-server/baseoa/pak6-patch088.pk3"
+1340879866|...which has vmMagic VM_MAGIC_USE_NATIVE.
+1340879866|... trying pak6-patch088/qagame
+1340879866|... trying qagame
+1340879866|Loading DLL file /usr/lib/openarena-server/baseoa/qagamex86_64.so instead.
+1340879866|Loading DLL file: /usr/lib/openarena-server/baseoa/qagamex86_64.so
+1340879866|Sys_LoadGameDll(/usr/lib/openarena-server/baseoa/qagamex86_64.so) found vmMain function at 0x7fd4f0a16ab6
+1340879866|------- Game Initialization -------
+1340879866|gamename: baseoa
+1340879866|gamedate: Apr  1 2012
+1340879866|------------------------------------------------------------
+1340879866|InitGame: \com_protocol\71\sv_hostname\Spil OA Server\sv_maxclients\16\sv_minPing\0\sv_maxPing\400\sv_maxRate\25000\sv_allowdownload\1\sv_privateClients\2\capturelimit\5\timelimit\0\fraglimit\15\bot_minplayers\0\g_allowvote\1\g_voteGametypes\/0/3/4/5/8/10\g_delagHitscan\1\dmflags\88\g_instantgib\0\g_rockets\0\sv_dlRate\100\g_voteMaxTimelimit\1000\g_voteMinTimelimit\0\g_voteMaxFraglimit\0\g_voteMinFraglimit\0\g_gametype\4\g_lms_mode\0\elimination_roundtime\120\g_doWarmup\0\videoflags\7\g_maxGameClients\0\sv_minRate\0\sv_floodProtect\1\version\ioq3 1.36+svn2224-3/Debian linux-x86_64 Mar 31 2012\com_gamename\Quake3Arena\mapname\oa_ctf2\gamename\baseoa\elimflags\0\voteflags\2\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_altExcellent\0\g_timestamp\2012-06-28 12:37:46
+1340879866|Info: ServerInfo length: 789 of 1024
+1340879866|Gametype changed, clearing session data.
+1340879866|!readconfig: loaded 0 levels, 0 admins, 0 bans, 0 commands, 0 warnings
+1340879866|Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+1340879866|0 teams with 0 entities
+1340879866|14 items registered
+1340879866|-----------------------------------
+1340879866|------- BotLib Initialization -------
+1340879866|loaded weapons.c
+1340879866|loaded items.c
+1340879866|loaded syn.c
+1340879866|loaded rnd.c
+1340879866|loaded match.c
+1340879866|loaded rchat.c
+1340879866|------------ Map Loading ------------
+1340879866|trying to load maps/oa_ctf2.aas
+1340879866|loaded maps/oa_ctf2.aas
+1340879866|found 47 level items
+1340879866|-------------------------------------
+1340879866|33 bots parsed
+1340879866|58 arenas parsed
+1340879866|AAS initialized.
+1340879866|ClientUserinfoChanged: 2 n\TT\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\5006EE991E7059B8A9A743273410593A
+1340879866|ClientConnect: 2
+1340879866|ClientUserinfoChanged: 3 n\Thijs G\t\3\model\skelebot/metal\hmodel\skelebot/metal\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\7A788D51E4ED819681A5D70F9CF0BBFB
+1340879866|ClientConnect: 3
+1340879866|ClientUserinfoChanged: 4 n\Enrique\t\3\model\beret/headcrash\hmodel\beret/headcrash\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\F74DAB2AEA8C391DAE504D100A2685F0
+1340879866|ClientConnect: 4
+1340879866|ClientUserinfoChanged: 5 n\Thz\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\4341ED6FB66DC405AEBD295E9FF32349
+1340879866|ClientConnect: 5
+1340879866|-----------------------------------
+1340879867|ClientUserinfoChanged: 2 n\TT\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\5006EE991E7059B8A9A743273410593A
+1340879867|ClientBegin: 2
+1340879868|ClientUserinfoChanged: 4 n\Enrique\t\3\model\beret/headcrash\hmodel\beret/headcrash\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\F74DAB2AEA8C391DAE504D100A2685F0
+1340879868|ClientBegin: 4
+1340879869|ClientUserinfoChanged: 3 n\Thijs G\t\3\model\skelebot/metal\hmodel\skelebot/metal\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\7A788D51E4ED819681A5D70F9CF0BBFB
+1340879869|ClientBegin: 3
+1340879869|ClientUserinfoChanged: 5 n\Thz\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\4341ED6FB66DC405AEBD295E9FF32349
+1340879869|ClientBegin: 5
+1340879870|ClientUserinfoChanged: 2 n\TT\t\1\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\5006EE991E7059B8A9A743273410593A
+1340879870|ClientUserinfoChanged: 2 n\TT\t\1\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\5006EE991E7059B8A9A743273410593A
+1340879870|Playerstore: Nothing to restore. Guid: 5006EE991E7059B8A9A743273410593A
+1340879870|broadcast: print "TT^7 entered the game\n"
+1340879870|ClientBegin: 2
+1340879871|Item: 2 weapon_shotgun
+1340879871|Item: 2 ammo_shells
+1340879871|ClientUserinfoChanged: 4 n\Enrique\t\2\model\beret/headcrash\hmodel\beret/headcrash\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\F74DAB2AEA8C391DAE504D100A2685F0
+1340879871|ClientUserinfoChanged: 4 n\Enrique\t\2\model\beret/headcrash\hmodel\beret/headcrash\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\F74DAB2AEA8C391DAE504D100A2685F0
+1340879871|Playerstore: Nothing to restore. Guid: F74DAB2AEA8C391DAE504D100A2685F0
+1340879871|broadcast: print "Enrique^7 entered the game\n"
+1340879871|ClientBegin: 4
+1340879871|ClientUserinfoChanged: 5 n\Thz\t\2\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\4341ED6FB66DC405AEBD295E9FF32349
+1340879871|Playerstore: Nothing to restore. Guid: 4341ED6FB66DC405AEBD295E9FF32349
+1340879871|broadcast: print "Thz^7 entered the game\n"
+1340879871|ClientBegin: 5
+1340879873|ClientUserinfoChanged: 3 n\Thijs G\t\1\model\skelebot/metal\hmodel\skelebot/metal\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\7A788D51E4ED819681A5D70F9CF0BBFB
+1340879873|Playerstore: Nothing to restore. Guid: 7A788D51E4ED819681A5D70F9CF0BBFB
+1340879873|broadcast: print "Thijs G^7 entered the game\n"
+1340879873|ClientBegin: 3
+1340879873|Item: 2 weapon_railgun
+1340879873|Item: 4 weapon_shotgun
+1340879874|Item: 4 ammo_shells
+1340879875|Item: 3 weapon_rocketlauncher
+1340879877|Item: 2 item_health_small
+1340879877|Item: 4 weapon_railgun
+1340879877|Item: 5 weapon_rocketlauncher
+1340879878|Kill: 2 4 10: TT killed Enrique by MOD_RAILGUN
+1340879878|PlayerScore: 2 1: TT now has 1 points
+1340879878|Challenge: 2 208 1: Client 2 got award 208
+1340879878|Challenge: 2 1 1: Client 2 got award 1
+1340879878|Challenge: 4 2 1: Client 4 got award 2
+1340879878|Award: 2 2: TT gained the IMPRESSIVE award!
+1340879878|Challenge: 2 301 1: Client 2 got award 301
+1340879879|Item: 2 ammo_bullets
+1340879880|Item: 2 ammo_rockets
+1340879880|Item: 2 ammo_slugs
+1340879880|Item: 2 ammo_bullets
+1340879881|Item: 3 team_CTF_blueflag
+1340879881|broadcast: print "Thijs G^7 got the BLUE flag!\n"
+1340879881|CTF: 3 2 0: Thijs G got the BLUE flag!
+1340879881|PlayerScore: 3 0: Thijs G now has 0 points
+1340879882|Item: 5 team_CTF_redflag
+1340879882|broadcast: print "Thz^7 got the RED flag!\n"
+1340879882|CTF: 5 1 0: Thz got the RED flag!
+1340879882|PlayerScore: 5 0: Thz now has 0 points
+1340879883|Item: 2 item_health
+1340879887|Item: 3 item_health_small
+1340879887|Item: 3 item_health_small
+1340879888|Item: 3 item_health_small
+1340879888|Item: 3 item_health_small
+1340879889|Item: 3 ammo_slugs
+1340879889|Kill: 2 5 10: TT killed Thz by MOD_RAILGUN
+1340879889|PlayerScore: 2 2: TT now has 2 points
+1340879889|Challenge: 2 208 1: Client 2 got award 208
+1340879889|Challenge: 2 1 1: Client 2 got award 1
+1340879889|Challenge: 5 2 1: Client 5 got award 2
+1340879889|PlayerScore: 2 4: TT now has 4 points
+1340879889|broadcast: print "TT^7 fragged BLUE's flag carrier!\n"
+1340879889|CTF: 2 2 3: TT fragged BLUE's flag carrier!
+1340879889|Item: 3 ammo_bullets
+1340879889|Item: 4 weapon_railgun
+1340879891|broadcast: print "The RED flag has returned!\n"
+1340879892|Item: 2 weapon_rocketlauncher
+1340879892|Item: 4 ammo_bullets
+1340879892|Item: 3 team_CTF_redflag
+1340879892|broadcast: print "Thijs G^7 captured the BLUE flag!\n"
+1340879892|CTF: 3 2 1: Thijs G captured the BLUE flag!
+1340879892|Award: 3 4: Thijs G gained the CAPTURE award!
+1340879892|Challenge: 3 303 1: Client 3 got award 303
+1340879892|PlayerScore: 3 5: Thijs G now has 5 points
+1340879892|PlayerScore: 2 4: TT now has 4 points
+1340879892|PlayerScore: 2 6: TT now has 6 points
+1340879892|Challenge: 2 304 1: Client 2 got award 304
+1340879892|Award: 2 5: TT gained the ASSIST award!
+1340879892|Item: 4 ammo_rockets
+1340879893|Item: 5 weapon_rocketlauncher
+1340879895|Item: 2 team_CTF_blueflag
+1340879895|broadcast: print "TT^7 got the BLUE flag!\n"
+1340879895|CTF: 2 2 0: TT got the BLUE flag!
+1340879895|PlayerScore: 2 6: TT now has 6 points
+1340879895|Item: 4 team_CTF_redflag
+1340879895|broadcast: print "Enrique^7 got the RED flag!\n"
+1340879895|CTF: 4 1 0: Enrique got the RED flag!
+1340879895|PlayerScore: 4 0: Enrique now has 0 points
+1340879898|Item: 3 item_health_small
+1340879898|Item: 3 item_health_small
+1340879898|Item: 3 item_health_small
+1340879899|Kill: 4 2 10: Enrique killed TT by MOD_RAILGUN
+1340879899|PlayerScore: 4 1: Enrique now has 1 points
+1340879899|Challenge: 4 208 1: Client 4 got award 208
+1340879899|Challenge: 4 1 1: Client 4 got award 1
+1340879899|Challenge: 2 2 1: Client 2 got award 2
+1340879899|PlayerScore: 4 3: Enrique now has 3 points
+1340879899|broadcast: print "Enrique^7 fragged RED's flag carrier!\n"
+1340879899|CTF: 4 1 3: Enrique fragged RED's flag carrier!
+1340879901|broadcast: print "The BLUE flag has returned!\n"
+1340879901|Item: 4 weapon_railgun
+1340879902|Item: 3 team_CTF_blueflag
+1340879902|broadcast: print "Thijs G^7 got the BLUE flag!\n"
+1340879902|CTF: 3 2 0: Thijs G got the BLUE flag!
+1340879902|PlayerScore: 3 5: Thijs G now has 5 points
+1340879903|Item: 2 weapon_rocketlauncher
+1340879904|Kill: 1022 5 22: <world> killed Thz by MOD_TRIGGER_HURT
+1340879905|Item: 4 weapon_railgun
+1340879906|Kill: 2 4 7: TT killed Enrique by MOD_ROCKET_SPLASH
+1340879906|PlayerScore: 2 7: TT now has 7 points
+1340879906|Challenge: 2 205 1: Client 2 got award 205
+1340879906|Challenge: 2 1 1: Client 2 got award 1
+1340879906|Challenge: 4 2 1: Client 4 got award 2
+1340879906|PlayerScore: 2 9: TT now has 9 points
+1340879906|broadcast: print "TT^7 fragged BLUE's flag carrier!\n"
+1340879906|CTF: 2 2 3: TT fragged BLUE's flag carrier!
+1340879907|Item: 2 team_CTF_redflag
+1340879907|broadcast: print "TT^7 returned the RED flag!\n"
+1340879907|PlayerScore: 2 10: TT now has 10 points
+1340879907|CTF: 2 1 2: TT returned the RED flag!
+1340879910|Item: 4 weapon_railgun
+1340879912|Item: 4 item_quad
+1340879913|Kill: 2 5 6: TT killed Thz by MOD_ROCKET
+1340879913|PlayerScore: 2 11: TT now has 11 points
+1340879913|Challenge: 2 205 1: Client 2 got award 205
+1340879913|Challenge: 2 1 1: Client 2 got award 1
+1340879913|Challenge: 5 2 1: Client 5 got award 2
+1340879913|Item: 3 team_CTF_redflag
+1340879913|broadcast: print "Thijs G^7 captured the BLUE flag!\n"
+1340879913|CTF: 3 2 1: Thijs G captured the BLUE flag!
+1340879913|Award: 3 4: Thijs G gained the CAPTURE award!
+1340879913|Challenge: 3 303 1: Client 3 got award 303
+1340879913|PlayerScore: 3 10: Thijs G now has 10 points
+1340879913|PlayerScore: 2 11: TT now has 11 points
+1340879913|PlayerScore: 2 12: TT now has 12 points
+1340879913|Challenge: 2 304 1: Client 2 got award 304
+1340879913|Award: 2 5: TT gained the ASSIST award!
+1340879913|PlayerScore: 2 14: TT now has 14 points
+1340879913|Challenge: 2 304 1: Client 2 got award 304
+1340879913|Award: 2 5: TT gained the ASSIST award!
+1340879915|Kill: 3 4 7: Thijs G killed Enrique by MOD_ROCKET_SPLASH
+1340879915|PlayerScore: 3 11: Thijs G now has 11 points
+1340879915|Challenge: 3 205 1: Client 3 got award 205
+1340879915|Challenge: 3 1 1: Client 3 got award 1
+1340879915|Challenge: 4 2 1: Client 4 got award 2
+1340879915|Challenge: 3 406 1: Client 3 got award 406
+1340879915|PlayerScore: 3 12: Thijs G now has 12 points
+1340879915|Challenge: 3 305 1: Client 3 got award 305
+1340879915|Award: 3 3: Thijs G gained the DEFENCE award!
+1340879916|Item: 5 weapon_shotgun
+1340879916|Item: 5 ammo_shells
+1340879916|Item: 5 ammo_rockets
+1340879917|Item: 2 team_CTF_blueflag
+1340879917|broadcast: print "TT^7 got the BLUE flag!\n"
+1340879917|CTF: 2 2 0: TT got the BLUE flag!
+1340879917|PlayerScore: 2 14: TT now has 14 points
+1340879917|Item: 4 weapon_railgun
+1340879918|Item: 2 item_health
+1340879919|Item: 2 item_health
+1340879922|Kill: 1022 4 22: <world> killed Enrique by MOD_TRIGGER_HURT
+1340879922|PlayerScore: 4 2: Enrique now has 2 points
+1340879925|Kill: 3 5 22: Thijs G killed Thz by MOD_TRIGGER_HURT
+1340879925|PlayerScore: 3 13: Thijs G now has 13 points
+1340879925|Challenge: 3 214 1: Client 3 got award 214
+1340879925|Challenge: 3 1 1: Client 3 got award 1
+1340879925|Challenge: 5 2 1: Client 5 got award 2
+1340879926|Item: 3 item_health_small
+1340879926|Item: 2 item_quad
+1340879926|Item: 2 weapon_railgun
+1340879926|Item: 2 item_health_small
+1340879927|Item: 2 item_health_small
+1340879927|Item: 3 weapon_railgun
+1340879929|Kill: 5 3 3: Thz killed Thijs G by MOD_MACHINEGUN
+1340879929|PlayerScore: 5 1: Thz now has 1 points
+1340879929|Challenge: 5 202 1: Client 5 got award 202
+1340879929|Challenge: 5 1 1: Client 5 got award 1
+1340879929|Challenge: 3 2 1: Client 3 got award 2
+1340879929|PlayerScore: 5 2: Thz now has 2 points
+1340879929|Challenge: 5 305 1: Client 5 got award 305
+1340879929|Award: 5 3: Thz gained the DEFENCE award!
+1340879930|Item: 2 team_CTF_redflag
+1340879930|broadcast: print "TT^7 captured the BLUE flag!\n"
+1340879930|CTF: 2 2 1: TT captured the BLUE flag!
+1340879930|Award: 2 4: TT gained the CAPTURE award!
+1340879930|Challenge: 2 303 1: Client 2 got award 303
+1340879930|PlayerScore: 2 19: TT now has 19 points
+1340879930|PlayerScore: 3 13: Thijs G now has 13 points
+1340879930|Item: 5 weapon_railgun
+1340879933|Kill: 2 5 10: TT killed Thz by MOD_RAILGUN
+1340879933|PlayerScore: 2 20: TT now has 20 points
+1340879933|Challenge: 2 208 1: Client 2 got award 208
+1340879933|Challenge: 2 1 1: Client 2 got award 1
+1340879933|Challenge: 5 2 1: Client 5 got award 2
+1340879933|Challenge: 2 401 1: Client 2 got award 401
+1340879933|PlayerScore: 2 21: TT now has 21 points
+1340879933|Challenge: 2 305 1: Client 2 got award 305
+1340879933|Award: 2 3: TT gained the DEFENCE award!
+1340879935|Kill: 1022 2 22: <world> killed TT by MOD_TRIGGER_HURT
+1340879935|PlayerScore: 2 20: TT now has 20 points
+1340879935|Item: 4 weapon_railgun
+1340879936|Item: 3 weapon_railgun
+1340879937|Item: 5 weapon_rocketlauncher
+1340879938|Item: 2 weapon_shotgun
+1340879938|Kill: 1022 4 22: <world> killed Enrique by MOD_TRIGGER_HURT
+1340879938|PlayerScore: 4 1: Enrique now has 1 points
+1340879939|Kill: 1022 3 22: <world> killed Thijs G by MOD_TRIGGER_HURT
+1340879939|PlayerScore: 3 12: Thijs G now has 12 points
+1340879939|Item: 5 ammo_rockets
+1340879943|Kill: 1022 3 22: <world> killed Thijs G by MOD_TRIGGER_HURT
+1340879943|PlayerScore: 3 11: Thijs G now has 11 points
+1340879943|Item: 2 weapon_railgun
+1340879945|Item: 2 ammo_bullets
+1340879946|Item: 2 ammo_rockets
+1340879946|Item: 2 ammo_slugs
+1340879946|Item: 2 ammo_bullets
+1340879946|Item: 3 weapon_shotgun
+1340879946|Item: 3 ammo_shells
+1340879948|Kill: 1022 3 22: <world> killed Thijs G by MOD_TRIGGER_HURT
+1340879948|PlayerScore: 3 10: Thijs G now has 10 points
+1340879949|Item: 2 team_CTF_blueflag
+1340879949|broadcast: print "TT^7 got the BLUE flag!\n"
+1340879949|CTF: 2 2 0: TT got the BLUE flag!
+1340879949|PlayerScore: 2 20: TT now has 20 points
+1340879949|Item: 4 weapon_railgun
+1340879954|Item: 3 weapon_railgun
+1340879960|Kill: 4 2 10: Enrique killed TT by MOD_RAILGUN
+1340879960|PlayerScore: 4 2: Enrique now has 2 points
+1340879960|Challenge: 4 208 1: Client 4 got award 208
+1340879960|Challenge: 4 1 1: Client 4 got award 1
+1340879960|Challenge: 2 2 1: Client 2 got award 2
+1340879960|PlayerScore: 4 4: Enrique now has 4 points
+1340879960|broadcast: print "Enrique^7 fragged RED's flag carrier!\n"
+1340879960|CTF: 4 1 3: Enrique fragged RED's flag carrier!
+1340879961|Kill: 3 5 10: Thijs G killed Thz by MOD_RAILGUN
+1340879961|PlayerScore: 3 11: Thijs G now has 11 points
+1340879961|Challenge: 3 208 1: Client 3 got award 208
+1340879961|Challenge: 3 1 1: Client 3 got award 1
+1340879961|Challenge: 5 2 1: Client 5 got award 2
+1340879961|PlayerScore: 3 12: Thijs G now has 12 points
+1340879961|Challenge: 3 305 1: Client 3 got award 305
+1340879961|Award: 3 3: Thijs G gained the DEFENCE award!
+1340879962|broadcast: print "The BLUE flag has returned!\n"
+1340879962|Item: 3 weapon_rocketlauncher
+1340879964|Item: 2 weapon_rocketlauncher
+1340879964|Item: 5 weapon_railgun
+1340879966|Item: 3 item_health_small
+1340879966|Item: 3 item_health_small
+1340879966|Item: 3 item_health_small
+1340879969|Kill: 1022 5 22: <world> killed Thz by MOD_TRIGGER_HURT
+1340879969|PlayerScore: 5 1: Thz now has 1 points
+1340879970|Item: 3 team_CTF_blueflag
+1340879970|broadcast: print "Thijs G^7 got the BLUE flag!\n"
+1340879970|CTF: 3 2 0: Thijs G got the BLUE flag!
+1340879970|PlayerScore: 3 12: Thijs G now has 12 points
+1340879972|Kill: 2 4 7: TT killed Enrique by MOD_ROCKET_SPLASH
+1340879972|PlayerScore: 2 21: TT now has 21 points
+1340879972|Challenge: 2 205 1: Client 2 got award 205
+1340879972|Challenge: 2 1 1: Client 2 got award 1
+1340879972|Challenge: 4 2 1: Client 4 got award 2
+1340879972|PlayerScore: 2 23: TT now has 23 points
+1340879972|Award: 2 3: TT gained the DEFENCE award!
+1340879972|Challenge: 2 305 1: Client 2 got award 305
+1340879972|Item: 2 weapon_railgun
+1340879976|Item: 4 weapon_railgun
+1340879978|Item: 3 item_health_small
+1340879979|Item: 3 item_health_small
+1340879979|Item: 3 item_health_small
+1340879979|Item: 3 item_health_small
+1340879982|Item: 2 item_health
+1340879983|Item: 3 team_CTF_redflag
+1340879983|broadcast: print "Thijs G^7 captured the BLUE flag!\n"
+1340879983|CTF: 3 2 1: Thijs G captured the BLUE flag!
+1340879983|Award: 3 4: Thijs G gained the CAPTURE award!
+1340879983|Challenge: 3 303 1: Client 3 got award 303
+1340879983|PlayerScore: 3 17: Thijs G now has 17 points
+1340879983|PlayerScore: 2 23: TT now has 23 points
+1340879984|Item: 2 item_health
+1340879985|Item: 4 team_CTF_redflag
+1340879985|broadcast: print "Enrique^7 got the RED flag!\n"
+1340879985|CTF: 4 1 0: Enrique got the RED flag!
+1340879985|PlayerScore: 4 4: Enrique now has 4 points
+1340879985|Item: 3 weapon_railgun
+1340879985|Kill: 2 5 22: TT killed Thz by MOD_TRIGGER_HURT
+1340879985|PlayerScore: 2 24: TT now has 24 points
+1340879985|Challenge: 2 214 1: Client 2 got award 214
+1340879985|Challenge: 2 1 1: Client 2 got award 1
+1340879985|Challenge: 5 2 1: Client 5 got award 2
+1340879986|Item: 2 team_CTF_blueflag
+1340879986|broadcast: print "TT^7 got the BLUE flag!\n"
+1340879986|CTF: 2 2 0: TT got the BLUE flag!
+1340879986|PlayerScore: 2 24: TT now has 24 points
+1340879988|Item: 5 weapon_shotgun
+1340879988|Item: 5 ammo_shells
+1340879988|Item: 3 item_health_small
+1340879989|Item: 5 ammo_rockets
+1340879989|Kill: 4 2 10: Enrique killed TT by MOD_RAILGUN
+1340879989|PlayerScore: 4 5: Enrique now has 5 points
+1340879989|Challenge: 4 208 1: Client 4 got award 208
+1340879989|Challenge: 4 1 1: Client 4 got award 1
+1340879989|Challenge: 2 2 1: Client 2 got award 2
+1340879989|PlayerScore: 4 7: Enrique now has 7 points
+1340879989|broadcast: print "Enrique^7 fragged RED's flag carrier!\n"
+1340879989|CTF: 4 1 3: Enrique fragged RED's flag carrier!
+1340879989|Item: 4 team_CTF_blueflag
+1340879989|broadcast: print "Enrique^7 returned the BLUE flag!\n"
+1340879989|PlayerScore: 4 8: Enrique now has 8 points
+1340879989|CTF: 4 2 2: Enrique returned the BLUE flag!
+1340879990|Item: 3 ammo_bullets
+1340879990|Kill: 2 4 22: TT killed Enrique by MOD_TRIGGER_HURT
+1340879990|PlayerScore: 2 25: TT now has 25 points
+1340879990|Challenge: 2 214 1: Client 2 got award 214
+1340879990|Challenge: 2 1 1: Client 2 got award 1
+1340879990|Challenge: 4 2 1: Client 4 got award 2
+1340879990|PlayerScore: 2 27: TT now has 27 points
+1340879990|broadcast: print "TT^7 fragged BLUE's flag carrier!\n"
+1340879990|CTF: 2 2 3: TT fragged BLUE's flag carrier!
+1340879990|Item: 3 ammo_rockets
+1340879990|Item: 3 ammo_slugs
+1340879991|broadcast: print "The RED flag has returned!\n"
+1340879991|Item: 3 ammo_bullets
+1340879991|Item: 5 weapon_railgun
+1340879993|Item: 3 team_CTF_blueflag
+1340879993|broadcast: print "Thijs G^7 got the BLUE flag!\n"
+1340879993|CTF: 3 2 0: Thijs G got the BLUE flag!
+1340879993|PlayerScore: 3 17: Thijs G now has 17 points
+1340879994|Item: 2 weapon_railgun
+1340879997|Kill: 1022 2 22: <world> killed TT by MOD_TRIGGER_HURT
+1340879997|PlayerScore: 2 26: TT now has 26 points
+1340879998|Kill: 1022 3 22: <world> killed Thijs G by MOD_TRIGGER_HURT
+1340879998|PlayerScore: 3 16: Thijs G now has 16 points
+1340879998|broadcast: print "The BLUE flag has returned!\n"
+1340879999|Kill: 1022 5 22: <world> killed Thz by MOD_TRIGGER_HURT
+1340879999|PlayerScore: 5 0: Thz now has 0 points
+1340879999|Kill: 1022 4 22: <world> killed Enrique by MOD_TRIGGER_HURT
+1340879999|PlayerScore: 4 7: Enrique now has 7 points
+1340880001|Item: 2 weapon_rocketlauncher
+1340880002|Item: 5 weapon_railgun
+1340880007|Item: 4 item_health_small
+1340880007|Item: 2 team_CTF_blueflag
+1340880007|broadcast: print "TT^7 got the BLUE flag!\n"
+1340880007|CTF: 2 2 0: TT got the BLUE flag!
+1340880007|PlayerScore: 2 26: TT now has 26 points
+1340880007|Item: 4 item_health_small
+1340880010|Item: 5 team_CTF_redflag
+1340880010|broadcast: print "Thz^7 got the RED flag!\n"
+1340880010|CTF: 5 1 0: Thz got the RED flag!
+1340880010|PlayerScore: 5 0: Thz now has 0 points
+1340880012|Kill: 3 5 3: Thijs G killed Thz by MOD_MACHINEGUN
+1340880012|PlayerScore: 3 17: Thijs G now has 17 points
+1340880012|Challenge: 3 202 1: Client 3 got award 202
+1340880012|Challenge: 3 1 1: Client 3 got award 1
+1340880012|Challenge: 5 2 1: Client 5 got award 2
+1340880012|PlayerScore: 3 19: Thijs G now has 19 points
+1340880012|broadcast: print "Thijs G^7 fragged BLUE's flag carrier!\n"
+1340880012|CTF: 3 2 3: Thijs G fragged BLUE's flag carrier!
+1340880012|Item: 4 weapon_railgun
+1340880014|Item: 3 team_CTF_redflag
+1340880014|broadcast: print "Thijs G^7 returned the RED flag!\n"
+1340880014|PlayerScore: 3 20: Thijs G now has 20 points
+1340880014|CTF: 3 1 2: Thijs G returned the RED flag!
+1340880014|Item: 3 weapon_railgun
+1340880015|Item: 5 weapon_rocketlauncher
+1340880016|Item: 4 item_health_small
+1340880016|Item: 2 item_health_small
+1340880017|Item: 2 item_health_small
+1340880017|Item: 2 item_health_small
+1340880017|Kill: 2 4 22: TT killed Enrique by MOD_TRIGGER_HURT
+1340880017|PlayerScore: 2 27: TT now has 27 points
+1340880017|Challenge: 2 214 1: Client 2 got award 214
+1340880017|Challenge: 2 1 1: Client 2 got award 1
+1340880017|Challenge: 4 2 1: Client 4 got award 2
+1340880017|PlayerScore: 2 28: TT now has 28 points
+1340880017|Challenge: 2 305 1: Client 2 got award 305
+1340880017|Award: 2 3: TT gained the DEFENCE award!
+1340880018|Item: 2 ammo_bullets
+1340880018|Item: 2 ammo_rockets
+1340880018|Item: 2 ammo_slugs
+1340880019|Item: 2 ammo_bullets
+1340880021|Item: 2 team_CTF_redflag
+1340880021|broadcast: print "TT^7 captured the BLUE flag!\n"
+1340880021|CTF: 2 2 1: TT captured the BLUE flag!
+1340880021|Award: 2 4: TT gained the CAPTURE award!
+1340880021|Challenge: 2 303 1: Client 2 got award 303
+1340880021|PlayerScore: 2 33: TT now has 33 points
+1340880021|broadcast: print "Red hit the capturelimit.\n"
+1340880021|Exit: Capturelimit hit.
+1340880021|red:5  blue:0
+1340880021|score: 33  ping: 1  client: 2 TT
+1340880021|score: 20  ping: 2  client: 3 Thijs G
+1340880021|score: 7  ping: 3  client: 4 Enrique
+1340880021|score: 0  ping: 2  client: 5 Thz
+1340880021|PlayerScore: 3 20: Thijs G now has 20 points
+1340880021|PlayerScore: 3 21: Thijs G now has 21 points
+1340880021|Challenge: 3 304 1: Client 3 got award 304
+1340880021|Award: 3 5: Thijs G gained the ASSIST award!
+1340880021|PlayerScore: 3 23: Thijs G now has 23 points
+1340880021|Challenge: 3 304 1: Client 3 got award 304
+1340880021|Award: 3 5: Thijs G gained the ASSIST award!
+1340880029|g_gametype will be changed upon restarting.
+1340880029|==== ShutdownGame ====
+1340880029|ShutdownGame:
+1340880029|------------------------------------------------------------
+1340880029|AAS shutdown.
+1340880029|------ Server Initialization ------
+1340880029|Server: oa_dm4
+1340880029|Hunk_Clear: reset the hunk ok
+1340880029|----- FS_Startup -----
+1340880029|Current search path:
+1340880029|/home/jeroen/.openarena/baseoa
+1340880029|/usr/lib/openarena-server/baseoa
+1340880029|/usr/lib/openarena-server/baseoa/pak6-patch088.pk3 (711 files)
+1340880029|/usr/lib/openarena-server/baseoa/pak6-patch085.pk3 (559 files)
+1340880029|/usr/lib/openarena-server/baseoa/pak6-misc.pk3 (229 files)
+1340880029|/usr/lib/openarena-server/baseoa/pak5-TA.pk3 (139 files)
+1340880029|/usr/lib/openarena-server/baseoa/pak4-textures.pk3 (1753 files)
+1340880029|/usr/lib/openarena-server/baseoa/pak2-players.pk3 (669 files)
+1340880029|/usr/lib/openarena-server/baseoa/pak2-players-mature.pk3 (231 files)
+1340880029|/usr/lib/openarena-server/baseoa/pak1-maps.pk3 (100 files)
+1340880029|/usr/lib/openarena-server/baseoa/pak0.pk3 (1042 files)
+1340880029|
+1340880029|----------------------
+1340880029|5433 files in pk3 files
+1340880029|Loading vm file vm/qagame.qvm...
+1340880029|File "vm/qagame.qvm" found in "/usr/lib/openarena-server/baseoa/pak6-patch088.pk3"
+1340880029|...which has vmMagic VM_MAGIC_USE_NATIVE.
+1340880029|... trying pak6-patch088/qagame
+1340880029|... trying qagame
+1340880029|Loading DLL file /usr/lib/openarena-server/baseoa/qagamex86_64.so instead.
+1340880029|Loading DLL file: /usr/lib/openarena-server/baseoa/qagamex86_64.so
+1340880029|Sys_LoadGameDll(/usr/lib/openarena-server/baseoa/qagamex86_64.so) found vmMain function at 0x7fd4f0a16ab6
+1340880029|------- Game Initialization -------
+1340880029|gamename: baseoa
+1340880029|gamedate: Apr  1 2012
+1340880029|------------------------------------------------------------
+1340880029|InitGame: \com_protocol\71\sv_hostname\Spil OA Server\sv_maxclients\16\sv_minPing\0\sv_maxPing\400\sv_maxRate\25000\sv_allowdownload\1\sv_privateClients\2\capturelimit\5\timelimit\0\fraglimit\15\bot_minplayers\0\g_allowvote\1\g_voteGametypes\/0/3/4/5/8/10\g_delagHitscan\1\dmflags\88\g_instantgib\0\g_rockets\0\sv_dlRate\100\g_voteMaxTimelimit\1000\g_voteMinTimelimit\0\g_voteMaxFraglimit\0\g_voteMinFraglimit\0\g_gametype\0\g_lms_mode\0\elimination_roundtime\120\g_doWarmup\0\videoflags\7\g_maxGameClients\0\sv_minRate\0\sv_floodProtect\1\version\ioq3 1.36+svn2224-3/Debian linux-x86_64 Mar 31 2012\com_gamename\Quake3Arena\mapname\oa_dm4\gamename\baseoa\elimflags\0\voteflags\2\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_altExcellent\0\g_timestamp\2012-06-28 12:40:29
+1340880029|Info: ServerInfo length: 788 of 1024
+1340880029|Gametype changed, clearing session data.
+1340880029|!readconfig: loaded 0 levels, 0 admins, 0 bans, 0 commands, 0 warnings
+1340880029|Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+1340880029|0 teams with 0 entities
+1340880029|19 items registered
+1340880029|-----------------------------------
+1340880029|------- BotLib Initialization -------
+1340880029|loaded weapons.c
+1340880029|loaded items.c
+1340880029|loaded syn.c
+1340880029|loaded rnd.c
+1340880029|loaded match.c
+1340880029|loaded rchat.c
+1340880029|------------ Map Loading ------------
+1340880029|trying to load maps/oa_dm4.aas
+1340880029|loaded maps/oa_dm4.aas
+1340880029|found 41 level items
+1340880029|-------------------------------------
+1340880029|33 bots parsed
+1340880029|58 arenas parsed
+1340880029|AAS initialized.
+1340880029|ClientUserinfoChanged: 2 n\TT\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\5006EE991E7059B8A9A743273410593A
+1340880029|ClientConnect: 2
+1340880029|ClientUserinfoChanged: 3 n\Thijs G\t\0\model\skelebot/metal\hmodel\skelebot/metal\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\7A788D51E4ED819681A5D70F9CF0BBFB
+1340880029|ClientConnect: 3
+1340880029|ClientUserinfoChanged: 4 n\Enrique\t\0\model\beret/headcrash\hmodel\beret/headcrash\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\F74DAB2AEA8C391DAE504D100A2685F0
+1340880029|ClientConnect: 4
+1340880029|ClientUserinfoChanged: 5 n\Thz\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\4341ED6FB66DC405AEBD295E9FF32349
+1340880029|ClientConnect: 5
+1340880029|-----------------------------------
+1340880031|ClientUserinfoChanged: 2 n\TT\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\5006EE991E7059B8A9A743273410593A
+1340880031|Playerstore: Nothing to restore. Guid: 5006EE991E7059B8A9A743273410593A
+1340880031|broadcast: print "TT^7 entered the game\n"
+1340880031|ClientBegin: 2
+1340880031|ClientUserinfoChanged: 4 n\Enrique\t\0\model\beret/headcrash\hmodel\beret/headcrash\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\F74DAB2AEA8C391DAE504D100A2685F0
+1340880031|Playerstore: Nothing to restore. Guid: F74DAB2AEA8C391DAE504D100A2685F0
+1340880031|broadcast: print "Enrique^7 entered the game\n"
+1340880031|ClientBegin: 4
+1340880031|Item: 4 ammo_cells
+1340880032|Item: 2 ammo_cells
+1340880033|ClientUserinfoChanged: 3 n\Thijs G\t\0\model\skelebot/metal\hmodel\skelebot/metal\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\7A788D51E4ED819681A5D70F9CF0BBFB
+1340880033|Playerstore: Nothing to restore. Guid: 7A788D51E4ED819681A5D70F9CF0BBFB
+1340880033|broadcast: print "Thijs G^7 entered the game\n"
+1340880033|ClientBegin: 3
+1340880033|ClientUserinfoChanged: 5 n\Thz\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\4341ED6FB66DC405AEBD295E9FF32349
+1340880033|Playerstore: Nothing to restore. Guid: 4341ED6FB66DC405AEBD295E9FF32349
+1340880033|broadcast: print "Thz^7 entered the game\n"
+1340880033|ClientBegin: 5
+1340880034|Item: 3 ammo_bullets
+1340880034|Item: 2 weapon_lightning
+1340880036|Kill: 2 4 11: TT killed Enrique by MOD_LIGHTNING
+1340880036|PlayerScore: 2 1: TT now has 1 points
+1340880036|Challenge: 2 206 1: Client 2 got award 206
+1340880036|Challenge: 2 1 1: Client 2 got award 1
+1340880036|Challenge: 4 2 1: Client 4 got award 2
+1340880037|Item: 2 item_armor_combat
+1340880039|Item: 2 ammo_cells
+1340880040|Kill: 5 3 2: Thz killed Thijs G by MOD_GAUNTLET
+1340880040|PlayerScore: 5 1: Thz now has 1 points
+1340880040|Challenge: 5 201 1: Client 5 got award 201
+1340880040|Award: 5 0: Thz gained the GAUNTLET award!
+1340880040|Challenge: 5 201 1: Client 5 got award 201
+1340880040|Challenge: 5 1 1: Client 5 got award 1
+1340880040|Challenge: 3 2 1: Client 3 got award 2
+1340880040|Item: 2 ammo_rockets
+1340880041|Item: 2 weapon_shotgun
+1340880042|Item: 2 ammo_bullets
+1340880044|Item: 3 ammo_rockets
+1340880044|Kill: 4 5 2: Enrique killed Thz by MOD_GAUNTLET
+1340880044|PlayerScore: 4 1: Enrique now has 1 points
+1340880044|Challenge: 4 201 1: Client 4 got award 201
+1340880044|Award: 4 0: Enrique gained the GAUNTLET award!
+1340880044|Challenge: 4 201 1: Client 4 got award 201
+1340880044|Challenge: 4 1 1: Client 4 got award 1
+1340880044|Challenge: 5 2 1: Client 5 got award 2
+1340880046|Kill: 2 3 11: TT killed Thijs G by MOD_LIGHTNING
+1340880046|PlayerScore: 2 2: TT now has 2 points
+1340880046|Challenge: 2 206 1: Client 2 got award 206
+1340880046|Challenge: 2 1 1: Client 2 got award 1
+1340880046|Challenge: 3 2 1: Client 3 got award 2
+1340880048|Item: 4 weapon_shotgun
+1340880048|Item: 4 item_health
+1340880048|Item: 4 item_health
+1340880048|Item: 4 item_health
+1340880048|Item: 2 weapon_lightning
+1340880049|Item: 3 weapon_rocketlauncher
+1340880052|Item: 2 item_armor_combat
+1340880053|Kill: 3 5 6: Thijs G killed Thz by MOD_ROCKET
+1340880053|PlayerScore: 3 1: Thijs G now has 1 points
+1340880053|Challenge: 3 205 1: Client 3 got award 205
+1340880053|Challenge: 3 1 1: Client 3 got award 1
+1340880053|Challenge: 5 2 1: Client 5 got award 2
+1340880054|Kill: 3 4 6: Thijs G killed Enrique by MOD_ROCKET
+1340880054|PlayerScore: 3 2: Thijs G now has 2 points
+1340880054|Challenge: 3 205 1: Client 3 got award 205
+1340880054|Challenge: 3 1 1: Client 3 got award 1
+1340880054|Challenge: 4 2 1: Client 4 got award 2
+1340880054|Award: 3 1: Thijs G gained the EXCELLENT award!
+1340880054|Challenge: 3 302 1: Client 3 got award 302
+1340880054|Kill: 3 3 7: Thijs G killed Thijs G by MOD_ROCKET_SPLASH
+1340880054|PlayerScore: 3 1: Thijs G now has 1 points
+1340880057|Item: 2 weapon_rocketlauncher
+1340880058|Item: 5 item_armor_shard
+1340880058|Item: 5 item_armor_shard
+1340880058|Item: 5 item_armor_shard
+1340880058|Item: 5 item_armor_shard
+1340880058|Item: 2 ammo_shells
+1340880058|Item: 5 ammo_shells
+1340880059|Item: 2 weapon_plasmagun
+1340880059|Item: 4 weapon_lightning
+1340880059|Item: 5 weapon_rocketlauncher
+1340880059|Item: 5 item_armor_shard
+1340880060|Kill: 2 2 7: TT killed TT by MOD_ROCKET_SPLASH
+1340880060|PlayerScore: 2 1: TT now has 1 points
+1340880060|Kill: 5 3 16: Thz killed Thijs G by MOD_LAVA
+1340880060|PlayerScore: 5 2: Thz now has 2 points
+1340880060|Challenge: 5 214 1: Client 5 got award 214
+1340880060|Challenge: 5 1 1: Client 5 got award 1
+1340880060|Challenge: 3 2 1: Client 3 got award 2
+1340880064|Item: 4 weapon_rocketlauncher
+1340880064|Kill: 5 4 6: Thz killed Enrique by MOD_ROCKET
+1340880064|PlayerScore: 5 3: Thz now has 3 points
+1340880064|Challenge: 5 205 1: Client 5 got award 205
+1340880064|Challenge: 5 1 1: Client 5 got award 1
+1340880064|Challenge: 4 2 1: Client 4 got award 2
+1340880065|Item: 3 ammo_bullets
+1340880065|Item: 2 weapon_lightning
+1340880066|Item: 2 item_armor_combat
+1340880066|Item: 5 weapon_lightning
+1340880066|Item: 3 weapon_rocketlauncher
+1340880067|Item: 3 weapon_plasmagun
+1340880067|Item: 4 weapon_shotgun
+1340880069|Kill: 1022 3 16: <world> killed Thijs G by MOD_LAVA
+1340880069|PlayerScore: 3 0: Thijs G now has 0 points
+1340880070|Kill: 2 5 11: TT killed Thz by MOD_LIGHTNING
+1340880070|PlayerScore: 2 2: TT now has 2 points
+1340880070|Challenge: 2 206 1: Client 2 got award 206
+1340880070|Challenge: 2 1 1: Client 2 got award 1
+1340880070|Challenge: 5 2 1: Client 5 got award 2
+1340880070|Item: 4 weapon_lightning
+1340880071|Item: 2 weapon_rocketlauncher
+1340880073|Item: 5 ammo_cells
+1340880074|Item: 4 weapon_rocketlauncher
+1340880074|Item: 3 weapon_shotgun
+1340880076|Item: 5 weapon_lightning
+1340880079|Item: 4 weapon_rocketlauncher
+1340880079|Kill: 2 4 7: TT killed Enrique by MOD_ROCKET_SPLASH
+1340880079|PlayerScore: 2 3: TT now has 3 points
+1340880079|Challenge: 2 205 1: Client 2 got award 205
+1340880079|Challenge: 2 1 1: Client 2 got award 1
+1340880079|Challenge: 4 2 1: Client 4 got award 2
+1340880082|Item: 5 ammo_bullets
+1340880085|Item: 2 item_armor_combat
+1340880085|Kill: 5 3 11: Thz killed Thijs G by MOD_LIGHTNING
+1340880085|PlayerScore: 5 4: Thz now has 4 points
+1340880085|Challenge: 5 206 1: Client 5 got award 206
+1340880085|Challenge: 5 1 1: Client 5 got award 1
+1340880085|Challenge: 3 2 1: Client 3 got award 2
+1340880087|Kill: 2 4 6: TT killed Enrique by MOD_ROCKET
+1340880087|PlayerScore: 2 4: TT now has 4 points
+1340880087|Challenge: 2 205 1: Client 2 got award 205
+1340880087|Challenge: 2 1 1: Client 2 got award 1
+1340880087|Challenge: 4 2 1: Client 4 got award 2
+1340880089|Kill: 2 5 7: TT killed Thz by MOD_ROCKET_SPLASH
+1340880089|PlayerScore: 2 5: TT now has 5 points
+1340880089|Challenge: 2 205 1: Client 2 got award 205
+1340880089|Challenge: 2 1 1: Client 2 got award 1
+1340880089|Challenge: 5 2 1: Client 5 got award 2
+1340880089|Award: 2 1: TT gained the EXCELLENT award!
+1340880089|Challenge: 2 302 1: Client 2 got award 302
+1340880090|Item: 3 item_armor_shard
+1340880090|Item: 3 item_armor_shard
+1340880090|Item: 3 item_armor_shard
+1340880091|Item: 3 item_armor_shard
+1340880091|Item: 3 item_armor_shard
+1340880091|Item: 4 ammo_cells
+1340880091|Item: 3 weapon_rocketlauncher
+1340880091|Item: 3 weapon_plasmagun
+1340880091|Item: 2 weapon_shotgun
+1340880091|Item: 4 weapon_lightning
+1340880092|Item: 2 item_health
+1340880092|Item: 2 item_health
+1340880092|Item: 2 ammo_rockets
+1340880092|Item: 4 item_armor_combat
+1340880092|Item: 2 ammo_rockets
+1340880093|Item: 5 weapon_rocketlauncher
+1340880093|Item: 5 weapon_rocketlauncher
+1340880095|Kill: 2 4 7: TT killed Enrique by MOD_ROCKET_SPLASH
+1340880095|PlayerScore: 2 6: TT now has 6 points
+1340880095|Challenge: 2 205 1: Client 2 got award 205
+1340880095|Challenge: 2 1 1: Client 2 got award 1
+1340880095|Challenge: 4 2 1: Client 4 got award 2
+1340880096|Item: 2 weapon_lightning
+1340880098|Item: 2 item_health
+1340880099|Item: 4 weapon_lightning
+1340880101|Kill: 5 5 7: Thz killed Thz by MOD_ROCKET_SPLASH
+1340880101|PlayerScore: 5 3: Thz now has 3 points
+1340880101|Item: 3 weapon_rocketlauncher
+1340880105|Kill: 4 3 11: Enrique killed Thijs G by MOD_LIGHTNING
+1340880105|PlayerScore: 4 2: Enrique now has 2 points
+1340880105|Challenge: 4 206 1: Client 4 got award 206
+1340880105|Challenge: 4 1 1: Client 4 got award 1
+1340880105|Challenge: 3 2 1: Client 3 got award 2
+1340880106|Item: 4 weapon_rocketlauncher
+1340880108|Kill: 2 3 6: TT killed Thijs G by MOD_ROCKET
+1340880108|PlayerScore: 2 7: TT now has 7 points
+1340880108|Challenge: 2 205 1: Client 2 got award 205
+1340880108|Challenge: 2 1 1: Client 2 got award 1
+1340880108|Challenge: 3 2 1: Client 3 got award 2
+1340880109|Kill: 4 5 6: Enrique killed Thz by MOD_ROCKET
+1340880109|PlayerScore: 4 3: Enrique now has 3 points
+1340880109|Challenge: 4 205 1: Client 4 got award 205
+1340880109|Challenge: 4 1 1: Client 4 got award 1
+1340880109|Challenge: 5 2 1: Client 5 got award 2
+1340880109|Kill: 4 4 7: Enrique killed Enrique by MOD_ROCKET_SPLASH
+1340880109|PlayerScore: 4 2: Enrique now has 2 points
+1340880111|Item: 2 item_health
+1340880112|Item: 4 weapon_shotgun
+1340880113|Item: 2 weapon_lightning
+1340880114|Item: 5 weapon_rocketlauncher
+1340880115|Item: 5 weapon_plasmagun
+1340880115|Item: 2 weapon_rocketlauncher
+1340880115|Item: 5 ammo_shells
+1340880116|Item: 2 item_armor_combat
+1340880118|Kill: 3 4 2: Thijs G killed Enrique by MOD_GAUNTLET
+1340880118|PlayerScore: 3 1: Thijs G now has 1 points
+1340880118|Challenge: 3 201 1: Client 3 got award 201
+1340880118|Award: 3 0: Thijs G gained the GAUNTLET award!
+1340880118|Challenge: 3 201 1: Client 3 got award 201
+1340880118|Challenge: 3 1 1: Client 3 got award 1
+1340880118|Challenge: 4 2 1: Client 4 got award 2
+1340880118|Item: 3 weapon_shotgun
+1340880118|Item: 2 ammo_cells
+1340880119|Item: 2 weapon_lightning
+1340880119|Item: 2 item_armor_combat
+1340880123|Item: 2 item_health
+1340880123|Item: 4 ammo_bullets
+1340880123|Item: 2 weapon_shotgun
+1340880124|Item: 4 item_armor_shard
+1340880124|Item: 4 item_armor_shard
+1340880125|Item: 4 item_armor_shard
+1340880125|Item: 4 item_armor_shard
+1340880125|Item: 4 weapon_rocketlauncher
+1340880125|Item: 4 item_armor_shard
+1340880125|Item: 3 ammo_bullets
+1340880125|Kill: 5 3 7: Thz killed Thijs G by MOD_ROCKET_SPLASH
+1340880125|PlayerScore: 5 4: Thz now has 4 points
+1340880125|Challenge: 5 205 1: Client 5 got award 205
+1340880125|Challenge: 5 1 1: Client 5 got award 1
+1340880125|Challenge: 3 2 1: Client 3 got award 2
+1340880125|Item: 5 weapon_lightning
+1340880125|Item: 4 weapon_plasmagun
+1340880127|Item: 3 ammo_cells
+1340880128|Item: 5 weapon_shotgun
+1340880128|Kill: 5 2 7: Thz killed TT by MOD_ROCKET_SPLASH
+1340880128|PlayerScore: 5 5: Thz now has 5 points
+1340880128|Challenge: 5 205 1: Client 5 got award 205
+1340880128|Challenge: 5 1 1: Client 5 got award 1
+1340880128|Challenge: 2 2 1: Client 2 got award 2
+1340880128|Item: 5 weapon_rocketlauncher
+1340880129|Item: 4 weapon_rocketlauncher
+1340880129|Item: 5 ammo_rockets
+1340880130|Item: 5 ammo_shells
+1340880130|Item: 3 ammo_bullets
+1340880131|Item: 2 ammo_lightning
+1340880131|Kill: 4 2 7: Enrique killed TT by MOD_ROCKET_SPLASH
+1340880131|PlayerScore: 4 3: Enrique now has 3 points
+1340880131|Challenge: 4 205 1: Client 4 got award 205
+1340880131|Challenge: 4 1 1: Client 4 got award 1
+1340880131|Challenge: 2 2 1: Client 2 got award 2
+1340880132|Kill: 3 5 2: Thijs G killed Thz by MOD_GAUNTLET
+1340880132|PlayerScore: 3 2: Thijs G now has 2 points
+1340880132|Challenge: 3 201 1: Client 3 got award 201
+1340880132|Award: 3 0: Thijs G gained the GAUNTLET award!
+1340880132|Challenge: 3 201 1: Client 3 got award 201
+1340880132|Challenge: 3 1 1: Client 3 got award 1
+1340880132|Challenge: 5 2 1: Client 5 got award 2
+1340880132|Item: 3 weapon_rocketlauncher
+1340880133|Item: 4 item_health_mega
+1340880134|Item: 3 ammo_rockets
+1340880135|Item: 3 ammo_rockets
+1340880135|Item: 5 ammo_cells
+1340880136|Item: 2 ammo_shells
+1340880136|Item: 2 weapon_rocketlauncher
+1340880137|Item: 2 weapon_plasmagun
+1340880137|Kill: 3 5 2: Thijs G killed Thz by MOD_GAUNTLET
+1340880137|PlayerScore: 3 3: Thijs G now has 3 points
+1340880137|Challenge: 3 201 1: Client 3 got award 201
+1340880137|Award: 3 0: Thijs G gained the GAUNTLET award!
+1340880137|Challenge: 3 201 1: Client 3 got award 201
+1340880137|Challenge: 3 1 1: Client 3 got award 1
+1340880137|Challenge: 5 2 1: Client 5 got award 2
+1340880139|Item: 2 item_health
+1340880140|Kill: 4 2 7: Enrique killed TT by MOD_ROCKET_SPLASH
+1340880140|PlayerScore: 4 4: Enrique now has 4 points
+1340880140|Challenge: 4 205 1: Client 4 got award 205
+1340880140|Challenge: 4 1 1: Client 4 got award 1
+1340880140|Challenge: 2 2 1: Client 2 got award 2
+1340880140|Item: 3 weapon_rocketlauncher
+1340880140|Kill: 3 3 7: Thijs G killed Thijs G by MOD_ROCKET_SPLASH
+1340880140|PlayerScore: 3 2: Thijs G now has 2 points
+1340880140|Item: 5 weapon_shotgun
+1340880142|Item: 4 weapon_rocketlauncher
+1340880144|Item: 5 weapon_lightning
+1340880144|Kill: 2 4 3: TT killed Enrique by MOD_MACHINEGUN
+1340880144|PlayerScore: 2 8: TT now has 8 points
+1340880144|Challenge: 2 202 1: Client 2 got award 202
+1340880144|Challenge: 2 1 1: Client 2 got award 1
+1340880144|Challenge: 4 2 1: Client 4 got award 2
+1340880145|Item: 2 weapon_rocketlauncher
+1340880147|Item: 5 weapon_shotgun
+1340880148|Item: 4 weapon_rocketlauncher
+1340880152|Kill: 4 3 6: Enrique killed Thijs G by MOD_ROCKET
+1340880152|PlayerScore: 4 5: Enrique now has 5 points
+1340880152|Challenge: 4 205 1: Client 4 got award 205
+1340880152|Challenge: 4 1 1: Client 4 got award 1
+1340880152|Challenge: 3 2 1: Client 3 got award 2
+1340880153|Kill: 2 4 2: TT killed Enrique by MOD_GAUNTLET
+1340880153|PlayerScore: 2 9: TT now has 9 points
+1340880153|Challenge: 2 201 1: Client 2 got award 201
+1340880153|Award: 2 0: TT gained the GAUNTLET award!
+1340880153|Challenge: 2 201 1: Client 2 got award 201
+1340880153|Challenge: 2 1 1: Client 2 got award 1
+1340880153|Challenge: 4 2 1: Client 4 got award 2
+1340880153|Item: 2 weapon_rocketlauncher
+1340880153|Item: 5 weapon_lightning
+1340880153|Item: 5 item_armor_combat
+1340880154|Kill: 5 2 11: Thz killed TT by MOD_LIGHTNING
+1340880154|PlayerScore: 5 6: Thz now has 6 points
+1340880154|Challenge: 5 206 1: Client 5 got award 206
+1340880154|Challenge: 5 1 1: Client 5 got award 1
+1340880154|Challenge: 2 2 1: Client 2 got award 2
+1340880156|Item: 4 weapon_shotgun
+1340880157|Kill: 4 3 1: Enrique killed Thijs G by MOD_SHOTGUN
+1340880157|PlayerScore: 4 6: Enrique now has 6 points
+1340880157|Challenge: 4 203 1: Client 4 got award 203
+1340880157|Challenge: 4 1 1: Client 4 got award 1
+1340880157|Challenge: 3 2 1: Client 3 got award 2
+1340880158|Item: 5 weapon_rocketlauncher
+1340880160|Item: 4 weapon_lightning
+1340880160|Item: 3 ammo_cells
+1340880163|Item: 2 weapon_shotgun
+1340880163|Item: 3 ammo_lightning
+1340880165|Kill: 2 4 1: TT killed Enrique by MOD_SHOTGUN
+1340880165|PlayerScore: 2 10: TT now has 10 points
+1340880165|Challenge: 2 203 1: Client 2 got award 203
+1340880165|Challenge: 2 1 1: Client 2 got award 1
+1340880165|Challenge: 4 2 1: Client 4 got award 2
+1340880165|Item: 5 ammo_shells
+1340880165|Item: 3 ammo_bullets
+1340880166|Item: 2 weapon_shotgun
+1340880166|Item: 3 item_armor_body
+1340880167|Item: 5 item_armor_combat
+1340880168|Item: 2 weapon_lightning
+1340880169|Item: 3 ammo_cells
+1340880169|Item: 4 ammo_bullets
+1340880171|Item: 2 ammo_bullets
+1340880171|Item: 4 item_armor_shard
+1340880171|Item: 4 item_armor_shard
+1340880171|Item: 4 item_armor_shard
+1340880171|Item: 4 item_armor_shard
+1340880171|Item: 4 weapon_rocketlauncher
+1340880171|Item: 4 item_armor_shard
+1340880172|Item: 4 weapon_plasmagun
+1340880173|Kill: 5 2 7: Thz killed TT by MOD_ROCKET_SPLASH
+1340880173|PlayerScore: 5 7: Thz now has 7 points
+1340880173|Challenge: 5 205 1: Client 5 got award 205
+1340880173|Challenge: 5 1 1: Client 5 got award 1
+1340880173|Challenge: 2 2 1: Client 2 got award 2
+1340880174|Item: 3 weapon_shotgun
+1340880176|Item: 5 item_health
+1340880177|Item: 2 ammo_cells
+1340880177|Item: 4 item_health_mega
+1340880178|Item: 4 ammo_lightning
+1340880178|Item: 3 weapon_lightning
+1340880178|Item: 2 ammo_rockets
+1340880185|Kill: 4 2 7: Enrique killed TT by MOD_ROCKET_SPLASH
+1340880185|PlayerScore: 4 7: Enrique now has 7 points
+1340880185|Challenge: 4 205 1: Client 4 got award 205
+1340880185|Challenge: 4 1 1: Client 4 got award 1
+1340880185|Challenge: 2 2 1: Client 2 got award 2
+1340880187|Item: 5 ammo_shells
+1340880188|Item: 5 weapon_rocketlauncher
+1340880188|Kill: 3 4 2: Thijs G killed Enrique by MOD_GAUNTLET
+1340880188|PlayerScore: 3 3: Thijs G now has 3 points
+1340880188|Challenge: 3 201 1: Client 3 got award 201
+1340880188|Award: 3 0: Thijs G gained the GAUNTLET award!
+1340880188|Challenge: 3 201 1: Client 3 got award 201
+1340880188|Challenge: 3 1 1: Client 3 got award 1
+1340880188|Challenge: 4 2 1: Client 4 got award 2
+1340880188|Item: 3 weapon_rocketlauncher
+1340880188|Item: 5 weapon_plasmagun
+1340880188|Kill: 3 3 7: Thijs G killed Thijs G by MOD_ROCKET_SPLASH
+1340880188|PlayerScore: 3 2: Thijs G now has 2 points
+1340880190|Item: 2 weapon_lightning
+1340880190|Item: 2 item_armor_combat
+1340880195|Item: 3 weapon_rocketlauncher
+1340880195|Item: 3 weapon_plasmagun
+1340880195|Item: 5 item_armor_combat
+1340880195|Item: 2 weapon_shotgun
+1340880196|Item: 4 weapon_lightning
+1340880197|Item: 5 item_health
+1340880197|Kill: 5 3 6: Thz killed Thijs G by MOD_ROCKET
+1340880197|PlayerScore: 5 8: Thz now has 8 points
+1340880197|Challenge: 5 205 1: Client 5 got award 205
+1340880197|Challenge: 5 1 1: Client 5 got award 1
+1340880197|Challenge: 3 2 1: Client 3 got award 2
+1340880201|Item: 3 ammo_rockets
+1340880203|Item: 3 weapon_lightning
+1340880206|Item: 4 weapon_rocketlauncher
+1340880207|Kill: 5 4 6: Thz killed Enrique by MOD_ROCKET
+1340880207|PlayerScore: 5 9: Thz now has 9 points
+1340880207|Challenge: 5 205 1: Client 5 got award 205
+1340880207|Challenge: 5 1 1: Client 5 got award 1
+1340880207|Challenge: 4 2 1: Client 4 got award 2
+1340880210|Item: 3 ammo_bullets
+1340880210|Item: 2 ammo_cells
+1340880210|Item: 3 ammo_shells
+1340880210|Item: 3 ammo_rockets
+1340880211|Item: 4 ammo_bullets
+1340880212|Item: 3 weapon_lightning
+1340880212|Item: 4 item_armor_shard
+1340880212|Item: 4 item_armor_shard
+1340880212|Item: 4 item_armor_shard
+1340880213|Item: 4 item_armor_shard
+1340880213|Item: 4 weapon_rocketlauncher
+1340880213|Item: 4 item_armor_shard
+1340880213|Item: 2 weapon_shotgun
+1340880213|Item: 4 weapon_plasmagun
+1340880215|Item: 3 ammo_shells
+1340880215|Kill: 4 5 16: Enrique killed Thz by MOD_LAVA
+1340880215|PlayerScore: 4 8: Enrique now has 8 points
+1340880215|Challenge: 4 214 1: Client 4 got award 214
+1340880215|Challenge: 4 1 1: Client 4 got award 1
+1340880215|Challenge: 5 2 1: Client 5 got award 2
+1340880217|Kill: 2 3 11: TT killed Thijs G by MOD_LIGHTNING
+1340880217|PlayerScore: 2 11: TT now has 11 points
+1340880217|Challenge: 2 206 1: Client 2 got award 206
+1340880217|Challenge: 2 1 1: Client 2 got award 1
+1340880217|Challenge: 3 2 1: Client 3 got award 2
+1340880217|Item: 2 weapon_lightning
+1340880219|Item: 4 item_health_mega
+1340880219|Item: 4 ammo_lightning
+1340880219|Item: 3 weapon_shotgun
+1340880220|Item: 3 ammo_rockets
+1340880220|Item: 5 item_armor_combat
+1340880221|Item: 2 ammo_bullets
+1340880221|Item: 3 ammo_cells
+1340880222|Item: 3 weapon_lightning
+1340880225|Kill: 3 4 11: Thijs G killed Enrique by MOD_LIGHTNING
+1340880225|PlayerScore: 3 3: Thijs G now has 3 points
+1340880225|Challenge: 3 206 1: Client 3 got award 206
+1340880225|Challenge: 3 1 1: Client 3 got award 1
+1340880225|Challenge: 4 2 1: Client 4 got award 2
+1340880225|Item: 3 weapon_rocketlauncher
+1340880225|Kill: 3 3 7: Thijs G killed Thijs G by MOD_ROCKET_SPLASH
+1340880225|PlayerScore: 3 2: Thijs G now has 2 points
+1340880227|Item: 3 ammo_cells
+1340880227|Item: 5 weapon_rocketlauncher
+1340880227|Item: 2 weapon_lightning
+1340880228|Kill: 2 5 11: TT killed Thz by MOD_LIGHTNING
+1340880228|PlayerScore: 2 12: TT now has 12 points
+1340880228|Challenge: 2 206 1: Client 2 got award 206
+1340880228|Challenge: 2 1 1: Client 2 got award 1
+1340880228|Challenge: 5 2 1: Client 5 got award 2
+1340880230|Kill: 4 2 2: Enrique killed TT by MOD_GAUNTLET
+1340880230|PlayerScore: 4 9: Enrique now has 9 points
+1340880230|Challenge: 4 201 1: Client 4 got award 201
+1340880230|Award: 4 0: Enrique gained the GAUNTLET award!
+1340880230|Challenge: 4 201 1: Client 4 got award 201
+1340880230|Challenge: 4 1 1: Client 4 got award 1
+1340880230|Challenge: 2 2 1: Client 2 got award 2
+1340880230|Item: 4 weapon_lightning
+1340880231|Item: 3 weapon_shotgun
+1340880233|Item: 5 weapon_plasmagun
+1340880234|Item: 2 weapon_lightning
+1340880236|Kill: 4 3 11: Enrique killed Thijs G by MOD_LIGHTNING
+1340880236|PlayerScore: 4 10: Enrique now has 10 points
+1340880236|Challenge: 4 206 1: Client 4 got award 206
+1340880236|Challenge: 4 1 1: Client 4 got award 1
+1340880236|Challenge: 3 2 1: Client 3 got award 2
+1340880237|Kill: 5 4 8: Thz killed Enrique by MOD_PLASMA
+1340880237|PlayerScore: 5 10: Thz now has 10 points
+1340880237|Challenge: 5 207 1: Client 5 got award 207
+1340880237|Challenge: 5 1 1: Client 5 got award 1
+1340880237|Challenge: 4 2 1: Client 4 got award 2
+1340880237|Item: 5 weapon_lightning
+1340880237|Kill: 2 5 11: TT killed Thz by MOD_LIGHTNING
+1340880237|PlayerScore: 2 13: TT now has 13 points
+1340880237|Challenge: 2 206 1: Client 2 got award 206
+1340880237|Challenge: 2 1 1: Client 2 got award 1
+1340880237|Challenge: 5 2 1: Client 5 got award 2
+1340880237|Item: 2 weapon_lightning
+1340880239|Item: 2 item_armor_combat
+1340880241|Item: 5 weapon_rocketlauncher
+1340880241|Item: 3 weapon_rocketlauncher
+1340880243|Kill: 2 4 11: TT killed Enrique by MOD_LIGHTNING
+1340880243|PlayerScore: 2 14: TT now has 14 points
+1340880243|Challenge: 2 206 1: Client 2 got award 206
+1340880243|Challenge: 2 1 1: Client 2 got award 1
+1340880243|Challenge: 4 2 1: Client 4 got award 2
+1340880243|Kill: 5 3 7: Thz killed Thijs G by MOD_ROCKET_SPLASH
+1340880243|PlayerScore: 5 11: Thz now has 11 points
+1340880243|Challenge: 5 205 1: Client 5 got award 205
+1340880243|Challenge: 5 1 1: Client 5 got award 1
+1340880243|Challenge: 3 2 1: Client 3 got award 2
+1340880244|Kill: 1022 5 16: <world> killed Thz by MOD_LAVA
+1340880244|PlayerScore: 5 10: Thz now has 10 points
+1340880246|Item: 2 weapon_lightning
+1340880247|Item: 5 weapon_shotgun
+1340880248|Item: 5 ammo_rockets
+1340880248|Kill: 4 2 2: Enrique killed TT by MOD_GAUNTLET
+1340880248|PlayerScore: 4 11: Enrique now has 11 points
+1340880248|Challenge: 4 201 1: Client 4 got award 201
+1340880248|Award: 4 0: Enrique gained the GAUNTLET award!
+1340880248|Challenge: 4 201 1: Client 4 got award 201
+1340880248|Challenge: 4 1 1: Client 4 got award 1
+1340880248|Challenge: 2 2 1: Client 2 got award 2
+1340880248|Item: 4 weapon_lightning
+1340880250|Item: 3 weapon_plasmagun
+1340880251|Kill: 3 4 8: Thijs G killed Enrique by MOD_PLASMA
+1340880251|PlayerScore: 3 3: Thijs G now has 3 points
+1340880251|Challenge: 3 207 1: Client 3 got award 207
+1340880251|Challenge: 3 1 1: Client 3 got award 1
+1340880251|Challenge: 4 2 1: Client 4 got award 2
+1340880251|Item: 3 weapon_lightning
+1340880251|Kill: 1022 5 16: <world> killed Thz by MOD_LAVA
+1340880251|PlayerScore: 5 9: Thz now has 9 points
+1340880252|Item: 2 ammo_shells
+1340880252|Item: 2 weapon_rocketlauncher
+1340880254|Kill: 4 3 18: Enrique killed Thijs G by MOD_TELEFRAG
+1340880254|PlayerScore: 4 12: Enrique now has 12 points
+1340880254|Challenge: 4 216 1: Client 4 got award 216
+1340880254|Challenge: 4 1 1: Client 4 got award 1
+1340880254|Challenge: 3 2 1: Client 3 got award 2
+1340880254|Item: 4 weapon_plasmagun
+1340880256|Kill: 2 4 6: TT killed Enrique by MOD_ROCKET
+1340880256|PlayerScore: 2 15: TT now has 15 points
+1340880256|Exit: Fraglimit hit.
+1340880256|score: 15  ping: 3  client: 2 TT
+1340880256|score: 12  ping: 3  client: 4 Enrique
+1340880256|score: 9  ping: 0  client: 5 Thz
+1340880256|score: 3  ping: 0  client: 3 Thijs G
+1340880256|broadcast: print "TT^7 hit the fraglimit.\n"
+1340880256|Challenge: 2 205 1: Client 2 got award 205
+1340880256|Challenge: 2 1 1: Client 2 got award 1
+1340880256|Challenge: 4 2 1: Client 4 got award 2
+1340880264|broadcast: print "Thijs G^7 disconnected\n"
+1340880264|Playerstore: Stored player with guid: 7A788D51E4ED819681A5D70F9CF0BBFB in 0
+1340880264|ClientDisconnect: 3
+1340880264|g_gametype will be changed upon restarting.
+1340880264|==== ShutdownGame ====
+1340880264|ShutdownGame:
+1340880264|------------------------------------------------------------
+1340880264|AAS shutdown.
+1340880264|------ Server Initialization ------
+1340880264|Server: oa_ctf4ish
+1340880264|Hunk_Clear: reset the hunk ok
+1340880264|----- FS_Startup -----
+1340880264|Current search path:
+1340880264|/home/jeroen/.openarena/baseoa
+1340880264|/usr/lib/openarena-server/baseoa
+1340880264|/usr/lib/openarena-server/baseoa/pak6-patch088.pk3 (711 files)
+1340880264|/usr/lib/openarena-server/baseoa/pak6-patch085.pk3 (559 files)
+1340880264|/usr/lib/openarena-server/baseoa/pak6-misc.pk3 (229 files)
+1340880264|/usr/lib/openarena-server/baseoa/pak5-TA.pk3 (139 files)
+1340880264|/usr/lib/openarena-server/baseoa/pak4-textures.pk3 (1753 files)
+1340880264|/usr/lib/openarena-server/baseoa/pak2-players.pk3 (669 files)
+1340880264|/usr/lib/openarena-server/baseoa/pak2-players-mature.pk3 (231 files)
+1340880264|/usr/lib/openarena-server/baseoa/pak1-maps.pk3 (100 files)
+1340880264|/usr/lib/openarena-server/baseoa/pak0.pk3 (1042 files)
+1340880264|
+1340880264|----------------------
+1340880264|5433 files in pk3 files
+1340880264|Loading vm file vm/qagame.qvm...
+1340880264|File "vm/qagame.qvm" found in "/usr/lib/openarena-server/baseoa/pak6-patch088.pk3"
+1340880264|...which has vmMagic VM_MAGIC_USE_NATIVE.
+1340880264|... trying pak6-patch088/qagame
+1340880264|... trying qagame
+1340880264|Loading DLL file /usr/lib/openarena-server/baseoa/qagamex86_64.so instead.
+1340880264|Loading DLL file: /usr/lib/openarena-server/baseoa/qagamex86_64.so
+1340880264|Sys_LoadGameDll(/usr/lib/openarena-server/baseoa/qagamex86_64.so) found vmMain function at 0x7fd4f0a16ab6
+1340880264|------- Game Initialization -------
+1340880264|gamename: baseoa
+1340880264|gamedate: Apr  1 2012
+1340880264|------------------------------------------------------------
+1340880264|InitGame: \com_protocol\71\sv_hostname\Spil OA Server\sv_maxclients\16\sv_minPing\0\sv_maxPing\400\sv_maxRate\25000\sv_allowdownload\1\sv_privateClients\2\capturelimit\5\timelimit\0\fraglimit\15\bot_minplayers\0\g_allowvote\1\g_voteGametypes\/0/3/4/5/8/10\g_delagHitscan\1\dmflags\88\g_instantgib\0\g_rockets\0\sv_dlRate\100\g_voteMaxTimelimit\1000\g_voteMinTimelimit\0\g_voteMaxFraglimit\0\g_voteMinFraglimit\0\g_gametype\4\g_lms_mode\0\elimination_roundtime\120\g_doWarmup\0\videoflags\7\g_maxGameClients\0\sv_minRate\0\sv_floodProtect\1\version\ioq3 1.36+svn2224-3/Debian linux-x86_64 Mar 31 2012\com_gamename\Quake3Arena\mapname\oa_ctf4ish\gamename\baseoa\elimflags\0\voteflags\2\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_altExcellent\0\g_timestamp\2012-06-28 12:44:24
+1340880264|Info: ServerInfo length: 792 of 1024
+1340880264|Gametype changed, clearing session data.
+1340880264|!readconfig: loaded 0 levels, 0 admins, 0 bans, 0 commands, 0 warnings
+1340880264|Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+1340880264|0 teams with 0 entities
+1340880264|12 items registered
+1340880264|-----------------------------------
+1340880264|------- BotLib Initialization -------
+1340880264|loaded weapons.c
+1340880264|loaded items.c
+1340880264|loaded syn.c
+1340880264|loaded rnd.c
+1340880264|loaded match.c
+1340880264|loaded rchat.c
+1340880264|------------ Map Loading ------------
+1340880264|trying to load maps/oa_ctf4ish.aas
+1340880264|loaded maps/oa_ctf4ish.aas
+1340880264|found 25 level items
+1340880264|-------------------------------------
+1340880264|33 bots parsed
+1340880264|58 arenas parsed
+1340880264|AAS initialized.
+1340880264|ClientUserinfoChanged: 2 n\TT\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\5006EE991E7059B8A9A743273410593A
+1340880264|ClientConnect: 2
+1340880264|ClientUserinfoChanged: 4 n\Enrique\t\3\model\beret/headcrash\hmodel\beret/headcrash\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\F74DAB2AEA8C391DAE504D100A2685F0
+1340880264|ClientConnect: 4
+1340880264|ClientUserinfoChanged: 5 n\Thz\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\4341ED6FB66DC405AEBD295E9FF32349
+1340880264|ClientConnect: 5
+1340880264|-----------------------------------
+1340880266|ClientUserinfoChanged: 2 n\TT\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\5006EE991E7059B8A9A743273410593A
+1340880266|ClientBegin: 2
+1340880266|broadcast: print "TT^7 disconnected\n"
+1340880266|ClientDisconnect: 2
+1340880266|ClientUserinfoChanged: 4 n\Enrique\t\3\model\beret/headcrash\hmodel\beret/headcrash\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\F74DAB2AEA8C391DAE504D100A2685F0
+1340880266|ClientBegin: 4
+1340880268|ClientUserinfoChanged: 5 n\Thz\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\4341ED6FB66DC405AEBD295E9FF32349
+1340880268|ClientBegin: 5
+1340880269|ClientUserinfoChanged: 4 n\Enrique\t\2\model\beret/headcrash\hmodel\beret/headcrash\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\F74DAB2AEA8C391DAE504D100A2685F0
+1340880269|ClientUserinfoChanged: 4 n\Enrique\t\2\model\beret/headcrash\hmodel\beret/headcrash\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\F74DAB2AEA8C391DAE504D100A2685F0
+1340880269|Playerstore: Nothing to restore. Guid: F74DAB2AEA8C391DAE504D100A2685F0
+1340880269|Item: 4 weapon_shotgun
+1340880269|broadcast: print "Enrique^7 entered the game\n"
+1340880269|ClientBegin: 4
+1340880269|Item: 4 item_armor_combat
+1340880270|ClientUserinfoChanged: 5 n\Thz\t\1\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\4341ED6FB66DC405AEBD295E9FF32349
+1340880270|ClientUserinfoChanged: 5 n\Thz\t\1\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\4341ED6FB66DC405AEBD295E9FF32349
+1340880270|Playerstore: Nothing to restore. Guid: 4341ED6FB66DC405AEBD295E9FF32349
+1340880270|Item: 5 weapon_shotgun
+1340880270|broadcast: print "Thz^7 entered the game\n"
+1340880270|ClientBegin: 5
+1340880271|Client 0 connecting with 0 challenge ping
+1340880271|ClientUserinfoChanged: 2 n\TT\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\5006EE991E7059B8A9A743273410593A
+1340880271|ClientConnect: 2
+1340880271|broadcast: print "TT^7 connected\n"
+1340880272|ClientUserinfoChanged: 2 n\TT\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\5006EE991E7059B8A9A743273410593A
+1340880272|ClientUserinfoChanged: 2 n\TT\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\5006EE991E7059B8A9A743273410593A
+1340880272|ClientBegin: 2
+1340880274|Item: 4 item_guard
+1340880274|ClientUserinfoChanged: 2 n\TT\t\1\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\5006EE991E7059B8A9A743273410593A
+1340880274|Playerstore: Nothing to restore. Guid: 5006EE991E7059B8A9A743273410593A
+1340880274|Item: 2 weapon_shotgun
+1340880274|Item: 2 item_armor_combat
+1340880274|broadcast: print "TT^7 entered the game\n"
+1340880274|ClientBegin: 2
+1340880278|Item: 5 item_armor_combat
+1340880278|Item: 4 weapon_rocketlauncher
+1340880278|Item: 5 weapon_rocketlauncher
+1340880285|Item: 4 team_CTF_redflag
+1340880285|broadcast: print "Enrique^7 got the RED flag!\n"
+1340880285|CTF: 4 1 0: Enrique got the RED flag!
+1340880285|PlayerScore: 4 0: Enrique now has 0 points
+1340880287|Item: 2 weapon_railgun
+1340880292|Item: 2 weapon_railgun
+1340880294|Item: 5 weapon_rocketlauncher
+1340880294|Item: 4 weapon_rocketlauncher
+1340880295|Award: 2 2: TT gained the IMPRESSIVE award!
+1340880295|Challenge: 2 301 1: Client 2 got award 301
+1340880297|Item: 2 weapon_railgun
+1340880297|Item: 5 item_health_mega
+1340880299|Kill: 1022 4 22: <world> killed Enrique by MOD_TRIGGER_HURT
+1340880300|broadcast: print "The RED flag has returned!\n"
+1340880301|Item: 5 weapon_railgun
+1340880301|Item: 4 weapon_shotgun
+1340880302|Item: 4 item_armor_combat
+1340880303|Item: 2 weapon_railgun
+1340880304|Award: 2 2: TT gained the IMPRESSIVE award!
+1340880304|Challenge: 2 301 1: Client 2 got award 301
+1340880306|Item: 5 team_CTF_blueflag
+1340880306|broadcast: print "Thz^7 got the BLUE flag!\n"
+1340880306|CTF: 5 2 0: Thz got the BLUE flag!
+1340880306|PlayerScore: 5 0: Thz now has 0 points
+1340880307|Item: 4 item_guard
+1340880310|Item: 2 weapon_railgun
+1340880310|Item: 5 weapon_rocketlauncher
+1340880312|Award: 2 2: TT gained the IMPRESSIVE award!
+1340880312|Challenge: 2 301 1: Client 2 got award 301
+1340880314|Kill: 2 4 22: TT killed Enrique by MOD_TRIGGER_HURT
+1340880314|PlayerScore: 2 1: TT now has 1 points
+1340880314|Challenge: 2 214 1: Client 2 got award 214
+1340880314|Challenge: 2 1 1: Client 2 got award 1
+1340880314|Challenge: 4 2 1: Client 4 got award 2
+1340880314|PlayerScore: 2 3: TT now has 3 points
+1340880314|Award: 2 3: TT gained the DEFENCE award!
+1340880314|Challenge: 2 305 1: Client 2 got award 305
+1340880314|Item: 5 item_guard
+1340880316|Item: 4 weapon_shotgun
+1340880319|Item: 5 team_CTF_redflag
+1340880319|broadcast: print "Thz^7 captured the BLUE flag!\n"
+1340880319|CTF: 5 2 1: Thz captured the BLUE flag!
+1340880319|Award: 5 4: Thz gained the CAPTURE award!
+1340880319|Challenge: 5 303 1: Client 5 got award 303
+1340880319|PlayerScore: 5 5: Thz now has 5 points
+1340880319|PlayerScore: 2 3: TT now has 3 points
+1340880321|Item: 4 item_guard
+1340880322|Item: 2 item_armor_combat
+1340880323|Item: 2 weapon_rocketlauncher
+1340880323|Item: 5 weapon_rocketlauncher
+1340880326|Item: 5 item_health_large
+1340880328|Item: 2 weapon_railgun
+1340880332|Item: 4 item_armor_combat
+1340880341|Item: 5 team_CTF_blueflag
+1340880341|broadcast: print "Thz^7 got the BLUE flag!\n"
+1340880341|CTF: 5 2 0: Thz got the BLUE flag!
+1340880341|PlayerScore: 5 5: Thz now has 5 points
+1340880343|Award: 2 2: TT gained the IMPRESSIVE award!
+1340880343|Challenge: 2 301 1: Client 2 got award 301
+1340880344|Item: 2 weapon_railgun
+1340880348|Item: 4 weapon_rocketlauncher
+1340880348|Kill: 2 4 10: TT killed Enrique by MOD_RAILGUN
+1340880348|PlayerScore: 2 4: TT now has 4 points
+1340880348|Challenge: 2 208 1: Client 2 got award 208
+1340880348|Challenge: 2 1 1: Client 2 got award 1
+1340880348|Challenge: 4 2 1: Client 4 got award 2
+1340880348|PlayerScore: 2 6: TT now has 6 points
+1340880348|Award: 2 3: TT gained the DEFENCE award!
+1340880348|Challenge: 2 305 1: Client 2 got award 305
+1340880349|Item: 2 weapon_railgun
+1340880350|Item: 4 weapon_shotgun
+1340880354|Item: 2 weapon_railgun
+1340880354|Item: 5 item_armor_combat
+1340880357|Award: 2 2: TT gained the IMPRESSIVE award!
+1340880357|Challenge: 2 301 1: Client 2 got award 301
+1340880358|Item: 5 team_CTF_redflag
+1340880358|broadcast: print "Thz^7 captured the BLUE flag!\n"
+1340880358|CTF: 5 2 1: Thz captured the BLUE flag!
+1340880358|Award: 5 4: Thz gained the CAPTURE award!
+1340880358|Challenge: 5 303 1: Client 5 got award 303
+1340880358|PlayerScore: 5 10: Thz now has 10 points
+1340880358|PlayerScore: 2 6: TT now has 6 points
+1340880359|Item: 2 weapon_railgun
+1340880359|Kill: 2 4 22: TT killed Enrique by MOD_TRIGGER_HURT
+1340880359|PlayerScore: 2 7: TT now has 7 points
+1340880359|Challenge: 2 214 1: Client 2 got award 214
+1340880359|Challenge: 2 1 1: Client 2 got award 1
+1340880359|Challenge: 4 2 1: Client 4 got award 2
+1340880359|PlayerScore: 2 8: TT now has 8 points
+1340880359|Challenge: 2 305 1: Client 2 got award 305
+1340880359|Award: 2 3: TT gained the DEFENCE award!
+1340880361|Item: 4 weapon_shotgun
+1340880364|Item: 2 weapon_railgun
+1340880365|Item: 5 item_armor_combat
+1340880366|Item: 5 weapon_rocketlauncher
+1340880368|Kill: 2 4 22: TT killed Enrique by MOD_TRIGGER_HURT
+1340880368|PlayerScore: 2 9: TT now has 9 points
+1340880368|Challenge: 2 214 1: Client 2 got award 214
+1340880368|Challenge: 2 1 1: Client 2 got award 1
+1340880368|Challenge: 4 2 1: Client 4 got award 2
+1340880368|PlayerScore: 2 10: TT now has 10 points
+1340880368|Challenge: 2 305 1: Client 2 got award 305
+1340880368|Award: 2 3: TT gained the DEFENCE award!
+1340880369|Item: 2 weapon_railgun
+1340880370|Item: 4 weapon_shotgun
+1340880371|Item: 5 weapon_railgun
+1340880372|Award: 2 2: TT gained the IMPRESSIVE award!
+1340880372|Challenge: 2 301 1: Client 2 got award 301
+1340880374|Kill: 2 4 10: TT killed Enrique by MOD_RAILGUN
+1340880374|PlayerScore: 2 11: TT now has 11 points
+1340880374|Challenge: 2 208 1: Client 2 got award 208
+1340880374|Challenge: 2 1 1: Client 2 got award 1
+1340880374|Challenge: 4 2 1: Client 4 got award 2
+1340880374|PlayerScore: 2 12: TT now has 12 points
+1340880374|Challenge: 2 305 1: Client 2 got award 305
+1340880374|Award: 2 3: TT gained the DEFENCE award!
+1340880374|Item: 2 weapon_railgun
+1340880376|Item: 4 weapon_shotgun
+1340880376|Item: 5 weapon_railgun
+1340880379|Item: 2 weapon_railgun
+1340880382|Item: 5 weapon_shotgun
+1340880384|Kill: 5 4 1: Thz killed Enrique by MOD_SHOTGUN
+1340880384|PlayerScore: 5 11: Thz now has 11 points
+1340880384|Challenge: 5 203 1: Client 5 got award 203
+1340880384|Challenge: 5 1 1: Client 5 got award 1
+1340880384|Challenge: 4 2 1: Client 4 got award 2
+1340880385|Item: 5 item_armor_combat
+1340880386|Item: 2 weapon_railgun
+1340880386|Item: 4 weapon_shotgun
+1340880388|Item: 5 team_CTF_blueflag
+1340880388|broadcast: print "Thz^7 got the BLUE flag!\n"
+1340880388|CTF: 5 2 0: Thz got the BLUE flag!
+1340880388|PlayerScore: 5 11: Thz now has 11 points
+1340880391|Item: 2 weapon_railgun
+1340880393|Kill: 5 4 7: Thz killed Enrique by MOD_ROCKET_SPLASH
+1340880393|PlayerScore: 5 12: Thz now has 12 points
+1340880393|Challenge: 5 205 1: Client 5 got award 205
+1340880393|Challenge: 5 1 1: Client 5 got award 1
+1340880393|Challenge: 4 2 1: Client 4 got award 2
+1340880393|PlayerScore: 5 14: Thz now has 14 points
+1340880393|Challenge: 5 305 1: Client 5 got award 305
+1340880393|Award: 5 3: Thz gained the DEFENCE award!
+1340880395|Item: 4 weapon_shotgun
+1340880396|Item: 2 weapon_railgun
+1340880401|Item: 2 weapon_railgun
+1340880401|Item: 4 item_health_large
+1340880405|Item: 5 weapon_rocketlauncher
+1340880406|Kill: 2 4 10: TT killed Enrique by MOD_RAILGUN
+1340880406|PlayerScore: 2 13: TT now has 13 points
+1340880406|Challenge: 2 208 1: Client 2 got award 208
+1340880406|Challenge: 2 1 1: Client 2 got award 1
+1340880406|Challenge: 4 2 1: Client 4 got award 2
+1340880406|PlayerScore: 2 15: TT now has 15 points
+1340880406|Award: 2 3: TT gained the DEFENCE award!
+1340880406|Challenge: 2 305 1: Client 2 got award 305
+1340880407|Item: 5 item_health_mega
+1340880407|Item: 2 weapon_railgun
+1340880408|Item: 4 weapon_shotgun
+1340880410|Item: 4 item_guard
+1340880412|Item: 5 team_CTF_redflag
+1340880412|broadcast: print "Thz^7 captured the BLUE flag!\n"
+1340880412|CTF: 5 2 1: Thz captured the BLUE flag!
+1340880412|Award: 5 4: Thz gained the CAPTURE award!
+1340880412|Challenge: 5 303 1: Client 5 got award 303
+1340880412|PlayerScore: 5 19: Thz now has 19 points
+1340880412|PlayerScore: 2 15: TT now has 15 points
+1340880412|Item: 2 weapon_railgun
+1340880413|Award: 2 2: TT gained the IMPRESSIVE award!
+1340880413|Challenge: 2 301 1: Client 2 got award 301
+1340880417|Item: 2 weapon_railgun
+1340880418|Award: 2 2: TT gained the IMPRESSIVE award!
+1340880418|Challenge: 2 301 1: Client 2 got award 301
+1340880418|Item: 4 item_armor_combat
+1340880421|Item: 5 weapon_rocketlauncher
+1340880427|Item: 2 weapon_railgun
+1340880427|Item: 5 weapon_railgun
+1340880431|Award: 2 2: TT gained the IMPRESSIVE award!
+1340880431|Challenge: 2 301 1: Client 2 got award 301
+1340880433|Kill: 5 4 10: Thz killed Enrique by MOD_RAILGUN
+1340880433|PlayerScore: 5 20: Thz now has 20 points
+1340880433|Challenge: 5 208 1: Client 5 got award 208
+1340880433|Challenge: 5 1 1: Client 5 got award 1
+1340880433|Challenge: 4 2 1: Client 4 got award 2
+1340880435|Item: 2 weapon_railgun
+1340880435|Item: 4 weapon_shotgun
+1340880438|Item: 5 team_CTF_blueflag
+1340880438|broadcast: print "Thz^7 got the BLUE flag!\n"
+1340880438|CTF: 5 2 0: Thz got the BLUE flag!
+1340880438|PlayerScore: 5 20: Thz now has 20 points
+1340880439|Item: 4 weapon_shotgun
+1340880441|Item: 2 weapon_railgun
+1340880443|Item: 5 item_armor_combat
+1340880444|Item: 5 weapon_rocketlauncher
+1340880448|Item: 4 item_health_large
+1340880448|Item: 2 weapon_railgun
+1340880455|Item: 2 weapon_railgun
+1340880457|Kill: 2 4 10: TT killed Enrique by MOD_RAILGUN
+1340880457|PlayerScore: 2 16: TT now has 16 points
+1340880457|Challenge: 2 208 1: Client 2 got award 208
+1340880457|Challenge: 2 1 1: Client 2 got award 1
+1340880457|Challenge: 4 2 1: Client 4 got award 2
+1340880457|PlayerScore: 2 17: TT now has 17 points
+1340880457|Challenge: 2 305 1: Client 2 got award 305
+1340880457|Award: 2 3: TT gained the DEFENCE award!
+1340880461|Item: 2 weapon_railgun
+1340880462|Item: 4 weapon_shotgun
+1340880465|broadcast: print "Enrique^7 disconnected\n"
+1340880465|Kill: 1022 4 20: <world> killed Enrique by MOD_SUICIDE
+1340880465|Playerstore: Stored player with guid: F74DAB2AEA8C391DAE504D100A2685F0 in 0
+1340880465|ClientDisconnect: 4
+1340880466|Item: 2 weapon_railgun
+1340880467|Item: 5 team_CTF_redflag
+1340880467|broadcast: print "Thz^7 captured the BLUE flag!\n"
+1340880467|CTF: 5 2 1: Thz captured the BLUE flag!
+1340880467|Award: 5 4: Thz gained the CAPTURE award!
+1340880467|PlayerScore: 5 25: Thz now has 25 points
+1340880467|PlayerScore: 2 17: TT now has 17 points
+1340880471|Item: 5 weapon_rocketlauncher
+1340880471|Item: 2 weapon_railgun
+1340880474|Kill: 1022 5 22: <world> killed Thz by MOD_TRIGGER_HURT
+1340880474|PlayerScore: 5 24: Thz now has 24 points
+1340880476|Item: 5 weapon_shotgun
+1340880478|Item: 2 weapon_railgun
+1340880480|Item: 5 item_guard
+1340880484|Item: 2 weapon_railgun
+1340880487|Item: 5 weapon_rocketlauncher
+1340880490|Item: 2 weapon_railgun
+1340880495|Item: 5 item_health_large
+1340880496|Item: 2 weapon_railgun
+1340880498|Item: 5 team_CTF_blueflag
+1340880498|broadcast: print "Thz^7 got the BLUE flag!\n"
+1340880498|CTF: 5 2 0: Thz got the BLUE flag!
+1340880498|PlayerScore: 5 24: Thz now has 24 points
+1340880502|Item: 2 weapon_railgun
+1340880503|Item: 5 weapon_rocketlauncher
+1340880509|Item: 2 weapon_railgun
+1340880512|Item: 5 team_CTF_redflag
+1340880512|broadcast: print "Thz^7 captured the BLUE flag!\n"
+1340880512|CTF: 5 2 1: Thz captured the BLUE flag!
+1340880512|Award: 5 4: Thz gained the CAPTURE award!
+1340880512|PlayerScore: 5 29: Thz now has 29 points
+1340880512|broadcast: print "Red hit the capturelimit.\n"
+1340880512|Exit: Capturelimit hit.
+1340880512|red:5  blue:0
+1340880512|score: 29  ping: 0  client: 5 Thz
+1340880512|score: 17  ping: 3  client: 2 TT
+1340880512|PlayerScore: 2 17: TT now has 17 points
+1340880518|broadcast: print "Thz^7 disconnected\n"
+1340880518|Playerstore: Stored player with guid: 4341ED6FB66DC405AEBD295E9FF32349 in 1
+1340880518|ClientDisconnect: 5
+1340880522|broadcast: print "TT^7 disconnected\n"
+1340880522|Playerstore: Stored player with guid: 5006EE991E7059B8A9A743273410593A in 2
+1340880522|ClientDisconnect: 2
+1340880532|g_gametype will be changed upon restarting.
+1340880532|==== ShutdownGame ====
+1340880532|ShutdownGame:
+1340880532|------------------------------------------------------------
+1340880532|AAS shutdown.
+1340880532|------ Server Initialization ------
+1340880532|Server: aggressor
+1340880532|Hunk_Clear: reset the hunk ok
+1340880532|----- FS_Startup -----
+1340880532|Current search path:
+1340880532|/home/jeroen/.openarena/baseoa
+1340880532|/usr/lib/openarena-server/baseoa
+1340880532|/usr/lib/openarena-server/baseoa/pak6-patch088.pk3 (711 files)
+1340880532|/usr/lib/openarena-server/baseoa/pak6-patch085.pk3 (559 files)
+1340880532|/usr/lib/openarena-server/baseoa/pak6-misc.pk3 (229 files)
+1340880532|/usr/lib/openarena-server/baseoa/pak5-TA.pk3 (139 files)
+1340880532|/usr/lib/openarena-server/baseoa/pak4-textu

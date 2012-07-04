@@ -22,5 +22,6 @@ $known_players = array(
     'Tamas'         => 'Tamas',
     'Rolph'         => 'Rolph',
     'Gerb'          => 'Gerben',
+    'Anatoly'       => 'Anatoly',
 );
 ?>

@@ -1,0 +1,1237 @@
+1341396826|Client 0 connecting with 0 challenge ping
+1341396826|ClientUserinfoChanged: 2 n\TT\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\0FF9D843C712925CF1023CDDE010CD83
+1341396826|ClientConnect: 2
+1341396826|broadcast: print "TT^7 connected\n"
+1341396828|ClientUserinfoChanged: 2 n\TT\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\0FF9D843C712925CF1023CDDE010CD83
+1341396828|Playerstore: Nothing to restore. Guid: 0FF9D843C712925CF1023CDDE010CD83
+1341396828|broadcast: print "TT^7 entered the game\n"
+1341396828|ClientBegin: 2
+1341396828|Item: 2 item_health_small
+1341396828|Item: 2 item_health_small
+1341396830|Item: 2 ammo_bullets
+1341396831|Item: 2 ammo_shells
+1341396832|Item: 2 weapon_lightning
+1341396832|Item: 2 item_armor_combat
+1341396834|Item: 2 weapon_rocketlauncher
+1341396834|Item: 2 ammo_rockets
+1341396837|Item: 2 item_armor_combat
+1341396841|Item: 2 weapon_lightning
+1341396845|Item: 2 item_armor_combat
+1341396847|Item: 2 weapon_grenadelauncher
+1341396848|Client 1 connecting with 0 challenge ping
+1341396848|ClientUserinfoChanged: 3 n\Enrique\t\0\model\beret/headcrash\hmodel\beret/headcrash\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+1341396848|ClientConnect: 3
+1341396848|broadcast: print "Enrique^7 connected\n"
+1341396848|Item: 2 ammo_rockets
+1341396849|Item: 2 item_armor_shard
+1341396849|Item: 2 item_armor_shard
+1341396849|Item: 2 item_armor_shard
+1341396849|Item: 2 item_armor_shard
+1341396850|ClientUserinfoChanged: 3 n\Enrique\t\0\model\beret/headcrash\hmodel\beret/headcrash\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+1341396850|Playerstore: Nothing to restore. Guid: 2EF47499FF1CAD2316F9FD0918CDDAAA
+1341396850|broadcast: print "Enrique^7 entered the game\n"
+1341396850|ClientBegin: 3
+1341396857|Client 2 connecting with 0 challenge ping
+1341396857|ClientUserinfoChanged: 4 n\Thz\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+1341396857|ClientConnect: 4
+1341396857|broadcast: print "Thz^7 connected\n"
+1341396857|Client 3 connecting with 40 challenge ping
+1341396857|ClientUserinfoChanged: 5 n\Tamas\t\0\model\smarine/red\hmodel\smarine/red\g_redteam\\g_blueteam\\c1\3\c2\4\hc\100\w\0\l\0\tt\0\tl\0\id\913EEAB8EE1A36416CB417D6374CFB07
+1341396857|ClientConnect: 5
+1341396857|broadcast: print "Tamas^7 connected\n"
+1341396857|Item: 3 weapon_lightning
+1341396858|Item: 2 ammo_bullets
+1341396859|ClientUserinfoChanged: 5 n\Tamas\t\0\model\smarine/red\hmodel\smarine/red\g_redteam\\g_blueteam\\c1\3\c2\4\hc\100\w\0\l\0\tt\0\tl\0\id\913EEAB8EE1A36416CB417D6374CFB07
+1341396859|Playerstore: Nothing to restore. Guid: 913EEAB8EE1A36416CB417D6374CFB07
+1341396859|broadcast: print "Tamas^7 entered the game\n"
+1341396859|ClientBegin: 5
+1341396860|Item: 3 weapon_shotgun
+1341396860|Item: 5 weapon_railgun
+1341396860|Item: 5 ammo_cells
+1341396861|Item: 2 item_armor_combat
+1341396861|ClientUserinfoChanged: 4 n\Thz\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+1341396861|Playerstore: Nothing to restore. Guid: 2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+1341396861|broadcast: print "Thz^7 entered the game\n"
+1341396861|ClientBegin: 4
+1341396862|Item: 2 weapon_rocketlauncher
+1341396863|Item: 3 weapon_grenadelauncher
+1341396864|Item: 2 weapon_plasmagun
+1341396866|Kill: 5 4 10: Tamas killed Thz by MOD_RAILGUN
+1341396866|PlayerScore: 5 1: Tamas now has 1 points
+1341396866|Challenge: 5 208 1: Client 5 got award 208
+1341396866|Challenge: 5 1 1: Client 5 got award 1
+1341396866|Challenge: 4 2 1: Client 4 got award 2
+1341396866|Award: 5 2: Tamas gained the IMPRESSIVE award!
+1341396866|Challenge: 5 301 1: Client 5 got award 301
+1341396867|Item: 3 weapon_rocketlauncher
+1341396868|Kill: 2 3 7: TT killed Enrique by MOD_ROCKET_SPLASH
+1341396868|PlayerScore: 2 1: TT now has 1 points
+1341396868|Challenge: 2 205 1: Client 2 got award 205
+1341396868|Challenge: 2 1 1: Client 2 got award 1
+1341396868|Challenge: 3 2 1: Client 3 got award 2
+1341396868|Item: 4 weapon_lightning
+1341396869|Item: 5 weapon_lightning
+1341396870|Kill: 5 4 11: Tamas killed Thz by MOD_LIGHTNING
+1341396870|PlayerScore: 5 2: Tamas now has 2 points
+1341396870|Challenge: 5 206 1: Client 5 got award 206
+1341396870|Challenge: 5 1 1: Client 5 got award 1
+1341396870|Challenge: 4 2 1: Client 4 got award 2
+1341396871|Kill: 3 5 3: Enrique killed Tamas by MOD_MACHINEGUN
+1341396871|PlayerScore: 3 1: Enrique now has 1 points
+1341396871|Challenge: 3 202 1: Client 3 got award 202
+1341396871|Challenge: 3 1 1: Client 3 got award 1
+1341396871|Challenge: 5 2 1: Client 5 got award 2
+1341396871|Item: 3 weapon_lightning
+1341396872|Item: 3 weapon_lightning
+1341396872|Item: 3 weapon_rocketlauncher
+1341396875|Item: 4 ammo_rockets
+1341396876|Kill: 5 4 2: Tamas killed Thz by MOD_GAUNTLET
+1341396876|PlayerScore: 5 3: Tamas now has 3 points
+1341396876|Challenge: 5 201 1: Client 5 got award 201
+1341396876|Award: 5 0: Tamas gained the GAUNTLET award!
+1341396876|Challenge: 5 201 1: Client 5 got award 201
+1341396876|Challenge: 5 1 1: Client 5 got award 1
+1341396876|Challenge: 4 2 1: Client 4 got award 2
+1341396877|Kill: 2 3 7: TT killed Enrique by MOD_ROCKET_SPLASH
+1341396877|PlayerScore: 2 2: TT now has 2 points
+1341396877|Challenge: 2 205 1: Client 2 got award 205
+1341396877|Challenge: 2 1 1: Client 2 got award 1
+1341396877|Challenge: 3 2 1: Client 3 got award 2
+1341396878|Item: 2 weapon_rocketlauncher
+1341396879|Item: 2 item_health
+1341396879|Item: 4 weapon_shotgun
+1341396880|Item: 3 item_health_small
+1341396880|Item: 3 item_health_small
+1341396880|Item: 3 item_health_small
+1341396880|Item: 3 item_health_small
+1341396880|Item: 5 weapon_plasmagun
+1341396881|Item: 3 ammo_cells
+1341396881|Item: 3 ammo_bullets
+1341396881|Item: 4 weapon_railgun
+1341396882|Kill: 2 5 7: TT killed Tamas by MOD_ROCKET_SPLASH
+1341396882|PlayerScore: 2 3: TT now has 3 points
+1341396882|Challenge: 2 205 1: Client 2 got award 205
+1341396882|Challenge: 2 1 1: Client 2 got award 1
+1341396882|Challenge: 5 2 1: Client 5 got award 2
+1341396883|Item: 3 weapon_grenadelauncher
+1341396884|Item: 2 weapon_plasmagun
+1341396884|Item: 2 item_armor_combat
+1341396885|Item: 4 ammo_shells
+1341396887|Item: 4 weapon_rocketlauncher
+1341396888|Item: 2 item_health
+1341396888|Kill: 4 4 7: Thz killed Thz by MOD_ROCKET_SPLASH
+1341396888|Item: 5 weapon_rocketlauncher
+1341396888|Item: 2 item_armor_combat
+1341396888|Item: 2 weapon_lightning
+1341396893|Kill: 2 3 7: TT killed Enrique by MOD_ROCKET_SPLASH
+1341396893|PlayerScore: 2 4: TT now has 4 points
+1341396893|Challenge: 2 205 1: Client 2 got award 205
+1341396893|Challenge: 2 1 1: Client 2 got award 1
+1341396893|Challenge: 3 2 1: Client 3 got award 2
+1341396893|Item: 4 weapon_lightning
+1341396894|Item: 2 weapon_plasmagun
+1341396894|Item: 2 weapon_grenadelauncher
+1341396895|Item: 4 weapon_rocketlauncher
+1341396895|Kill: 2 5 7: TT killed Tamas by MOD_ROCKET_SPLASH
+1341396895|PlayerScore: 2 5: TT now has 5 points
+1341396895|Challenge: 2 205 1: Client 2 got award 205
+1341396895|Challenge: 2 1 1: Client 2 got award 1
+1341396895|Challenge: 5 2 1: Client 5 got award 2
+1341396895|Award: 2 1: TT gained the EXCELLENT award!
+1341396895|Challenge: 2 302 1: Client 2 got award 302
+1341396896|Item: 3 weapon_grenadelauncher
+1341396898|Item: 3 ammo_rockets
+1341396898|Item: 4 weapon_rocketlauncher
+1341396900|Item: 2 item_armor_combat
+1341396900|Item: 5 weapon_rocketlauncher
+1341396900|Item: 2 item_health
+1341396903|Item: 3 ammo_bullets
+1341396904|Item: 3 weapon_plasmagun
+1341396904|Kill: 3 5 5: Enrique killed Tamas by MOD_GRENADE_SPLASH
+1341396904|PlayerScore: 3 2: Enrique now has 2 points
+1341396904|Challenge: 3 204 1: Client 3 got award 204
+1341396904|Challenge: 3 1 1: Client 3 got award 1
+1341396904|Challenge: 5 2 1: Client 5 got award 2
+1341396904|Item: 2 item_armor_shard
+1341396904|Item: 2 item_armor_shard
+1341396904|Item: 2 item_armor_shard
+1341396904|Item: 2 item_armor_shard
+1341396907|Item: 5 weapon_railgun
+1341396907|Item: 5 ammo_cells
+1341396908|Item: 5 weapon_shotgun
+1341396908|Kill: 3 4 8: Enrique killed Thz by MOD_PLASMA
+1341396908|PlayerScore: 3 3: Enrique now has 3 points
+1341396908|Challenge: 3 207 1: Client 3 got award 207
+1341396908|Challenge: 3 1 1: Client 3 got award 1
+1341396908|Challenge: 4 2 1: Client 4 got award 2
+1341396909|Item: 3 weapon_rocketlauncher
+1341396911|Kill: 2 3 7: TT killed Enrique by MOD_ROCKET_SPLASH
+1341396911|PlayerScore: 2 6: TT now has 6 points
+1341396911|Challenge: 2 205 1: Client 2 got award 205
+1341396911|Challenge: 2 1 1: Client 2 got award 1
+1341396911|Challenge: 3 2 1: Client 3 got award 2
+1341396912|Item: 5 weapon_grenadelauncher
+1341396912|Item: 2 weapon_rocketlauncher
+1341396912|Item: 2 weapon_plasmagun
+1341396913|Item: 4 weapon_rocketlauncher
+1341396914|Item: 3 weapon_railgun
+1341396915|Item: 2 weapon_lightning
+1341396915|Item: 3 weapon_shotgun
+1341396915|Item: 4 weapon_rocketlauncher
+1341396917|Item: 5 weapon_plasmagun
+1341396917|Item: 2 ammo_rockets
+1341396918|Item: 3 item_armor_combat
+1341396919|Kill: 2 4 7: TT killed Thz by MOD_ROCKET_SPLASH
+1341396919|PlayerScore: 2 7: TT now has 7 points
+1341396919|Challenge: 2 205 1: Client 2 got award 205
+1341396919|Challenge: 2 1 1: Client 2 got award 1
+1341396919|Challenge: 4 2 1: Client 4 got award 2
+1341396919|Item: 3 weapon_rocketlauncher
+1341396920|Item: 2 weapon_rocketlauncher
+1341396921|Kill: 3 5 7: Enrique killed Tamas by MOD_ROCKET_SPLASH
+1341396921|PlayerScore: 3 4: Enrique now has 4 points
+1341396921|Challenge: 3 205 1: Client 3 got award 205
+1341396921|Challenge: 3 1 1: Client 3 got award 1
+1341396921|Challenge: 5 2 1: Client 5 got award 2
+1341396922|Item: 4 weapon_lightning
+1341396923|Item: 3 weapon_plasmagun
+1341396926|Item: 2 weapon_grenadelauncher
+1341396927|Kill: 5 4 2: Tamas killed Thz by MOD_GAUNTLET
+1341396927|PlayerScore: 5 4: Tamas now has 4 points
+1341396927|Challenge: 5 201 1: Client 5 got award 201
+1341396927|Award: 5 0: Tamas gained the GAUNTLET award!
+1341396927|Challenge: 5 201 1: Client 5 got award 201
+1341396927|Challenge: 5 1 1: Client 5 got award 1
+1341396927|Challenge: 4 2 1: Client 4 got award 2
+1341396927|Item: 5 weapon_lightning
+1341396928|Item: 2 item_armor_combat
+1341396929|Item: 5 weapon_plasmagun
+1341396929|Item: 2 weapon_railgun
+1341396930|Kill: 3 5 7: Enrique killed Tamas by MOD_ROCKET_SPLASH
+1341396930|PlayerScore: 3 5: Enrique now has 5 points
+1341396930|Challenge: 3 205 1: Client 3 got award 205
+1341396930|Challenge: 3 1 1: Client 3 got award 1
+1341396930|Challenge: 5 2 1: Client 5 got award 2
+1341396930|Item: 3 weapon_plasmagun
+1341396930|Item: 4 item_health_small
+1341396930|Item: 4 item_health_small
+1341396931|Item: 4 item_health_small
+1341396931|Item: 4 item_health_small
+1341396932|Item: 4 ammo_cells
+1341396932|Item: 3 item_armor_combat
+1341396932|Item: 4 ammo_bullets
+1341396933|Item: 5 weapon_rocketlauncher
+1341396935|Item: 4 ammo_shells
+1341396935|Item: 3 item_health
+1341396935|Item: 4 weapon_lightning
+1341396938|Item: 5 weapon_rocketlauncher
+1341396941|Kill: 5 4 7: Tamas killed Thz by MOD_ROCKET_SPLASH
+1341396941|PlayerScore: 5 5: Tamas now has 5 points
+1341396941|Challenge: 5 205 1: Client 5 got award 205
+1341396941|Challenge: 5 1 1: Client 5 got award 1
+1341396941|Challenge: 4 2 1: Client 4 got award 2
+1341396941|Item: 2 item_health
+1341396941|Kill: 5 3 7: Tamas killed Enrique by MOD_ROCKET_SPLASH
+1341396941|PlayerScore: 5 6: Tamas now has 6 points
+1341396941|Challenge: 5 205 1: Client 5 got award 205
+1341396941|Challenge: 5 1 1: Client 5 got award 1
+1341396941|Challenge: 3 2 1: Client 3 got award 2
+1341396941|Award: 5 1: Tamas gained the EXCELLENT award!
+1341396941|Challenge: 5 302 1: Client 5 got award 302
+1341396942|Item: 2 weapon_lightning
+1341396943|Item: 5 weapon_plasmagun
+1341396943|Item: 5 ammo_bullets
+1341396944|Kill: 2 5 6: TT killed Tamas by MOD_ROCKET
+1341396944|PlayerScore: 2 8: TT now has 8 points
+1341396944|Challenge: 2 205 1: Client 2 got award 205
+1341396944|Challenge: 2 1 1: Client 2 got award 1
+1341396944|Challenge: 5 2 1: Client 5 got award 2
+1341396944|Item: 2 weapon_plasmagun
+1341396944|Item: 4 weapon_shotgun
+1341396945|Item: 3 weapon_rocketlauncher
+1341396946|Client 4 connecting with 40 challenge ping
+1341396946|ClientUserinfoChanged: 6 n\Anatoly\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\E3FF063D92518AEB111A396BFF2F5051
+1341396946|ClientConnect: 6
+1341396946|broadcast: print "Anatoly^7 connected\n"
+1341396946|Item: 2 weapon_plasmagun
+1341396947|Item: 3 weapon_lightning
+1341396947|Item: 4 weapon_lightning
+1341396948|Item: 4 item_armor_combat
+1341396948|ClientUserinfoChanged: 6 n\Anatoly\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\E3FF063D92518AEB111A396BFF2F5051
+1341396948|Playerstore: Nothing to restore. Guid: E3FF063D92518AEB111A396BFF2F5051
+1341396948|broadcast: print "Anatoly^7 entered the game\n"
+1341396948|ClientBegin: 6
+1341396950|Item: 4 weapon_rocketlauncher
+1341396951|Kill: 5 4 2: Tamas killed Thz by MOD_GAUNTLET
+1341396951|PlayerScore: 5 7: Tamas now has 7 points
+1341396951|Challenge: 5 201 1: Client 5 got award 201
+1341396951|Award: 5 0: Tamas gained the GAUNTLET award!
+1341396951|Challenge: 5 201 1: Client 5 got award 201
+1341396951|Challenge: 5 1 1: Client 5 got award 1
+1341396951|Challenge: 4 2 1: Client 4 got award 2
+1341396951|Item: 5 weapon_rocketlauncher
+1341396954|Item: 6 weapon_plasmagun
+1341396954|Kill: 4 5 3: Thz killed Tamas by MOD_MACHINEGUN
+1341396954|PlayerScore: 4 1: Thz now has 1 points
+1341396954|Challenge: 4 202 1: Client 4 got award 202
+1341396954|Challenge: 4 1 1: Client 4 got award 1
+1341396954|Challenge: 5 2 1: Client 5 got award 2
+1341396954|Item: 4 weapon_rocketlauncher
+1341396955|Kill: 3 6 6: Enrique killed Anatoly by MOD_ROCKET
+1341396955|PlayerScore: 3 6: Enrique now has 6 points
+1341396955|Challenge: 3 205 1: Client 3 got award 205
+1341396955|Challenge: 3 1 1: Client 3 got award 1
+1341396955|Challenge: 6 2 1: Client 6 got award 2
+1341396955|Kill: 3 3 7: Enrique killed Enrique by MOD_ROCKET_SPLASH
+1341396955|PlayerScore: 3 5: Enrique now has 5 points
+1341396957|Item: 4 weapon_rocketlauncher
+1341396957|Item: 5 weapon_lightning
+1341396957|Item: 4 ammo_rockets
+1341396958|Item: 3 weapon_grenadelauncher
+1341396958|Item: 6 weapon_shotgun
+1341396960|Kill: 5 4 11: Tamas killed Thz by MOD_LIGHTNING
+1341396960|PlayerScore: 5 8: Tamas now has 8 points
+1341396960|Challenge: 5 206 1: Client 5 got award 206
+1341396960|Challenge: 5 1 1: Client 5 got award 1
+1341396960|Challenge: 4 2 1: Client 4 got award 2
+1341396960|Item: 3 item_armor_combat
+1341396961|Item: 5 weapon_rocketlauncher
+1341396961|Item: 5 weapon_plasmagun
+1341396962|Item: 3 ammo_cells
+1341396962|Item: 3 weapon_railgun
+1341396963|Kill: 6 5 1: Anatoly killed Tamas by MOD_SHOTGUN
+1341396963|PlayerScore: 6 1: Anatoly now has 1 points
+1341396963|Challenge: 6 203 1: Client 6 got award 203
+1341396963|Challenge: 6 1 1: Client 6 got award 1
+1341396963|Challenge: 5 2 1: Client 5 got award 2
+1341396963|Kill: 6 2 1: Anatoly killed TT by MOD_SHOTGUN
+1341396963|PlayerScore: 6 2: Anatoly now has 2 points
+1341396963|Challenge: 6 203 1: Client 6 got award 203
+1341396963|Challenge: 6 1 1: Client 6 got award 1
+1341396963|Challenge: 2 2 1: Client 2 got award 2
+1341396963|Award: 6 1: Anatoly gained the EXCELLENT award!
+1341396963|Challenge: 6 302 1: Client 6 got award 302
+1341396963|Item: 6 weapon_plasmagun
+1341396964|Item: 4 weapon_rocketlauncher
+1341396964|Item: 6 weapon_rocketlauncher
+1341396965|Item: 2 weapon_lightning
+1341396967|Item: 6 item_health_small
+1341396967|Item: 6 item_health_small
+1341396967|Item: 6 item_health_small
+1341396967|Item: 6 item_health_small
+1341396968|Item: 2 weapon_rocketlauncher
+1341396968|Item: 3 weapon_railgun
+1341396968|Kill: 2 5 7: TT killed Tamas by MOD_ROCKET_SPLASH
+1341396968|PlayerScore: 2 9: TT now has 9 points
+1341396968|Challenge: 2 205 1: Client 2 got award 205
+1341396968|Challenge: 2 1 1: Client 2 got award 1
+1341396968|Challenge: 5 2 1: Client 5 got award 2
+1341396969|Item: 3 weapon_shotgun
+1341396972|Item: 6 weapon_lightning
+1341396972|Kill: 3 6 1: Enrique killed Anatoly by MOD_SHOTGUN
+1341396972|PlayerScore: 3 6: Enrique now has 6 points
+1341396972|Challenge: 3 203 1: Client 3 got award 203
+1341396972|Challenge: 3 1 1: Client 3 got award 1
+1341396972|Challenge: 6 2 1: Client 6 got award 2
+1341396973|Item: 3 weapon_lightning
+1341396973|Item: 5 weapon_rocketlauncher
+1341396974|Kill: 4 2 7: Thz killed TT by MOD_ROCKET_SPLASH
+1341396974|PlayerScore: 4 2: Thz now has 2 points
+1341396974|Challenge: 4 205 1: Client 4 got award 205
+1341396974|Challenge: 4 1 1: Client 4 got award 1
+1341396974|Challenge: 2 2 1: Client 2 got award 2
+1341396974|Item: 4 weapon_rocketlauncher
+1341396975|Item: 4 item_armor_combat
+1341396975|Item: 3 item_armor_combat
+1341396975|Item: 3 ammo_shells
+1341396976|Kill: 5 4 7: Tamas killed Thz by MOD_ROCKET_SPLASH
+1341396976|PlayerScore: 5 9: Tamas now has 9 points
+1341396976|Challenge: 5 205 1: Client 5 got award 205
+1341396976|Challenge: 5 1 1: Client 5 got award 1
+1341396976|Challenge: 4 2 1: Client 4 got award 2
+1341396977|Item: 6 weapon_plasmagun
+1341396978|Item: 5 weapon_rocketlauncher
+1341396978|Item: 6 item_health
+1341396979|Item: 4 weapon_grenadelauncher
+1341396980|Kill: 3 5 1: Enrique killed Tamas by MOD_SHOTGUN
+1341396980|PlayerScore: 3 7: Enrique now has 7 points
+1341396980|Challenge: 3 203 1: Client 3 got award 203
+1341396980|Challenge: 3 1 1: Client 3 got award 1
+1341396980|Challenge: 5 2 1: Client 5 got award 2
+1341396982|Item: 3 item_health
+1341396982|Item: 2 weapon_rocketlauncher
+1341396983|Item: 5 weapon_lightning
+1341396984|Item: 6 weapon_plasmagun
+1341396984|Item: 6 ammo_bullets
+1341396985|Kill: 5 2 11: Tamas killed TT by MOD_LIGHTNING
+1341396985|PlayerScore: 5 10: Tamas now has 10 points
+1341396985|Challenge: 5 206 1: Client 5 got award 206
+1341396985|Challenge: 5 1 1: Client 5 got award 1
+1341396985|Challenge: 2 2 1: Client 2 got award 2
+1341396987|Kill: 5 6 11: Tamas killed Anatoly by MOD_LIGHTNING
+1341396987|PlayerScore: 5 11: Tamas now has 11 points
+1341396987|Challenge: 5 206 1: Client 5 got award 206
+1341396987|Challenge: 5 1 1: Client 5 got award 1
+1341396987|Challenge: 6 2 1: Client 6 got award 2
+1341396987|Award: 5 1: Tamas gained the EXCELLENT award!
+1341396987|Challenge: 5 302 1: Client 5 got award 302
+1341396987|Item: 2 weapon_railgun
+1341396987|Kill: 3 5 11: Enrique killed Tamas by MOD_LIGHTNING
+1341396987|PlayerScore: 3 8: Enrique now has 8 points
+1341396987|Challenge: 3 206 1: Client 3 got award 206
+1341396987|Challenge: 3 1 1: Client 3 got award 1
+1341396987|Challenge: 5 2 1: Client 5 got award 2
+1341396989|Item: 2 weapon_shotgun
+1341396989|Item: 3 weapon_lightning
+1341396989|Item: 3 weapon_rocketlauncher
+1341396990|Item: 3 weapon_rocketlauncher
+1341396990|Item: 4 weapon_rocketlauncher
+1341396991|Item: 2 weapon_grenadelauncher
+1341396992|Item: 3 weapon_lightning
+1341396992|Item: 6 item_armor_combat
+1341396995|Item: 5 weapon_rocketlauncher
+1341396995|Item: 2 item_health
+1341396999|Item: 5 weapon_plasmagun
+1341397000|Kill: 4 5 7: Thz killed Tamas by MOD_ROCKET_SPLASH
+1341397000|PlayerScore: 4 3: Thz now has 3 points
+1341397000|Challenge: 4 205 1: Client 4 got award 205
+1341397000|Challenge: 4 1 1: Client 4 got award 1
+1341397000|Challenge: 5 2 1: Client 5 got award 2
+1341397000|Item: 6 ammo_rockets
+1341397000|Kill: 4 3 7: Thz killed Enrique by MOD_ROCKET_SPLASH
+1341397000|PlayerScore: 4 4: Thz now has 4 points
+1341397000|Challenge: 4 205 1: Client 4 got award 205
+1341397000|Challenge: 4 1 1: Client 4 got award 1
+1341397000|Challenge: 3 2 1: Client 3 got award 2
+1341397000|Award: 4 1: Thz gained the EXCELLENT award!
+1341397000|Challenge: 4 302 1: Client 4 got award 302
+1341397002|Item: 4 weapon_rocketlauncher
+1341397002|Item: 5 weapon_grenadelauncher
+1341397002|Item: 4 weapon_plasmagun
+1341397003|Item: 6 weapon_plasmagun
+1341397005|Kill: 2 6 1: TT killed Anatoly by MOD_SHOTGUN
+1341397005|PlayerScore: 2 10: TT now has 10 points
+1341397005|Challenge: 2 203 1: Client 2 got award 203
+1341397005|Challenge: 2 1 1: Client 2 got award 1
+1341397005|Challenge: 6 2 1: Client 6 got award 2
+1341397005|Kill: 3 5 3: Enrique killed Tamas by MOD_MACHINEGUN
+1341397005|PlayerScore: 3 9: Enrique now has 9 points
+1341397005|Challenge: 3 202 1: Client 3 got award 202
+1341397005|Challenge: 3 1 1: Client 3 got award 1
+1341397005|Challenge: 5 2 1: Client 5 got award 2
+1341397005|Item: 2 weapon_rocketlauncher
+1341397006|Kill: 4 2 6: Thz killed TT by MOD_ROCKET
+1341397006|PlayerScore: 4 5: Thz now has 5 points
+1341397006|Challenge: 4 205 1: Client 4 got award 205
+1341397006|Challenge: 4 1 1: Client 4 got award 1
+1341397006|Challenge: 2 2 1: Client 2 got award 2
+1341397007|Item: 4 weapon_plasmagun
+1341397007|Item: 4 weapon_rocketlauncher
+1341397008|Item: 3 ammo_cells
+1341397008|Item: 5 weapon_grenadelauncher
+1341397008|Item: 3 weapon_railgun
+1341397008|Item: 6 weapon_shotgun
+1341397010|Item: 4 weapon_plasmagun
+1341397011|Item: 5 weapon_grenadelauncher
+1341397012|Item: 4 item_armor_combat
+1341397013|Kill: 3 5 10: Enrique killed Tamas by MOD_RAILGUN
+1341397013|PlayerScore: 3 10: Enrique now has 10 points
+1341397013|Challenge: 3 208 1: Client 3 got award 208
+1341397013|Challenge: 3 1 1: Client 3 got award 1
+1341397013|Challenge: 5 2 1: Client 5 got award 2
+1341397014|Item: 3 weapon_grenadelauncher
+1341397014|Item: 4 item_health
+1341397015|Item: 2 weapon_rocketlauncher
+1341397016|Item: 3 weapon_railgun
+1341397018|Kill: 6 3 1: Anatoly killed Enrique by MOD_SHOTGUN
+1341397018|PlayerScore: 6 3: Anatoly now has 3 points
+1341397018|Challenge: 6 203 1: Client 6 got award 203
+1341397018|Challenge: 6 1 1: Client 6 got award 1
+1341397018|Challenge: 3 2 1: Client 3 got award 2
+1341397018|Item: 6 weapon_grenadelauncher
+1341397019|Item: 6 weapon_shotgun
+1341397019|Item: 2 ammo_rockets
+1341397019|Item: 2 item_health
+1341397020|Kill: 5 4 3: Tamas killed Thz by MOD_MACHINEGUN
+1341397020|PlayerScore: 5 12: Tamas now has 12 points
+1341397020|Challenge: 5 202 1: Client 5 got award 202
+1341397020|Challenge: 5 1 1: Client 5 got award 1
+1341397020|Challenge: 4 2 1: Client 4 got award 2
+1341397020|Item: 3 weapon_grenadelauncher
+1341397021|Item: 2 item_armor_shard
+1341397021|Item: 2 item_armor_shard
+1341397021|Item: 2 item_armor_shard
+1341397021|Item: 2 item_armor_shard
+1341397021|Item: 6 weapon_lightning
+1341397022|Item: 6 item_armor_combat
+1341397022|Item: 4 item_health_small
+1341397022|Item: 4 item_health_small
+1341397023|Item: 3 item_armor_combat
+1341397023|Item: 4 item_health_small
+1341397023|Item: 4 item_health_small
+1341397023|Item: 2 ammo_bullets
+1341397023|Item: 5 ammo_shells
+1341397023|Item: 5 item_health
+1341397024|Item: 3 weapon_railgun
+1341397024|Item: 4 ammo_cells
+1341397025|Kill: 2 5 7: TT killed Tamas by MOD_ROCKET_SPLASH
+1341397025|PlayerScore: 2 11: TT now has 11 points
+1341397025|Challenge: 2 205 1: Client 2 got award 205
+1341397025|Challenge: 2 1 1: Client 2 got award 1
+1341397025|Challenge: 5 2 1: Client 5 got award 2
+1341397027|Kill: 2 6 6: TT killed Anatoly by MOD_ROCKET
+1341397027|PlayerScore: 2 12: TT now has 12 points
+1341397027|Challenge: 2 205 1: Client 2 got award 205
+1341397027|Challenge: 2 1 1: Client 2 got award 1
+1341397027|Challenge: 6 2 1: Client 6 got award 2
+1341397027|Award: 2 1: TT gained the EXCELLENT award!
+1341397027|Challenge: 2 302 1: Client 2 got award 302
+1341397028|Kill: 4 2 2: Thz killed TT by MOD_GAUNTLET
+1341397028|PlayerScore: 4 6: Thz now has 6 points
+1341397028|Challenge: 4 201 1: Client 4 got award 201
+1341397028|Award: 4 0: Thz gained the GAUNTLET award!
+1341397028|Challenge: 4 201 1: Client 4 got award 201
+1341397028|Challenge: 4 1 1: Client 4 got award 1
+1341397028|Challenge: 2 2 1: Client 2 got award 2
+1341397028|Item: 4 weapon_rocketlauncher
+1341397029|Item: 3 weapon_lightning
+1341397029|Item: 5 weapon_grenadelauncher
+1341397030|Kill: 3 4 4: Enrique killed Thz by MOD_GRENADE
+1341397030|PlayerScore: 3 11: Enrique now has 11 points
+1341397030|Challenge: 3 204 1: Client 3 got award 204
+1341397030|Challenge: 3 1 1: Client 3 got award 1
+1341397030|Challenge: 4 2 1: Client 4 got award 2
+1341397031|Item: 6 weapon_shotgun
+1341397031|Item: 3 weapon_lightning
+1341397033|Item: 5 weapon_railgun
+1341397033|Item: 6 item_health
+1341397033|Kill: 6 2 1: Anatoly killed TT by MOD_SHOTGUN
+1341397033|PlayerScore: 6 4: Anatoly now has 4 points
+1341397033|Challenge: 6 203 1: Client 6 got award 203
+1341397033|Challenge: 6 1 1: Client 6 got award 1
+1341397033|Challenge: 2 2 1: Client 2 got award 2
+1341397033|Item: 3 weapon_rocketlauncher
+1341397035|Item: 4 weapon_rocketlauncher
+1341397038|Item: 4 weapon_rocketlauncher
+1341397039|Kill: 3 6 6: Enrique killed Anatoly by MOD_ROCKET
+1341397039|PlayerScore: 3 12: Enrique now has 12 points
+1341397039|Challenge: 3 205 1: Client 3 got award 205
+1341397039|Challenge: 3 1 1: Client 3 got award 1
+1341397039|Challenge: 6 2 1: Client 6 got award 2
+1341397040|Item: 2 weapon_rocketlauncher
+1341397040|Item: 2 ammo_rockets
+1341397041|Item: 3 weapon_shotgun
+1341397042|Kill: 4 2 7: Thz killed TT by MOD_ROCKET_SPLASH
+1341397042|PlayerScore: 4 7: Thz now has 7 points
+1341397042|Challenge: 4 205 1: Client 4 got award 205
+1341397042|Challenge: 4 1 1: Client 4 got award 1
+1341397042|Challenge: 2 2 1: Client 2 got award 2
+1341397043|Item: 3 weapon_grenadelauncher
+1341397044|Item: 4 weapon_rocketlauncher
+1341397044|Kill: 5 4 10: Tamas killed Thz by MOD_RAILGUN
+1341397044|PlayerScore: 5 13: Tamas now has 13 points
+1341397044|Challenge: 5 208 1: Client 5 got award 208
+1341397044|Challenge: 5 1 1: Client 5 got award 1
+1341397044|Challenge: 4 2 1: Client 4 got award 2
+1341397044|Kill: 4 5 7: Thz killed Tamas by MOD_ROCKET_SPLASH
+1341397044|PlayerScore: 4 8: Thz now has 8 points
+1341397044|Challenge: 4 205 1: Client 4 got award 205
+1341397044|Challenge: 4 1 1: Client 4 got award 1
+1341397044|Challenge: 5 2 1: Client 5 got award 2
+1341397044|Award: 4 1: Thz gained the EXCELLENT award!
+1341397044|Challenge: 4 302 1: Client 4 got award 302
+1341397044|Item: 2 weapon_railgun
+1341397046|Kill: 3 6 6: Enrique killed Anatoly by MOD_ROCKET
+1341397046|PlayerScore: 3 13: Enrique now has 13 points
+1341397046|Challenge: 3 205 1: Client 3 got award 205
+1341397046|Challenge: 3 1 1: Client 3 got award 1
+1341397046|Challenge: 6 2 1: Client 6 got award 2
+1341397047|Kill: 3 2 6: Enrique killed TT by MOD_ROCKET
+1341397047|PlayerScore: 3 14: Enrique now has 14 points
+1341397047|Challenge: 3 205 1: Client 3 got award 205
+1341397047|Challenge: 3 1 1: Client 3 got award 1
+1341397047|Challenge: 2 2 1: Client 2 got award 2
+1341397047|Award: 3 1: Enrique gained the EXCELLENT award!
+1341397047|Challenge: 3 302 1: Client 3 got award 302
+1341397047|Item: 5 weapon_railgun
+1341397048|Item: 3 weapon_plasmagun
+1341397048|Item: 3 weapon_railgun
+1341397048|Item: 4 ammo_cells
+1341397049|Item: 3 item_armor_combat
+1341397050|Item: 6 weapon_shotgun
+1341397050|Item: 2 weapon_rocketlauncher
+1341397052|Item: 6 item_armor_combat
+1341397053|Item: 3 item_armor_combat
+1341397054|Kill: 2 3 7: TT killed Enrique by MOD_ROCKET_SPLASH
+1341397054|PlayerScore: 2 13: TT now has 13 points
+1341397054|Challenge: 2 205 1: Client 2 got award 205
+1341397054|Challenge: 2 1 1: Client 2 got award 1
+1341397054|Challenge: 3 2 1: Client 3 got award 2
+1341397054|Item: 2 weapon_rocketlauncher
+1341397055|Item: 2 weapon_lightning
+1341397055|Item: 4 weapon_railgun
+1341397055|Kill: 6 5 1: Anatoly killed Tamas by MOD_SHOTGUN
+1341397055|PlayerScore: 6 5: Anatoly now has 5 points
+1341397055|Challenge: 6 203 1: Client 6 got award 203
+1341397055|Challenge: 6 1 1: Client 6 got award 1
+1341397055|Challenge: 5 2 1: Client 5 got award 2
+1341397055|Kill: 4 6 10: Thz killed Anatoly by MOD_RAILGUN
+1341397055|PlayerScore: 4 9: Thz now has 9 points
+1341397055|Challenge: 4 208 1: Client 4 got award 208
+1341397055|Challenge: 4 1 1: Client 4 got award 1
+1341397055|Challenge: 6 2 1: Client 6 got award 2
+1341397055|Item: 4 weapon_shotgun
+1341397056|Item: 4 weapon_shotgun
+1341397056|Item: 3 weapon_grenadelauncher
+1341397058|Item: 5 item_health_small
+1341397058|Item: 5 item_health_small
+1341397060|Item: 4 item_health
+1341397061|Item: 3 weapon_rocketlauncher
+1341397061|Kill: 2 5 7: TT killed Tamas by MOD_ROCKET_SPLASH
+1341397061|PlayerScore: 2 14: TT now has 14 points
+1341397061|Challenge: 2 205 1: Client 2 got award 205
+1341397061|Challenge: 2 1 1: Client 2 got award 1
+1341397061|Challenge: 5 2 1: Client 5 got award 2
+1341397063|Item: 3 weapon_rocketlauncher
+1341397065|Item: 5 weapon_shotgun
+1341397065|Item: 6 item_armor_shard
+1341397065|Item: 6 item_armor_shard
+1341397066|Item: 6 item_armor_shard
+1341397066|Item: 6 item_armor_shard
+1341397066|Item: 3 ammo_shells
+1341397067|Item: 4 weapon_rocketlauncher
+1341397067|Kill: 3 4 7: Enrique killed Thz by MOD_ROCKET_SPLASH
+1341397067|PlayerScore: 3 15: Enrique now has 15 points
+1341397067|Exit: Fraglimit hit.
+1341397067|score: 15  ping: 0  client: 3 Enrique
+1341397067|score: 14  ping: 3  client: 2 TT
+1341397067|score: 13  ping: 0  client: 5 Tamas
+1341397067|score: 9  ping: 2  client: 4 Thz
+1341397067|score: 5  ping: 0  client: 6 Anatoly
+1341397067|broadcast: print "Enrique^7 hit the fraglimit.\n"
+1341397067|Challenge: 3 205 1: Client 3 got award 205
+1341397067|Challenge: 3 1 1: Client 3 got award 1
+1341397067|Challenge: 4 2 1: Client 4 got award 2
+1341397067|Item: 6 weapon_grenadelauncher
+1341397073|g_gametype will be changed upon restarting.
+1341397073|==== ShutdownGame ====
+1341397073|ShutdownGame:
+1341397073|------------------------------------------------------------
+1341397073|AAS shutdown.
+1341397073|------ Server Initialization ------
+1341397073|Server: ps37ctf
+1341397073|Hunk_Clear: reset the hunk ok
+1341397073|----- FS_Startup -----
+1341397073|Current search path:
+1341397073|/home/jeroen/.openarena/baseoa
+1341397073|/usr/lib/openarena-server/baseoa
+1341397073|/usr/lib/openarena-server/baseoa/pak6-patch088.pk3 (711 files)
+1341397073|/usr/lib/openarena-server/baseoa/pak6-patch085.pk3 (559 files)
+1341397073|/usr/lib/openarena-server/baseoa/pak6-misc.pk3 (229 files)
+1341397073|/usr/lib/openarena-server/baseoa/pak5-TA.pk3 (139 files)
+1341397073|/usr/lib/openarena-server/baseoa/pak4-textures.pk3 (1753 files)
+1341397073|/usr/lib/openarena-server/baseoa/pak2-players.pk3 (669 files)
+1341397073|/usr/lib/openarena-server/baseoa/pak2-players-mature.pk3 (231 files)
+1341397073|/usr/lib/openarena-server/baseoa/pak1-maps.pk3 (100 files)
+1341397073|/usr/lib/openarena-server/baseoa/pak0.pk3 (1042 files)
+1341397073|
+1341397073|----------------------
+1341397073|5433 files in pk3 files
+1341397073|Loading vm file vm/qagame.qvm...
+1341397073|File "vm/qagame.qvm" found in "/usr/lib/openarena-server/baseoa/pak6-patch088.pk3"
+1341397073|...which has vmMagic VM_MAGIC_USE_NATIVE.
+1341397073|... trying pak6-patch088/qagame
+1341397073|... trying qagame
+1341397073|Loading DLL file /usr/lib/openarena-server/baseoa/qagamex86_64.so instead.
+1341397073|Loading DLL file: /usr/lib/openarena-server/baseoa/qagamex86_64.so
+1341397073|Sys_LoadGameDll(/usr/lib/openarena-server/baseoa/qagamex86_64.so) found vmMain function at 0x7f24515cfab6
+1341397073|------- Game Initialization -------
+1341397073|gamename: baseoa
+1341397073|gamedate: Apr  1 2012
+1341397073|------------------------------------------------------------
+1341397073|InitGame: \com_protocol\71\sv_hostname\Spil OA Server\sv_maxclients\16\sv_minPing\0\sv_maxPing\400\sv_maxRate\25000\sv_allowdownload\1\sv_privateClients\2\capturelimit\5\timelimit\0\fraglimit\15\bot_minplayers\0\g_allowvote\1\g_voteGametypes\/0/3/4/5/8/10\g_delagHitscan\1\dmflags\88\g_instantgib\0\g_rockets\0\sv_floodProtect\1\sv_minRate\0\g_maxGameClients\0\videoflags\7\g_doWarmup\0\elimination_roundtime\120\g_lms_mode\0\g_gametype\4\g_voteMinFraglimit\0\g_voteMaxFraglimit\0\g_voteMinTimelimit\0\g_voteMaxTimelimit\1000\sv_dlRate\100\version\ioq3 1.36+svn2224-3/Debian linux-x86_64 Mar 31 2012\com_gamename\Quake3Arena\mapname\ps37ctf\gamename\baseoa\elimflags\0\voteflags\2\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_altExcellent\0\g_timestamp\2012-07-04 12:17:53
+1341397073|Info: ServerInfo length: 789 of 1024
+1341397073|Gametype changed, clearing session data.
+1341397073|!readconfig: loaded 0 levels, 0 admins, 0 bans, 0 commands, 0 warnings
+1341397073|Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+1341397073|0 teams with 0 entities
+1341397073|20 items registered
+1341397073|-----------------------------------
+1341397073|------- BotLib Initialization -------
+1341397073|loaded weapons.c
+1341397073|loaded items.c
+1341397073|loaded syn.c
+1341397073|loaded rnd.c
+1341397073|loaded match.c
+1341397073|loaded rchat.c
+1341397073|------------ Map Loading ------------
+1341397073|trying to load maps/ps37ctf.aas
+1341397073|loaded maps/ps37ctf.aas
+1341397073|found 58 level items
+1341397073|-------------------------------------
+1341397073|33 bots parsed
+1341397073|58 arenas parsed
+1341397073|AAS initialized.
+1341397073|ClientUserinfoChanged: 2 n\TT\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\0FF9D843C712925CF1023CDDE010CD83
+1341397073|ClientConnect: 2
+1341397073|ClientUserinfoChanged: 3 n\Enrique\t\3\model\beret/headcrash\hmodel\beret/headcrash\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+1341397073|ClientConnect: 3
+1341397073|ClientUserinfoChanged: 4 n\Thz\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+1341397073|ClientConnect: 4
+1341397073|ClientUserinfoChanged: 5 n\Tamas\t\3\model\smarine/red\hmodel\smarine/red\g_redteam\\g_blueteam\\c1\3\c2\4\hc\100\w\0\l\0\tt\0\tl\0\id\913EEAB8EE1A36416CB417D6374CFB07
+1341397073|ClientConnect: 5
+1341397073|ClientUserinfoChanged: 6 n\Anatoly\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\E3FF063D92518AEB111A396BFF2F5051
+1341397073|ClientConnect: 6
+1341397073|-----------------------------------
+1341397074|ClientUserinfoChanged: 5 n\Tamas\t\3\model\smarine/red\hmodel\smarine/red\g_redteam\\g_blueteam\\c1\3\c2\4\hc\100\w\0\l\0\tt\0\tl\0\id\913EEAB8EE1A36416CB417D6374CFB07
+1341397074|ClientBegin: 5
+1341397075|ClientUserinfoChanged: 2 n\TT\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\0FF9D843C712925CF1023CDDE010CD83
+1341397075|ClientBegin: 2
+1341397075|ClientUserinfoChanged: 3 n\Enrique\t\3\model\beret/headcrash\hmodel\beret/headcrash\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+1341397075|ClientBegin: 3
+1341397075|ClientUserinfoChanged: 6 n\Anatoly\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\E3FF063D92518AEB111A396BFF2F5051
+1341397075|ClientBegin: 6
+1341397077|ClientUserinfoChanged: 4 n\Thz\t\3\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+1341397077|ClientBegin: 4
+1341397077|ClientUserinfoChanged: 2 n\TT\t\1\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\0FF9D843C712925CF1023CDDE010CD83
+1341397077|ClientUserinfoChanged: 2 n\TT\t\1\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\0FF9D843C712925CF1023CDDE010CD83
+1341397077|Playerstore: Nothing to restore. Guid: 0FF9D843C712925CF1023CDDE010CD83
+1341397077|broadcast: print "TT^7 entered the game\n"
+1341397077|ClientBegin: 2
+1341397078|ClientUserinfoChanged: 3 n\Enrique\t\2\model\beret/headcrash\hmodel\beret/headcrash\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+1341397078|ClientUserinfoChanged: 3 n\Enrique\t\2\model\beret/headcrash\hmodel\beret/headcrash\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\1\id\2EF47499FF1CAD2316F9FD0918CDDAAA
+1341397078|Playerstore: Nothing to restore. Guid: 2EF47499FF1CAD2316F9FD0918CDDAAA
+1341397078|broadcast: print "Enrique^7 entered the game\n"
+1341397078|ClientBegin: 3
+1341397079|ClientUserinfoChanged: 4 n\Thz\t\2\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+1341397079|Playerstore: Nothing to restore. Guid: 2BEA6F12C7F6A6FA1D2B46B4B41D1C44
+1341397079|broadcast: print "Thz^7 entered the game\n"
+1341397079|ClientBegin: 4
+1341397079|ClientUserinfoChanged: 5 n\Tamas\t\1\model\smarine/red\hmodel\smarine/red\g_redteam\\g_blueteam\\c1\3\c2\4\hc\100\w\0\l\0\tt\0\tl\0\id\913EEAB8EE1A36416CB417D6374CFB07
+1341397079|Playerstore: Nothing to restore. Guid: 913EEAB8EE1A36416CB417D6374CFB07
+1341397079|broadcast: print "Tamas^7 entered the game\n"
+1341397079|ClientBegin: 5
+1341397079|Item: 2 weapon_railgun
+1341397080|Item: 3 item_armor_combat
+1341397082|Item: 2 weapon_rocketlauncher
+1341397082|ClientUserinfoChanged: 6 n\Anatoly\t\2\model\james\hmodel\*james\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\E3FF063D92518AEB111A396BFF2F5051
+1341397082|Playerstore: Nothing to restore. Guid: E3FF063D92518AEB111A396BFF2F5051
+1341397082|broadcast: print "Anatoly^7 entered the game\n"
+1341397082|ClientBegin: 6
+1341397082|Item: 4 weapon_nailgun
+1341397084|Item: 2 item_armor_shard
+1341397084|Item: 2 item_armor_shard
+1341397085|Item: 2 item_armor_shard
+1341397085|Item: 2 item_armor_shard
+1341397086|Item: 4 item_health_mega
+1341397087|Item: 2 team_CTF_blueflag
+1341397087|broadcast: print "TT^7 got the BLUE flag!\n"
+1341397087|CTF: 2 2 0: TT got the BLUE flag!
+1341397087|PlayerScore: 2 0: TT now has 0 points
+1341397087|Item: 5 weapon_rocketlauncher
+1341397088|Item: 3 weapon_shotgun
+1341397092|Item: 4 team_CTF_redflag
+1341397092|broadcast: print "Thz^7 got the RED flag!\n"
+1341397092|CTF: 4 1 0: Thz got the RED flag!
+1341397092|PlayerScore: 4 0: Thz now has 0 points
+1341397092|Kill: 6 2 3: Anatoly killed TT by MOD_MACHINEGUN
+1341397092|PlayerScore: 6 1: Anatoly now has 1 points
+1341397092|Challenge: 6 202 1: Client 6 got award 202
+1341397092|Challenge: 6 1 1: Client 6 got award 1
+1341397092|Challenge: 2 2 1: Client 2 got award 2
+1341397092|PlayerScore: 6 3: Anatoly now has 3 points
+1341397092|broadcast: print "Anatoly^7 fragged RED's flag carrier!\n"
+1341397092|CTF: 6 1 3: Anatoly fragged RED's flag carrier!
+1341397093|Item: 3 weapon_rocketlauncher
+1341397094|Item: 3 team_CTF_blueflag
+1341397094|broadcast: print "Enrique^7 returned the BLUE flag!\n"
+1341397094|PlayerScore: 3 1: Enrique now has 1 points
+1341397094|CTF: 3 2 2: Enrique returned the BLUE flag!
+1341397094|Item: 6 weapon_shotgun
+1341397095|Kill: 5 3 7: Tamas killed Enrique by MOD_ROCKET_SPLASH
+1341397095|PlayerScore: 5 1: Tamas now has 1 points
+1341397095|Challenge: 5 205 1: Client 5 got award 205
+1341397095|Challenge: 5 1 1: Client 5 got award 1
+1341397095|Challenge: 3 2 1: Client 3 got award 2
+1341397095|Kill: 3 6 6: Enrique killed Anatoly by MOD_ROCKET
+1341397095|Item: 2 item_armor_combat
+1341397096|Item: 5 team_CTF_blueflag
+1341397096|broadcast: print "Tamas^7 got the BLUE flag!\n"
+1341397096|CTF: 5 2 0: Tamas got the BLUE flag!
+1341397096|PlayerScore: 5 1: Tamas now has 1 points
+1341397096|Item: 2 weapon_nailgun
+1341397098|Item: 5 weapon_shotgun
+1341397100|Item: 6 weapon_rocketlauncher
+1341397101|Item: 5 item_health_small
+1341397102|Kill: 3 5 3: Enrique killed Tamas by MOD_MACHINEGUN
+1341397102|PlayerScore: 3 2: Enrique now has 2 points
+1341397102|Challenge: 3 202 1: Client 3 got award 202
+1341397102|Challenge: 3 1 1: Client 3 got award 1
+1341397102|Challenge: 5 2 1: Client 5 got award 2
+1341397102|PlayerScore: 3 4: Enrique now has 4 points
+1341397102|broadcast: print "Enrique^7 fragged RED's flag carrier!\n"
+1341397102|CTF: 3 1 3: Enrique fragged RED's flag carrier!
+1341397106|Kill: 2 4 23: TT killed Thz by MOD_NAIL
+1341397106|PlayerScore: 2 1: TT now has 1 points
+1341397106|Challenge: 2 212 1: Client 2 got award 212
+1341397106|Challenge: 2 1 1: Client 2 got award 1
+1341397106|Challenge: 4 2 1: Client 4 got award 2
+1341397106|PlayerScore: 2 3: TT now has 3 points
+1341397106|broadcast: print "TT^7 fragged BLUE's flag carrier!\n"
+1341397106|CTF: 2 2 3: TT fragged BLUE's flag carrier!
+1341397106|Item: 3 team_CTF_blueflag
+1341397106|broadcast: print "Enrique^7 returned the BLUE flag!\n"
+1341397106|PlayerScore: 3 5: Enrique now has 5 points
+1341397106|CTF: 3 2 2: Enrique returned the BLUE flag!
+1341397106|Kill: 4 2 23: Thz killed TT by MOD_NAIL
+1341397106|PlayerScore: 4 1: Thz now has 1 points
+1341397106|Challenge: 4 212 1: Client 4 got award 212
+1341397106|Challenge: 4 1 1: Client 4 got award 1
+1341397106|Challenge: 2 2 1: Client 2 got award 2
+1341397106|PlayerScore: 4 2: Thz now has 2 points
+1341397106|Challenge: 4 305 1: Client 4 got award 305
+1341397106|Award: 4 3: Thz gained the DEFENCE award!
+1341397107|Item: 5 weapon_railgun
+1341397109|Item: 6 item_health
+1341397109|Item: 6 item_health
+1341397110|Item: 4 item_armor_combat
+1341397111|Item: 4 weapon_nailgun
+1341397111|Item: 2 weapon_plasmagun
+1341397112|Item: 6 team_CTF_redflag
+1341397112|broadcast: print "Anatoly^7 got the RED flag!\n"
+1341397112|CTF: 6 1 0: Anatoly got the RED flag!
+1341397112|PlayerScore: 6 3: Anatoly now has 3 points
+1341397112|Item: 6 weapon_nailgun
+1341397113|Item: 6 weapon_nailgun
+1341397113|Item: 3 item_health_small
+1341397113|Item: 6 weapon_plasmagun
+1341397113|Item: 3 item_health_small
+1341397114|Kill: 5 6 10: Tamas killed Anatoly by MOD_RAILGUN
+1341397114|PlayerScore: 5 2: Tamas now has 2 points
+1341397114|Challenge: 5 208 1: Client 5 got award 208
+1341397114|Challenge: 5 1 1: Client 5 got award 1
+1341397114|Challenge: 6 2 1: Client 6 got award 2
+1341397114|PlayerScore: 5 4: Tamas now has 4 points
+1341397114|broadcast: print "Tamas^7 fragged BLUE's flag carrier!\n"
+1341397114|CTF: 5 2 3: Tamas fragged BLUE's flag carrier!
+1341397115|Item: 3 weapon_rocketlauncher
+1341397116|Item: 4 item_armor_shard
+1341397117|Item: 5 weapon_railgun
+1341397117|Item: 4 weapon_plasmagun
+1341397118|Award: 5 2: Tamas gained the IMPRESSIVE award!
+1341397118|Challenge: 5 301 1: Client 5 got award 301
+1341397118|Item: 4 team_CTF_redflag
+1341397118|broadcast: print "Thz^7 got the RED flag!\n"
+1341397118|CTF: 4 1 0: Thz got the RED flag!
+1341397118|PlayerScore: 4 2: Thz now has 2 points
+1341397118|Item: 3 item_health
+1341397118|Kill: 3 3 7: Enrique killed Enrique by MOD_ROCKET_SPLASH
+1341397118|Item: 4 item_health
+1341397122|Kill: 5 4 10: Tamas killed Thz by MOD_RAILGUN
+1341397122|PlayerScore: 5 5: Tamas now has 5 points
+1341397122|Challenge: 5 208 1: Client 5 got award 208
+1341397122|Challenge: 5 1 1: Client 5 got award 1
+1341397122|Challenge: 4 2 1: Client 4 got award 2
+1341397122|PlayerScore: 5 7: Tamas now has 7 points
+1341397122|broadcast: print "Tamas^7 fragged BLUE's flag carrier!\n"
+1341397122|CTF: 5 2 3: Tamas fragged BLUE's flag carrier!
+1341397122|Item: 3 ammo_bullets
+1341397122|Item: 6 weapon_shotgun
+1341397124|Kill: 2 6 8: TT killed Anatoly by MOD_PLASMA
+1341397124|PlayerScore: 2 4: TT now has 4 points
+1341397124|Challenge: 2 207 1: Client 2 got award 207
+1341397124|Challenge: 2 1 1: Client 2 got award 1
+1341397124|Challenge: 6 2 1: Client 6 got award 2
+1341397125|Item: 2 team_CTF_blueflag
+1341397125|broadcast: print "TT^7 got the BLUE flag!\n"
+1341397125|CTF: 2 2 0: TT got the BLUE flag!
+1341397125|PlayerScore: 2 4: TT now has 4 points
+1341397125|Item: 5 team_CTF_redflag
+1341397125|broadcast: print "Tamas^7 returned the RED flag!\n"
+1341397125|PlayerScore: 5 8: Tamas now has 8 points
+1341397125|CTF: 5 1 2: Tamas returned the RED flag!
+1341397125|Item: 2 weapon_shotgun
+1341397125|Item: 5 weapon_nailgun
+1341397126|Item: 4 weapon_rocketlauncher
+1341397127|Kill: 6 2 3: Anatoly killed TT by MOD_MACHINEGUN
+1341397127|PlayerScore: 6 4: Anatoly now has 4 points
+1341397127|Challenge: 6 202 1: Client 6 got award 202
+1341397127|Challenge: 6 1 1: Client 6 got award 1
+1341397127|Challenge: 2 2 1: Client 2 got award 2
+1341397127|PlayerScore: 6 6: Anatoly now has 6 points
+1341397127|broadcast: print "Anatoly^7 fragged RED's flag carrier!\n"
+1341397127|CTF: 6 1 3: Anatoly fragged RED's flag carrier!
+1341397128|Item: 3 team_CTF_blueflag
+1341397128|broadcast: print "Enrique^7 returned the BLUE flag!\n"
+1341397128|PlayerScore: 3 6: Enrique now has 6 points
+1341397128|CTF: 3 2 2: Enrique returned the BLUE flag!
+1341397129|Item: 3 weapon_shotgun
+1341397129|Item: 3 weapon_shotgun
+1341397131|Item: 2 weapon_rocketlauncher
+1341397133|Kill: 5 4 23: Tamas killed Thz by MOD_NAIL
+1341397133|PlayerScore: 5 9: Tamas now has 9 points
+1341397133|Challenge: 5 212 1: Client 5 got award 212
+1341397133|Challenge: 5 1 1: Client 5 got award 1
+1341397133|Challenge: 4 2 1: Client 4 got award 2
+1341397133|Item: 2 ammo_nails
+1341397134|Item: 2 item_armor_shard
+1341397134|Item: 2 item_armor_shard
+1341397134|Item: 5 weapon_rocketlauncher
+1341397134|Kill: 3 5 1: Enrique killed Tamas by MOD_SHOTGUN
+1341397134|PlayerScore: 3 7: Enrique now has 7 points
+1341397134|Challenge: 3 203 1: Client 3 got award 203
+1341397134|Challenge: 3 1 1: Client 3 got award 1
+1341397134|Challenge: 5 2 1: Client 5 got award 2
+1341397134|PlayerScore: 3 8: Enrique now has 8 points
+1341397134|Challenge: 3 305 1: Client 3 got award 305
+1341397134|Award: 3 3: Enrique gained the DEFENCE award!
+1341397135|Item: 2 item_armor_shard
+1341397135|Item: 2 item_armor_shard
+1341397135|Item: 6 weapon_rocketlauncher
+1341397136|Item: 2 weapon_plasmagun
+1341397136|Item: 3 weapon_rocketlauncher
+1341397137|Item: 4 item_armor_combat
+1341397138|Item: 4 weapon_nailgun
+1341397138|Item: 5 weapon_rocketlauncher
+1341397139|Item: 6 weapon_railgun
+1341397139|Item: 3 item_armor_shard
+1341397140|Item: 3 item_armor_shard
+1341397141|Item: 3 item_armor_shard
+1341397141|Item: 3 weapon_plasmagun
+1341397144|Item: 6 ammo_bullets
+1341397147|Item: 4 weapon_plasmagun
+1341397148|Item: 3 item_health_mega
+1341397150|Item: 4 ammo_nails
+1341397151|Item: 6 item_health
+1341397152|Item: 4 item_health_small
+1341397152|Kill: 2 6 6: TT killed Anatoly by MOD_ROCKET
+1341397152|PlayerScore: 2 5: TT now has 5 points
+1341397152|Challenge: 2 205 1: Client 2 got award 205
+1341397152|Challenge: 2 1 1: Client 2 got award 1
+1341397152|Challenge: 6 2 1: Client 6 got award 2
+1341397152|PlayerScore: 2 6: TT now has 6 points
+1341397152|Challenge: 2 305 1: Client 2 got award 305
+1341397152|Award: 2 3: TT gained the DEFENCE award!
+1341397152|Item: 4 item_health_small
+1341397152|Item: 4 item_health_small
+1341397153|Item: 4 item_health_small
+1341397153|Kill: 5 2 6: Tamas killed TT by MOD_ROCKET
+1341397153|Item: 4 item_health_small
+1341397153|Item: 5 weapon_rocketlauncher
+1341397154|Item: 4 item_health_small
+1341397154|Item: 4 item_health_small
+1341397155|Item: 3 weapon_shotgun
+1341397155|Kill: 3 5 7: Enrique killed Tamas by MOD_ROCKET_SPLASH
+1341397155|PlayerScore: 3 9: Enrique now has 9 points
+1341397155|Challenge: 3 205 1: Client 3 got award 205
+1341397155|Challenge: 3 1 1: Client 3 got award 1
+1341397155|Challenge: 5 2 1: Client 5 got award 2
+1341397156|Item: 6 weapon_railgun
+1341397157|Item: 3 team_CTF_redflag
+1341397157|broadcast: print "Enrique^7 got the RED flag!\n"
+1341397157|CTF: 3 1 0: Enrique got the RED flag!
+1341397157|PlayerScore: 3 9: Enrique now has 9 points
+1341397157|Item: 2 weapon_railgun
+1341397158|Item: 6 weapon_rocketlauncher
+1341397159|Item: 3 weapon_rocketlauncher
+1341397160|Item: 2 weapon_rocketlauncher
+1341397161|Item: 4 item_health_small
+1341397161|Item: 6 item_armor_shard
+1341397162|Item: 5 weapon_railgun
+1341397162|Item: 4 item_armor_shard
+1341397162|Item: 4 item_armor_shard
+1341397163|Item: 4 item_armor_shard
+1341397163|Item: 6 weapon_rocketlauncher
+1341397165|Item: 2 team_CTF_blueflag
+1341397165|broadcast: print "TT^7 got the BLUE flag!\n"
+1341397165|CTF: 2 2 0: TT got the BLUE flag!
+1341397165|PlayerScore: 2 6: TT now has 6 points
+1341397166|Item: 5 item_armor_combat
+1341397167|Item: 4 item_health_small
+1341397167|Item: 5 weapon_nailgun
+1341397168|Item: 2 item_armor_shard
+1341397168|Item: 2 item_armor_shard
+1341397170|Item: 3 item_armor_shard
+1341397172|Kill: 3 2 7: Enrique killed TT by MOD_ROCKET_SPLASH
+1341397172|PlayerScore: 3 10: Enrique now has 10 points
+1341397172|Challenge: 3 205 1: Client 3 got award 205
+1341397172|Challenge: 3 1 1: Client 3 got award 1
+1341397172|Challenge: 2 2 1: Client 2 got award 2
+1341397172|PlayerScore: 3 12: Enrique now has 12 points
+1341397172|broadcast: print "Enrique^7 fragged RED's flag carrier!\n"
+1341397172|CTF: 3 1 3: Enrique fragged RED's flag carrier!
+1341397173|Item: 3 weapon_rocketlauncher
+1341397173|Item: 3 team_CTF_blueflag
+1341397173|broadcast: print "Enrique^7 returned the BLUE flag!\n"
+1341397173|PlayerScore: 3 13: Enrique now has 13 points
+1341397173|CTF: 3 2 2: Enrique returned the BLUE flag!
+1341397174|Item: 6 weapon_plasmagun
+1341397175|Item: 4 item_armor_shard
+1341397176|Item: 2 weapon_plasmagun
+1341397178|Kill: 5 3 23: Tamas killed Enrique by MOD_NAIL
+1341397178|PlayerScore: 5 10: Tamas now has 10 points
+1341397178|Challenge: 5 212 1: Client 5 got award 212
+1341397178|Challenge: 5 1 1: Client 5 got award 1
+1341397178|Challenge: 3 2 1: Client 3 got award 2
+1341397178|PlayerScore: 5 12: Tamas now has 12 points
+1341397178|broadcast: print "Tamas^7 fragged BLUE's flag carrier!\n"
+1341397178|CTF: 5 2 3: Tamas fragged BLUE's flag carrier!
+1341397178|Item: 5 team_CTF_redflag
+1341397178|broadcast: print "Tamas^7 returned the RED flag!\n"
+1341397178|PlayerScore: 5 13: Tamas now has 13 points
+1341397178|CTF: 5 1 2: Tamas returned the RED flag!
+1341397178|Item: 5 weapon_rocketlauncher
+1341397179|Item: 5 weapon_plasmagun
+1341397181|Kill: 6 5 8: Anatoly killed Tamas by MOD_PLASMA
+1341397181|PlayerScore: 6 7: Anatoly now has 7 points
+1341397181|Challenge: 6 207 1: Client 6 got award 207
+1341397181|Challenge: 6 1 1: Client 6 got award 1
+1341397181|Challenge: 5 2 1: Client 5 got award 2
+1341397181|PlayerScore: 6 8: Anatoly now has 8 points
+1341397181|Challenge: 6 305 1: Client 6 got award 305
+1341397181|Award: 6 3: Anatoly gained the DEFENCE award!
+1341397182|Item: 3 weapon_railgun
+1341397182|Item: 4 weapon_plasmagun
+1341397185|Item: 3 weapon_rocketlauncher
+1341397186|Kill: 2 6 8: TT killed Anatoly by MOD_PLASMA
+1341397186|PlayerScore: 2 7: TT now has 7 points
+1341397186|Challenge: 2 207 1: Client 2 got award 207
+1341397186|Challenge: 2 1 1: Client 2 got award 1
+1341397186|Challenge: 6 2 1: Client 6 got award 2
+1341397187|Kill: 3 5 10: Enrique killed Tamas by MOD_RAILGUN
+1341397187|PlayerScore: 3 14: Enrique now has 14 points
+1341397187|Challenge: 3 208 1: Client 3 got award 208
+1341397187|Challenge: 3 1 1: Client 3 got award 1
+1341397187|Challenge: 5 2 1: Client 5 got award 2
+1341397187|Award: 3 2: Enrique gained the IMPRESSIVE award!
+1341397187|Challenge: 3 301 1: Client 3 got award 301
+1341397188|Item: 2 weapon_railgun
+1341397188|Item: 3 item_health_small
+1341397188|Item: 3 item_health_small
+1341397189|Item: 4 weapon_rocketlauncher
+1341397189|Item: 3 item_health_small
+1341397189|Item: 3 item_health_small
+1341397190|Item: 3 item_health_small
+1341397190|Item: 6 item_armor_combat
+1341397191|Item: 6 weapon_nailgun
+1341397191|Item: 2 team_CTF_blueflag
+1341397191|broadcast: print "TT^7 got the BLUE flag!\n"
+1341397191|CTF: 2 2 0: TT got the BLUE flag!
+1341397191|PlayerScore: 2 7: TT now has 7 points
+1341397191|Item: 4 item_health_small
+1341397192|Item: 5 weapon_shotgun
+1341397192|Item: 3 item_armor_shard
+1341397192|Item: 3 item_armor_shard
+1341397193|Item: 3 item_armor_shard
+1341397193|Item: 3 weapon_plasmagun
+1341397193|Item: 2 weapon_plasmagun
+1341397194|Item: 3 item_health
+1341397197|Kill: 2 4 8: TT killed Thz by MOD_PLASMA
+1341397197|PlayerScore: 2 8: TT now has 8 points
+1341397197|Challenge: 2 207 1: Client 2 got award 207
+1341397197|Challenge: 2 1 1: Client 2 got award 1
+1341397197|Challenge: 4 2 1: Client 4 got award 2
+1341397197|PlayerScore: 2 10: TT now has 10 points
+1341397197|Challenge: 2 305 1: Client 2 got award 305
+1341397197|Award: 2 3: TT gained the DEFENCE award!
+1341397197|Item: 2 weapon_rocketlauncher
+1341397198|Item: 3 team_CTF_redflag
+1341397198|broadcast: print "Enrique^7 got the RED flag!\n"
+1341397198|CTF: 3 1 0: Enrique got the RED flag!
+1341397198|PlayerScore: 3 14: Enrique now has 14 points
+1341397199|Item: 2 item_health_small
+1341397200|Kill: 5 3 1: Tamas killed Enrique by MOD_SHOTGUN
+1341397200|PlayerScore: 5 14: Tamas now has 14 points
+1341397200|Challenge: 5 203 1: Client 5 got award 203
+1341397200|Challenge: 5 1 1: Client 5 got award 1
+1341397200|Challenge: 3 2 1: Client 3 got award 2
+1341397200|PlayerScore: 5 16: Tamas now has 16 points
+1341397200|broadcast: print "Tamas^7 fragged BLUE's flag carrier!\n"
+1341397200|CTF: 5 2 3: Tamas fragged BLUE's flag carrier!
+1341397202|Item: 6 item_health_small
+1341397202|Item: 4 weapon_nailgun
+1341397202|Item: 6 item_health_small
+1341397202|Item: 6 item_health_small
+1341397203|Item: 6 item_health_small
+1341397203|Item: 5 team_CTF_redflag
+1341397203|broadcast: print "Tamas^7 returned the RED flag!\n"
+1341397203|PlayerScore: 5 17: Tamas now has 17 points
+1341397203|CTF: 5 1 2: Tamas returned the RED flag!
+1341397203|Item: 6 item_health_small
+1341397203|Item: 5 weapon_rocketlauncher
+1341397207|Item: 6 item_armor_shard
+1341397207|Item: 4 item_health_mega
+1341397207|Item: 2 ammo_nails
+1341397207|Item: 6 item_armor_shard
+1341397207|Item: 2 item_armor_shard
+1341397207|Item: 6 item_armor_shard
+1341397208|Item: 6 item_armor_shard
+1341397210|Item: 4 item_armor_combat
+1341397210|Item: 2 team_CTF_redflag
+1341397210|broadcast: print "TT^7 captured the BLUE flag!\n"
+1341397210|CTF: 2 2 1: TT captured the BLUE flag!
+1341397210|Award: 2 4: TT gained the CAPTURE award!
+1341397210|Challenge: 2 303 1: Client 2 got award 303
+1341397210|PlayerScore: 2 15: TT now has 15 points
+1341397210|PlayerScore: 5 17: Tamas now has 17 points
+1341397210|PlayerScore: 5 18: Tamas now has 18 points
+1341397210|Challenge: 5 304 1: Client 5 got award 304
+1341397210|Award: 5 5: Tamas gained the ASSIST award!
+1341397211|Kill: 4 5 23: Thz killed Tamas by MOD_NAIL
+1341397211|PlayerScore: 4 3: Thz now has 3 points
+1341397211|Challenge: 4 212 1: Client 4 got award 212
+1341397211|Challenge: 4 1 1: Client 4 got award 1
+1341397211|Challenge: 5 2 1: Client 5 got award 2
+1341397211|Item: 3 weapon_rocketlauncher
+1341397212|Item: 2 item_health
+1341397215|Item: 2 weapon_shotgun
+1341397216|Item: 3 weapon_plasmagun
+1341397218|Kill: 2 4 7: TT killed Thz by MOD_ROCKET_SPLASH
+1341397218|PlayerScore: 2 16: TT now has 16 points
+1341397218|Challenge: 2 205 1: Client 2 got award 205
+1341397218|Challenge: 2 1 1: Client 2 got award 1
+1341397218|Challenge: 4 2 1: Client 4 got award 2
+1341397218|PlayerScore: 2 17: TT now has 17 points
+1341397218|Challenge: 2 305 1: Client 2 got award 305
+1341397218|Award: 2 3: TT gained the DEFENCE award!
+1341397219|Item: 5 weapon_nailgun
+1341397220|Kill: 6 2 23: Anatoly killed TT by MOD_NAIL
+1341397220|PlayerScore: 6 9: Anatoly now has 9 points
+1341397220|Challenge: 6 212 1: Client 6 got award 212
+1341397220|Challenge: 6 1 1: Client 6 got award 1
+1341397220|Challenge: 2 2 1: Client 2 got award 2
+1341397221|Item: 6 weapon_shotgun
+1341397221|Item: 6 weapon_rocketlauncher
+1341397222|Kill: 5 6 23: Tamas killed Anatoly by MOD_NAIL
+1341397222|PlayerScore: 5 19: Tamas now has 19 points
+1341397222|Challenge: 5 212 1: Client 5 got award 212
+1341397222|Challenge: 5 1 1: Client 5 got award 1
+1341397222|Challenge: 6 2 1: Client 6 got award 2
+1341397222|PlayerScore: 5 20: Tamas now has 20 points
+1341397222|Challenge: 5 305 1: Client 5 got award 305
+1341397222|Award: 5 3: Tamas gained the DEFENCE award!
+1341397222|Item: 4 weapon_railgun
+1341397224|Item: 2 weapon_rocketlauncher
+1341397227|Item: 2 weapon_plasmagun
+1341397228|Item: 6 weapon_shotgun
+1341397228|Item: 3 item_armor_combat
+1341397229|Item: 3 weapon_nailgun
+1341397229|Item: 2 item_armor_shard
+1341397230|Kill: 5 2 23: Tamas killed TT by MOD_NAIL
+1341397231|Item: 5 weapon_rocketlauncher
+1341397231|Item: 4 item_health_small
+1341397231|Item: 5 item_armor_shard
+1341397234|Item: 2 weapon_nailgun
+1341397234|Item: 5 item_armor_shard
+1341397235|Item: 5 item_armor_shard
+1341397236|Kill: 4 5 10: Thz killed Tamas by MOD_RAILGUN
+1341397236|PlayerScore: 4 4: Thz now has 4 points
+1341397236|Challenge: 4 208 1: Client 4 got award 208
+1341397236|Challenge: 4 1 1: Client 4 got award 1
+1341397236|Challenge: 5 2 1: Client 5 got award 2
+1341397236|Item: 6 weapon_rocketlauncher
+1341397236|Item: 4 weapon_rocketlauncher
+1341397236|Kill: 2 6 23: TT killed Anatoly by MOD_NAIL
+1341397236|PlayerScore: 2 18: TT now has 18 points
+1341397236|Challenge: 2 212 1: Client 2 got award 212
+1341397236|Challenge: 2 1 1: Client 2 got award 1
+1341397236|Challenge: 6 2 1: Client 6 got award 2
+1341397237|Item: 3 weapon_plasmagun
+1341397237|Item: 3 item_armor_shard
+1341397238|Item: 3 item_armor_shard
+1341397238|Item: 2 weapon_rocketlauncher
+1341397238|Item: 4 item_health
+1341397238|Item: 3 item_armor_shard
+1341397238|Item: 3 item_armor_shard
+1341397239|Item: 4 team_CTF_redflag
+1341397239|broadcast: print "Thz^7 got the RED flag!\n"
+1341397239|CTF: 4 1 0: Thz got the RED flag!
+1341397239|PlayerScore: 4 4: Thz now has 4 points
+1341397241|Item: 6 weapon_shotgun
+1341397245|Item: 2 weapon_nailgun
+1341397245|Kill: 4 5 7: Thz killed Tamas by MOD_ROCKET_SPLASH
+1341397245|PlayerScore: 4 5: Thz now has 5 points
+1341397245|Challenge: 4 205 1: Client 4 got award 205
+1341397245|Challenge: 4 1 1: Client 4 got award 1
+1341397245|Challenge: 5 2 1: Client 5 got award 2
+1341397245|PlayerScore: 4 7: Thz now has 7 points
+1341397245|Challenge: 4 305 1: Client 4 got award 305
+1341397245|Award: 4 3: Thz gained the DEFENCE award!
+1341397246|Item: 2 item_health_large
+1341397247|Item: 3 item_health_mega
+1341397250|Item: 5 weapon_shotgun
+1341397250|Item: 4 weapon_rocketlauncher
+1341397250|Kill: 3 2 6: Enrique killed TT by MOD_ROCKET
+1341397250|PlayerScore: 3 15: Enrique now has 15 points
+1341397250|Challenge: 3 205 1: Client 3 got award 205
+1341397250|Challenge: 3 1 1: Client 3 got award 1
+1341397250|Challenge: 2 2 1: Client 2 got award 2
+1341397251|Item: 3 weapon_nailgun
+1341397251|Item: 6 ammo_bullets
+1341397253|Item: 4 ammo_nails
+1341397255|Item: 6 item_armor_combat
+1341397256|Item: 4 team_CTF_blueflag
+1341397256|broadcast: print "Thz^7 captured the RED flag!\n"
+1341397256|CTF: 4 1 1: Thz captured the RED flag!
+1341397256|Award: 4 4: Thz gained the CAPTURE award!
+1341397256|Challenge: 4 303 1: Client 4 got award 303
+1341397256|PlayerScore: 4 12: Thz now has 12 points
+1341397256|PlayerScore: 3 15: Enrique now has 15 points
+1341397256|PlayerScore: 6 9: Anatoly now has 9 points
+1341397256|Item: 5 weapon_railgun
+1341397258|Item: 6 weapon_railgun
+1341397258|Item: 3 weapon_plasmagun
+1341397259|Item: 2 weapon_nailgun
+1341397259|Kill: 5 4 10: Tamas killed Thz by MOD_RAILGUN
+1341397259|PlayerScore: 5 21: Tamas now has 21 points
+1341397259|Challenge: 5 208 1: Client 5 got award 208
+1341397259|Challenge: 5 1 1: Client 5 got award 1
+1341397259|Challenge: 4 2 1: Client 4 got award 2
+1341397260|Item: 2 item_armor_combat
+1341397264|Award: 5 2: Tamas gained the IMPRESSIVE award!
+1341397264|Challenge: 5 301 1: Client 5 got award 301
+1341397265|Item: 4 weapon_railgun
+1341397268|Item: 4 weapon_rocketlauncher
+1341397269|Item: 5 item_health_large
+1341397269|Item: 2 team_CTF_blueflag
+1341397269|broadcast: print "TT^7 got the BLUE flag!\n"
+1341397269|CTF: 2 2 0: TT got the BLUE flag!
+1341397269|PlayerScore: 2 18: TT now has 18 points
+1341397270|Item: 5 weapon_nailgun
+1341397270|Item: 4 ammo_nails
+1341397271|Item: 4 item_armor_shard
+1341397271|Item: 4 item_armor_shard
+1341397272|Item: 4 item_armor_shard
+1341397272|Item: 4 item_armor_shard
+1341397274|Item: 4 team_CTF_redflag
+1341397274|broadcast: print "Thz^7 got the RED flag!\n"
+1341397274|CTF: 4 1 0: Thz got the RED flag!
+1341397274|PlayerScore: 4 12: Thz now has 12 points
+1341397275|Kill: 5 3 23: Tamas killed Enrique by MOD_NAIL
+1341397275|PlayerScore: 5 22: Tamas now has 22 points
+1341397275|Challenge: 5 212 1: Client 5 got award 212
+1341397275|Challenge: 5 1 1: Client 5 got award 1
+1341397275|Challenge: 3 2 1: Client 3 got award 2
+1341397275|PlayerScore: 5 23: Tamas now has 23 points
+1341397275|Challenge: 5 305 1: Client 5 got award 305
+1341397275|Award: 5 3: Tamas gained the DEFENCE award!
+1341397279|Item: 3 weapon_rocketlauncher
+1341397279|Item: 5 weapon_railgun
+1341397281|Item: 3 item_health_small
+1341397284|Item: 2 weapon_railgun
+1341397284|Item: 4 item_health_mega
+1341397286|Item: 5 weapon_nailgun
+1341397287|Item: 2 item_health
+1341397287|Item: 3 item_health_small
+1341397287|Item: 2 item_health
+1341397289|Kill: 3 2 6: Enrique killed TT by MOD_ROCKET
+1341397289|PlayerScore: 3 16: Enrique now has 16 points
+1341397289|Challenge: 3 205 1: Client 3 got award 205
+1341397289|Challenge: 3 1 1: Client 3 got award 1
+1341397289|Challenge: 2 2 1: Client 2 got award 2
+1341397289|PlayerScore: 3 18: Enrique now has 18 points
+1341397289|broadcast: print "Enrique^7 fragged RED's flag carrier!\n"
+1341397289|CTF: 3 1 3: Enrique fragged RED's flag carrier!
+1341397290|Item: 6 weapon_rocketlauncher
+1341397290|Item: 3 weapon_nailgun
+1341397290|
