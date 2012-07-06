@@ -13,7 +13,7 @@ Make sure the following directory exists and is writeable for the user under whi
 Start your Linux server using the following command:  
 `nohup openarena-server +set dedicated 1 +set net_port [SERVER_PORT] +set net_ip [SERVER_IP] +exec [CONFIG_FILE] | awk '{printf("%s|%s\n", systime(), $0) >> ("/var/log/openarena/openarena_" strftime("%Y-%m-%d") ".log")}'`  
   
-and/or your Mac OS server using the following command:  
+and/or your Mac OS server using the following command (provided you've installed the `coreutils` package using MacPorts):  
 `nohup openarena-server +set dedicated 1 +set net_port [SERVER_PORT] +set net_ip [SERVER_IP] +exec [CONFIG_FILE] | gawk '{printf("%s|%s\n", systime(), $0) >> ("/var/log/openarena/openarena_" strftime("%Y-%m-%d") ".log")}'`  
   
 This enables logfiles to be written per date and all lines to be prepended with a timestamp. Be sure to replace the values contained within `[` and `]` with their correct values.  
