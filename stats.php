@@ -103,6 +103,8 @@ foreach($statistics as $nickname => &$stats) {
     arsort($stats['challenges']);
 
     arsort($stats['items']);
+
+    $stats['ratio'] = number_format($stats['kills'] / $stats['deaths'], 2);
 }
 
 echo '<pre>'. print_r($statistics, 1) .'</pre>';

@@ -7,7 +7,14 @@ function setIdForNickname($id, $nickname, $statistics, $config) {
         }
 
         $statistics[$config['players'][$nickname]]['id'] = $id;
-        $statistics[$config['players'][$nickname]]['nickname'] = $nickname;
+
+        if (!isset($statistics[$config['players'][$nickname]]['nicknames'])) {
+            $statistics[$config['players'][$nickname]]['nicknames'] = array();
+        }
+
+        if (!in_array($nickname, $statistics[$config['players'][$nickname]]['nicknames'])) {
+            $statistics[$config['players'][$nickname]]['nicknames'][] = $nickname;
+        }
     }
     else {
         if (!isset($statistics[$nickname])) {
