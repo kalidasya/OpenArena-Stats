@@ -1,6 +1,6 @@
 <?php
 
-function setIdForNickname($id, $nickname, $statistics, $config) {
+function setIdForNickname($id, $nickname, $statistics, $config, $date) {
     if (isset($config['players'][$nickname])) {
         if (!isset($statistics[$config['players'][$nickname]])) {
             $statistics[$config['players'][$nickname]] = array();
@@ -24,41 +24,45 @@ function setIdForNickname($id, $nickname, $statistics, $config) {
         $statistics[$nickname]['id'] = $id;
     }
 
+    if (!isset($statistics[$config['players'][$nickname]][$date])) {
+        $statistics[$config['players'][$nickname]][$date] = array();
+    }
+
     return $statistics;
 }
 
-function addItem($playerId, $item, $statistics, $config) {
+function addItem($playerId, $item, $statistics, $config, $date) {
     foreach($statistics as $nickname => &$stats) {
         if($stats['id'] == $playerId) {
-            if(!isset($stats['items'])) {
-                $stats['items'] = array();
+            if(!isset($stats[$date]['items'])) {
+                $stats[$date]['items'] = array();
             }
 
-            if (!isset($stats['items'][$config['items'][$item]])) {
-                $stats['items'][$config['items'][$item]] = 0;
+            if (!isset($stats[$date]['items'][$config['items'][$item]])) {
+                $stats[$date]['items'][$config['items'][$item]] = 0;
             }
 
-            $stats['items'][$config['items'][$item]]++;
+            $stats[$date]['items'][$config['items'][$item]]++;
         }
     }
 
     return $statistics;
 }
 
-function addFrag($killerId, $victimId, $weaponId, $statistics, $config) {
+function addFrag($killerId, $victimId, $weaponId, $statistics, $config, $date) {
     foreach($statistics as $nickname => &$stats) {
         if ($killerId != 1022 && $stats['id'] == $killerId) {
             $killerName = $nickname;
 
-            if (!isset($stats['weapons'])) {
-                $stats['weapons'] = array();
+            if (!isset($stats[$date]['weapons'])) {
+                $stats[$date]['weapons'] = array();
             }
 
-            if (!isset($stats['weapons'][$config['weapons'][$weaponId]])) {
-                $stats['weapons'][$config['weapons'][$weaponId]] = 0;
+            if (!isset($stats[$date]['weapons'][$config['weapons'][$weaponId]])) {
+                $stats[$date]['weapons'][$config['weapons'][$weaponId]] = 0;
             }
 
-            $stats['weapons'][$config['weapons'][$weaponId]]++;
+            $stats[$date]['weapons'][$config['weapons'][$weaponId]]++;
         }
 
         if ($stats['id'] == $victimId) {
@@ -67,90 +71,90 @@ function addFrag($killerId, $victimId, $weaponId, $statistics, $config) {
     }
 
     if($killerId != 1022) {
-        if (!isset($statistics[$killerName]['victims'][$victimName])) {
-            $statistics[$killerName]['victims'][$victimName] = 0;
+        if (!isset($statistics[$killerName][$date]['victims'][$victimName])) {
+            $statistics[$killerName][$date]['victims'][$victimName] = 0;
         }
 
-        if (!isset($statistics[$victimName]['enemies'][$killerName])) {
-            $statistics[$victimName]['enemies'][$killerName] = 0;
+        if (!isset($statistics[$victimName][$date]['enemies'][$killerName])) {
+            $statistics[$victimName][$date]['enemies'][$killerName] = 0;
         }
 
-        if (!isset($statistics[$killerName]['kills'])) {
-            $statistics[$killerName]['kills'] = 0;
+        if (!isset($statistics[$killerName][$date]['kills'])) {
+            $statistics[$killerName][$date]['kills'] = 0;
         }
 
-        if (!isset($statistics[$victimName]['deaths'])) {
-            $statistics[$victimName]['deaths'] = 0;
+        if (!isset($statistics[$victimName][$date]['deaths'])) {
+            $statistics[$victimName][$date]['deaths'] = 0;
         }
 
-        $statistics[$killerName]['victims'][$victimName]++;
-        $statistics[$killerName]['kills']++;
-        $statistics[$victimName]['enemies'][$killerName]++;
-        $statistics[$victimName]['deaths']++;
+        $statistics[$killerName][$date]['victims'][$victimName]++;
+        $statistics[$killerName][$date]['kills']++;
+        $statistics[$victimName][$date]['enemies'][$killerName]++;
+        $statistics[$victimName][$date]['deaths']++;
     } else {
-        if (!isset($statistics[$victimName]['suicides'])) {
-            $statistics[$victimName]['suicides'] = 0;
+        if (!isset($statistics[$victimName][$date]['suicides'])) {
+            $statistics[$victimName][$date]['suicides'] = 0;
         }
 
-        $statistics[$victimName]['suicides']++;
+        $statistics[$victimName][$date]['suicides']++;
     }
 
     return $statistics;
 }
 
-function addAward($playerId, $awardId, $statistics, $config) {
+function addAward($playerId, $awardId, $statistics, $config, $date) {
     foreach($statistics as $nickname => &$stats) {
         if($stats['id'] == $playerId) {
-            if(!isset($stats['awards'])) {
-                $stats['awards'] = array();
+            if(!isset($stats[$date]['awards'])) {
+                $stats[$date]['awards'] = array();
             }
 
-            if (!isset($stats['awards'][$config['awards'][$awardId]])) {
-                $stats['awards'][$config['awards'][$awardId]] = 0;
+            if (!isset($stats[$date]['awards'][$config['awards'][$awardId]])) {
+                $stats[$date]['awards'][$config['awards'][$awardId]] = 0;
             }
 
-            $stats['awards'][$config['awards'][$awardId]]++;
-        }
-    }
-
-    return $statistics;
-}
-
-function addChallenge($playerId, $challengeId, $statistics, $config) {
-    foreach($statistics as $nickname => &$stats) {
-        if($stats['id'] == $playerId) {
-            if(!isset($stats['challenges'])) {
-                $stats['challenges'] = array();
-            }
-
-            if (!isset($stats['challenges'][$config['challenges'][$challengeId]])) {
-                $stats['challenges'][$config['challenges'][$challengeId]] = 0;
-            }
-
-            $stats['challenges'][$config['challenges'][$challengeId]]++;
+            $stats[$date]['awards'][$config['awards'][$awardId]]++;
         }
     }
 
     return $statistics;
 }
 
-function addFlagEvent($playerId, $teamId, $eventId, $statistics, $config) {
+function addChallenge($playerId, $challengeId, $statistics, $config, $date) {
     foreach($statistics as $nickname => &$stats) {
         if($stats['id'] == $playerId) {
-            if(!isset($stats['flagevents'])) {
-                $stats['flagevents'] = array();
+            if(!isset($stats[$date]['challenges'])) {
+                $stats[$date]['challenges'] = array();
             }
 
-            if(!isset($stats['flagevents'][$config['ctfteams'][$teamId]])) {
-                $stats['flagevents'][$config['ctfteams'][$teamId]] = array();
+            if (!isset($stats[$date]['challenges'][$config['challenges'][$challengeId]])) {
+                $stats[$date]['challenges'][$config['challenges'][$challengeId]] = 0;
+            }
+
+            $stats[$date]['challenges'][$config['challenges'][$challengeId]]++;
+        }
+    }
+
+    return $statistics;
+}
+
+function addFlagEvent($playerId, $teamId, $eventId, $statistics, $config, $date) {
+    foreach($statistics as $nickname => &$stats) {
+        if($stats['id'] == $playerId) {
+            if(!isset($stats[$date]['flagevents'])) {
+                $stats[$date]['flagevents'] = array();
+            }
+
+            if(!isset($stats[$date]['flagevents'][$config['ctfteams'][$teamId]])) {
+                $stats[$date]['flagevents'][$config['ctfteams'][$teamId]] = array();
             }
 
 
-            if (!isset($stats['flagevents'][$config['ctfteams'][$teamId]][$config['ctf'][$eventId]])) {
-                $stats['flagevents'][$config['ctfteams'][$teamId]][$config['ctf'][$eventId]] = 0;
+            if (!isset($stats[$date]['flagevents'][$config['ctfteams'][$teamId]][$config['ctf'][$eventId]])) {
+                $stats[$date]['flagevents'][$config['ctfteams'][$teamId]][$config['ctf'][$eventId]] = 0;
             }
 
-            $stats['flagevents'][$config['ctfteams'][$teamId]][$config['ctf'][$eventId]]++;
+            $stats[$date]['flagevents'][$config['ctfteams'][$teamId]][$config['ctf'][$eventId]]++;
         }
     }
 

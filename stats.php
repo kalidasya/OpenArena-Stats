@@ -5,7 +5,8 @@ require_once('functions.php');
 
 $logfiles   = scandir($config['logdir']);
 $size       = 0;
-$statistics = array();
+$players    = array();
+$dates      = array();
 $starttime  = microtime(true);
 
 // Loop through all returned logfiles
@@ -13,6 +14,10 @@ foreach($logfiles as $log) {
 
     // Strip out the "." and ".." folders
     if (!in_array($log, array('.', '..'))) {
+
+        preg_match('/openarena\_([0-9-]+)\.log/', $log, $date);
+        $date = $date[1];
+        $dates[] = $date;
 
         // Open the current logfile
         $handle = fopen($config['logdir'] .'/'. $log, 'r');
@@ -33,31 +38,31 @@ foreach($logfiles as $log) {
                         list($id, $rest)        = explode(' ', trim($stats));
                         list($dump, $nickname)  = explode('\\', $rest);
 
-                        $statistics = setIdForNickname($id, $nickname, $statistics, $config);
+                        $players = setIdForNickname($id, $nickname, $players, $config, $date);
                     break;
                         
                     case 'item':
                         list($playerId, $item) = explode(' ', trim($stats));
 
-                        $statistics = addItem($playerId, $item, $statistics, $config);
+                        $players = addItem($playerId, $item, $players, $config, $date);
                     break;
 
                     case 'kill':
                         list($killerId, $victimId, $weaponId) = explode(' ', trim($stats));
 
-                        $statistics = addFrag($killerId, $victimId, $weaponId, $statistics, $config);
+                        $players = addFrag($killerId, $victimId, $weaponId, $players, $config, $date);
                     break;
 
                     case 'award':
                         list($playerId, $awardId)   = explode(' ', trim($stats));
 
-                        $statistics = addAward($playerId, $awardId, $statistics, $config);
+                        $players = addAward($playerId, $awardId, $players, $config, $date);
                     break;
 
                     case 'challenge':
                         list($playerId, $challengeId) = explode(' ', trim($stats));
 
-                        $statistics = addChallenge($playerId, $challengeId, $statistics, $config);
+                        $players = addChallenge($playerId, $challengeId, $players, $config, $date);
                     break;
 
                     case 'playerscore':
@@ -69,7 +74,7 @@ foreach($logfiles as $log) {
                     case 'ctf':
                         list($playerId, $teamId, $eventId) = explode(' ', trim($stats));
 
-                        $statistics = addFlagEvent($playerId, $teamId, $eventId, $statistics, $config);
+                        $players = addFlagEvent($playerId, $teamId, $eventId, $players, $config, $date);
                     break;
 
                     default:
@@ -87,29 +92,35 @@ foreach($logfiles as $log) {
 
 }
 
-foreach($statistics as $nickname => &$stats) {
-    arsort($stats['flagevents']);
-    arsort($stats['flagevents']['Red']);
-    arsort($stats['flagevents']['Blue']);
 
-    arsort($stats['awards']);
+foreach($players as $nickname => &$info) {
+    foreach($info as $key => &$stats) {
+        if (is_array($stats) && $key != 'nicknames') {
+            @arsort($stats['flagevents']);
+            @arsort($stats['flagevents']['Red']);
+            @arsort($stats['flagevents']['Blue']);
 
-    arsort($stats['enemies']);
+            @arsort($stats['awards']);
 
-    arsort($stats['victims']);
+            @arsort($stats['enemies']);
 
-    arsort($stats['weapons']);
-    
-    arsort($stats['challenges']);
+            @arsort($stats['victims']);
 
-    arsort($stats['items']);
+            @arsort($stats['weapons']);
+            
+            @arsort($stats['challenges']);
 
-    $stats['ratio'] = number_format($stats['kills'] / $stats['deaths'], 2);
+            @arsort($stats['items']);
+        }
+    }
 }
-
-echo '<pre>'. print_r($statistics, 1) .'</pre>';
 
 $endtime    = microtime(true);
 $totaltime  = $endtime - $starttime;
 
-echo 'Parsed '. count($logfiles) .' files ('. number_format(($size / 1048576), 2) .' MB) in '. number_format($totaltime, 2) .' seconds.';
+$statistics             = array();
+$statistics['players']  = $players;
+$statistics['dates']    = $dates;
+$statistics['parsed']   = 'Parsed '. (count($logfiles) - 2) .' files ('. number_format(($size / 1048576), 2) .' MB) in '. number_format($totaltime, 2) .' seconds.';
+
+//echo '<pre>' .print_r($statistics, true). '</pre>';
