@@ -130,7 +130,7 @@ foreach ($dateRange as $date) {
         }
     }
     if ($selectedPlayer == 'Overall') {
-        $dailyRatio = number_format(($dailyKills / $dailyDeaths), 2);
+        $dailyRatio = @number_format(($dailyKills / $dailyDeaths), 2);
         $performanceChartData  .= 'performancedata.addRow([new Date('. $year .', '. ($month - 1) .', '. $day .'), '. $dailyKills .', '. $dailyDeaths .', '. $dailySuicides .']);'. PHP_EOL;
         $ratioChartData  .= 'ratiodata.addRow([new Date('. $year .', '. ($month - 1) .', '. $day .'), '. $dailyRatio .']);'. PHP_EOL;
     }
@@ -272,7 +272,7 @@ arsort($weapons);
                                     </tr>
                                     <tr>
                                         <td>Ratio (average)</td>
-                                        <td><?php echo number_format(($totalKills / $totalDeaths), 2); ?></td>
+                                        <td><?php echo @number_format(($totalKills / $totalDeaths), 2); ?></td>
                                     </tr>
                                 </tbody>
                             </table>
