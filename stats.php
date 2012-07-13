@@ -6,6 +6,8 @@ require_once('functions.php');
 $logfiles   = scandir($config['logdir']);
 $size       = 0;
 $players    = array();
+$maps       = array();
+$currentmap = '';
 $dates      = array();
 $starttime  = microtime(true);
 
@@ -25,11 +27,12 @@ foreach($logfiles as $log) {
         // Walk through all lines in the logfile
         while(($line = fgets($handle, 4096)) !== false) {
 
+            // Split the line on timestamp and type
+            list($timestamp, $info, $coordinates) = explode('|', trim($line));
+
             // Filter lines
             if (strpos($line, ':')) {
 
-                // Split the line on timestamp and type
-                list($timestamp, $info) = explode('|', trim($line));
                 list($type, $stats)     = explode(':', trim($info));
 
                 // Loop through the different types
@@ -51,6 +54,8 @@ foreach($logfiles as $log) {
                         list($killerId, $victimId, $weaponId) = explode(' ', trim($stats));
 
                         $players = addFrag($killerId, $victimId, $weaponId, $players, $config, $date);
+
+                        $maps = addMapKill($currentmap, $coordinates, $line, $maps, $config, $date );
                     break;
 
                     case 'award':
@@ -81,6 +86,12 @@ foreach($logfiles as $log) {
                         break;
                 }
 
+            } else {
+                if ( substr($info, 0, 12) == 'loaded maps/' ) {
+                    list( $mapname, $ext) = explode( '.', substr($info, 12) );
+                    $maps = addMap( $mapname, $maps, $maps, $config, $date );
+                    $currentmap = $mapname;
+                }
             }
 
         }
@@ -91,7 +102,6 @@ foreach($logfiles as $log) {
     }
 
 }
-
 
 foreach($players as $nickname => &$info) {
     foreach($info as $key => &$stats) {

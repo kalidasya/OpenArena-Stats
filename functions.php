@@ -160,3 +160,34 @@ function addFlagEvent($playerId, $teamId, $eventId, $statistics, $config, $date)
 
     return $statistics;
 }
+
+function addMap($mapname, $maps, $config, $date) {
+    if ( !isset($maps[$mapname]) ) {
+        $maps[$mapname] = array( 'dates' => array(), 'victim_heatmap' => array(), 'killer_heatmap' => array() );
+    }
+/*
+    if ( !isset($maps[$mapname]['dates'][$date]) ) {
+        $maps[$mapname]['dates'][$date] = 1;
+    } else {
+        ++$maps[$mapname]['dates'][$date];
+    }
+ */
+    return $maps;
+}
+
+function addMapKill($mapname, $coordinates, $line, $maps, $config, $date) {
+    list($victim, $killer) = explode( ' ', $coordinates );
+    list($x,$y,$height) = explode(';', $victim );
+
+    if ( $x != '' && $y != '' ) {
+        $maps[$mapname]['victim_heatmap'][] = array( 'x' => $x, 'y' => $y);
+    }
+
+    list($kx,$ky,$kheight) = explode(';', $killer);
+
+    if ( $kx != '' && $ky != '' && $kx != 0 && $ky != 0 && $kheight != 0 ) {
+	$maps[$mapname]['killer_heatmap'][] = array( 'x' => $kx, 'y' => $ky);
+    } 
+    
+    return $maps;
+}
