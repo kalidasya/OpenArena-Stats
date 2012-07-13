@@ -11,6 +11,7 @@ server {
     rewrite ^/([a-zA-Z0-9-_\ ]+)/?$ /index.php?player=$1 last;
     rewrite ^/([a-zA-Z0-9-_\ ]+)/([0-9-]+)/?$ /index.php?player=$1&from=$2 last;
     rewrite ^/([a-zA-Z0-9-_\ ]+)/([0-9-]+)/([0-9-]+)/?$ /index.php?player=$1&from=$2&until=$3 last;
+    rewrite ^/map/([a-zA-Z0-9-_\ ]+)/?$ /index.php?map=$1 last;
 
     location / {
         try_files $uri $uri/ /index.php /index.html;
