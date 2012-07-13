@@ -23,6 +23,11 @@ function createDateRangeArray($strDateFrom, $strDateTo) {
 $selectedPlayer = (isset($_GET['player']) ? $_GET['player'] : 'Overall');
 $selectedFrom   = (isset($_GET['from']) ? $_GET['from'] : $statistics['dates'][0]);
 $selectedUntil  = (isset($_GET['until']) ? $_GET['until'] : $statistics['dates'][(count($statistics['dates']) - 1)]);
+$selectedMap	= (isset($_GET['map']) ? $_GET['map'] : '');
+
+if ($selectedMap) {
+	$selectedPlayer = '';
+}
 
 $dateRange      = createDateRangeArray($selectedFrom, $selectedUntil);
 
@@ -234,8 +239,21 @@ arsort($weapons);
                                 <?php endif; ?>
                             <?php endforeach; ?>
                         </ul>
+		    </div>
+                    <div class="well sidebar-nav">
+                        <ul class="nav nav-list">
+                            <li class="nav-header">Maps</li>
+                            <?php foreach($maps as $map => $map_data) : ?>
+                                <?php if ($map == $selectedMap) : ?>
+                                    <li class="active"><a href="/map/<?php echo $map; ?>"><?php echo $map; ?></a></li>
+                                <?php else : ?>
+                                    <li><a href="/map/<?php echo $map; ?>"><?php echo $map; ?></a></li>
+                                <?php endif; ?>
+                            <?php endforeach; ?>
+                        </ul>
                     </div>
                 </div>
+<?php if (!$selectedMap) : ?>
                 <div class="span9">
                     <div class="page-header">
                         <h1><?php echo $selectedPlayer; ?><small><?php echo (isset($statistics['players'][$selectedPlayer]['nicknames']) ? ' '.implode(', ', $statistics['players'][$selectedPlayer]['nicknames']) : ''); ?></small></h1>
@@ -428,6 +446,19 @@ arsort($weapons);
                         </div>
                     </div>
                 </div>
+<?php else: ?>
+                <div class="span9">
+                    <div class="page-header">
+                        <h1><?php echo $selectedMap; ?><small>Heatmaps</small></h1>
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span12" id="vheatmap"></div>
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span12" id="kheatmap"></div>
+                    </div>
+		</div>
+<?php endif; ?>
             </div>
 
         </div>
@@ -438,6 +469,7 @@ arsort($weapons);
             google.setOnLoadCallback(drawCharts);
 
             function drawCharts() {
+<?php if (!$selectedMap): ?>
                 var performancedata = new google.visualization.DataTable();
                 performancedata.addColumn('datetime', 'Date');
                 performancedata.addColumn('number', 'Kills');
@@ -467,6 +499,45 @@ arsort($weapons);
 
                 var ratiochart = new google.visualization.ScatterChart(document.getElementById('ratio_chart'));
                 ratiochart.draw(ratiodata, ratiooptions);
+<?php else: ?>
+                var vheatmapdata = google.visualization.arrayToDataTable([
+                    ['X','Y'],
+<?php
+	$data = array();
+	foreach( $maps[$selectedMap]['victim_heatmap'] as $points ) {
+		$data[] = '['.implode(',',$points).']';
+	}
+	echo implode(',',$data);
+?>
+                  ]);
+                var vheatmapoptions = {
+                    title: 'Victims',
+                    width: 600,
+                    height: 600,
+                    legend: 'none'
+                };
+                var vheatmapchart = new google.visualization.ScatterChart(document.getElementById('vheatmap'));
+                vheatmapchart.draw(vheatmapdata, vheatmapoptions);
+
+                var kheatmapdata = google.visualization.arrayToDataTable([
+                    ['X','Y'],
+<?php
+        $data = array();
+        foreach( $maps[$selectedMap]['killer_heatmap'] as $points ) {
+                $data[] = '['.implode(',',$points).']';
+        }
+        echo implode(',',$data);
+?>
+                  ]);
+                var kheatmapoptions = {
+                    title: 'Killers',
+                    width: 600,
+                    height: 600,
+                    legend: 'none'
+                };
+                var kheatmapchart = new google.visualization.ScatterChart(document.getElementById('kheatmap'));
+                kheatmapchart.draw(kheatmapdata, kheatmapoptions);
+<?php endif; ?>
             }
         </script>
 
