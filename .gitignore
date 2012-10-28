@@ -1,3 +1,3 @@
 .DS_Store
 games.log*
-logfiles/*
+logfiles/*.log
