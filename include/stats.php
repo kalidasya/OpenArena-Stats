@@ -5,7 +5,7 @@ date_default_timezone_set('Europe/Amsterdam');
 require_once('config.php');
 require_once('functions.php');
 
-$logfile            = fopen('games.log', 'r');
+$logfile            = fopen('games.log.org', 'r');
 $start_time          = microtime(true);
 
 $link   = mysqli_connect($config['db']['host'], $config['db']['user'], $config['db']['pass'], $config['db']['name']);
