@@ -5,7 +5,7 @@ date_default_timezone_set('Europe/Amsterdam');
 require_once('config.php');
 require_once('functions.php');
 
-$logfile            = fopen('games.log.org', 'r');
+$logfile            = fopen('games.log', 'r');
 $start_time          = microtime(true);
 
 $link   = mysqli_connect($config['db']['host'], $config['db']['user'], $config['db']['pass'], $config['db']['name']);
@@ -65,8 +65,8 @@ while(($line = fgets($logfile, 4096)) !== false) {
             break;
 
             case 'clientuserinfochanged':
-                $playerid = substr($match['rest'], 0, 1);
-                $info = explode_to_assoc(substr($match['rest'], 2), '\\');
+                $playerid = substr($match['rest'], 0, strpos($match['rest'], ' '));
+                $info = explode_to_assoc(substr($match['rest'], strpos($match['rest'], ' ')+1), '\\');
                 if (!array_key_exists($playerid, $round_players)) {
                     $result = mysqli_query($link, "SELECT id FROM players WHERE oa_guid = '". mysqli_real_escape_string($link, $info['id']) ."' LIMIT 1");
                     if($result->num_rows == 0) {
