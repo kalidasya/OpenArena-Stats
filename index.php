@@ -184,7 +184,7 @@ if (!isset($_GET['player']) || intval($_GET['player']) <= 0) {
                 </div>
                 <div class="span9">
                     <div class="page-header">
-                        <h1><?php echo $player['name']; ?><small><?php echo $player['nickname']; ?></small></h1>
+                        <h1><?php echo $player['name']; ?> <small><?php echo $player['nickname']; ?></small></h1>
                     </div>
 
                     <div class="row-fluid">
