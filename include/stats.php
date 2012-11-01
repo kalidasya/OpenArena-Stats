@@ -85,6 +85,9 @@ while(($line = fgets($logfile, 4096)) !== false) {
                     $round_players[$playerid]['localid'] = $local_player_id;
                     $round_players[$playerid]['participate'] = 0;
                 }
+                else {
+                    $round_players[$playerid]['t'] = $info['t'];
+                }
             break;
 
             case 'clientbegin':
@@ -109,14 +112,18 @@ while(($line = fgets($logfile, 4096)) !== false) {
                 preg_match('/^(?P<killerid>[0-9]+) (?P<victimid>[0-9]+) (?P<weaponid>[0-9]+)/i', trim($match['rest']), $kill);
                 if ($kill['killerid'] == 1022) {
                     $killer = 1022;
+                    $killer_team = '0';
                 } else {
                     $killer = $round_players[$kill['killerid']]['localid'];
+                    $killer_team = $round_players[$kill['killerid']]['t'];
                 }
                 $timeparts = explode(':', $match['time']);
                 $time_of_kill = date('Y-m-d H:i:s', strtotime($starttime .'+'. $timeparts[0] .'minutes +'. $timeparts[1] .'seconds'));
                 mysqli_query($link, "INSERT INTO games_kills SET game_id = '". mysqli_real_escape_string($link, $gameid) ."', 
                     killer_id = '". mysqli_real_escape_string($link, $killer) ."', 
+                    killer_team = '". mysqli_real_escape_string($link, $killer_team) ."', 
                     victim_id = '". mysqli_real_escape_string($link, $round_players[$kill['victimid']]['localid']) ."', 
+                    victim_team = '". mysqli_real_escape_string($link, $round_players[$kill['victimid']]['t']) ."', 
                     weapon_id = '". mysqli_real_escape_string($link, $kill['weaponid']) ."', 
                     time_of_kill = '". mysqli_real_escape_string($link, $time_of_kill) ."'");
             break;
@@ -182,4 +189,4 @@ if (!copy('games.log', 'logfiles/'. time() .'.log')) {
 $endtime    = microtime(true);
 $totaltime  = $endtime - $start_time;
 
-echo 'Parsed in ' .$totaltime. ' seconds';
+echo 'Parsed in ' .$totaltime. ' seconds'. PHP_EOL;

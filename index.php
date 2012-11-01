@@ -12,10 +12,14 @@ if (!isset($_GET['player']) || intval($_GET['player']) <= 0) {
     $player['nickname'] = '';
 
     // GENERAL
-    $general_kill_results = mysqli_query($link, "SELECT COUNT(*) AS kills FROM games_kills WHERE games_kills.killer_id != 1022 AND games_kills.killer_id != games_kills.victim_id");
+    $general_kill_results = mysqli_query($link, "SELECT COUNT(*) AS kills FROM games_kills WHERE games_kills.killer_id != 1022 AND games_kills.killer_id != games_kills.victim_id AND games_kills.killer_team != games_kills.victim_team");
     $general_kill_row = mysqli_fetch_assoc($general_kill_results);
-    $general_death_results = mysqli_query($link, "SELECT COUNT(*) AS deaths FROM games_kills WHERE games_kills.killer_id != 1022 AND games_kills.killer_id != games_kills.victim_id");
+    $general_teamkill_results = mysqli_query($link, "SELECT COUNT(*) AS kills FROM games_kills WHERE games_kills.killer_team = games_kills.victim_team");
+    $general_teamkill_row = mysqli_fetch_assoc($general_teamkill_results);
+    $general_death_results = mysqli_query($link, "SELECT COUNT(*) AS deaths FROM games_kills WHERE games_kills.killer_id != 1022 AND games_kills.killer_id != games_kills.victim_id AND games_kills.killer_team != games_kills.victim_team AND games_kills.killer_team != 0");
     $general_death_row = mysqli_fetch_assoc($general_death_results);
+    $general_teamdeath_results = mysqli_query($link, "SELECT COUNT(*) AS deaths FROM games_kills WHERE games_kills.killer_team = games_kills.victim_team");
+    $general_teamdeath_row = mysqli_fetch_assoc($general_teamdeath_results);
     $general_suicide_results = mysqli_query($link, "SELECT COUNT(*) AS suicides FROM games_kills WHERE games_kills.killer_id = 1022 OR games_kills.killer_id = games_kills.victim_id");
     $general_suicide_row = mysqli_fetch_assoc($general_suicide_results);
     if ($general_death_row['deaths'] > 0) {
@@ -59,8 +63,12 @@ if (!isset($_GET['player']) || intval($_GET['player']) <= 0) {
     // GENERAL
     $general_kill_results = mysqli_query($link, "SELECT COUNT(*) AS kills FROM games_kills WHERE games_kills.killer_id != 1022 AND games_kills.killer_id != games_kills.victim_id AND games_kills.killer_id = '". mysqli_real_escape_string($link, $_GET['player']) ."'");
     $general_kill_row = mysqli_fetch_assoc($general_kill_results);
+    $general_teamkill_results = mysqli_query($link, "SELECT COUNT(*) AS kills FROM games_kills WHERE games_kills.killer_team = games_kills.victim_team AND games_kills.killer_id = '". mysqli_real_escape_string($link, $_GET['player']) ."'");
+    $general_teamkill_row = mysqli_fetch_assoc($general_teamkill_results);
     $general_death_results = mysqli_query($link, "SELECT COUNT(*) AS deaths FROM games_kills WHERE games_kills.killer_id != 1022 AND games_kills.killer_id != games_kills.victim_id AND games_kills.victim_id = '". mysqli_real_escape_string($link, $_GET['player']) ."'");
     $general_death_row = mysqli_fetch_assoc($general_death_results);
+    $general_teamdeath_results = mysqli_query($link, "SELECT COUNT(*) AS deaths FROM games_kills WHERE games_kills.killer_team = games_kills.victim_team AND games_kills.victim_id = '". mysqli_real_escape_string($link, $_GET['player']) ."'");
+    $general_teamdeath_row = mysqli_fetch_assoc($general_teamdeath_results);
     $general_suicide_results = mysqli_query($link, "SELECT COUNT(*) AS suicides FROM games_kills WHERE (games_kills.killer_id = 1022 AND games_kills.victim_id = '". mysqli_real_escape_string($link, $_GET['player']) ."') OR (games_kills.killer_id = games_kills.victim_id AND games_kills.killer_id = '". mysqli_real_escape_string($link, $_GET['player']) ."')");
     $general_suicide_row = mysqli_fetch_assoc($general_suicide_results);
     if ($general_death_row['deaths'] > 0) {
@@ -193,8 +201,16 @@ if (!isset($_GET['player']) || intval($_GET['player']) <= 0) {
                                         <td><?php echo $general_kill_row['kills']; ?></td>
                                     </tr>
                                     <tr>
+                                        <td>Teamkills</td>
+                                        <td><?php echo $general_teamkill_row['kills']; ?></td>
+                                    </tr>
+                                    <tr>
                                         <td>Deaths</td>
                                         <td><?php echo $general_death_row['deaths']; ?></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Teamdeaths</td>
+                                        <td><?php echo $general_teamdeath_row['deaths']; ?></td>
                                     </tr>
                                     <tr>
                                         <td>Suicides</td>

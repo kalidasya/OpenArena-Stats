@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.5.27)
 # Database: oa_statistics
-# Generation Time: 2012-10-28 20:57:47 +0000
+# Generation Time: 2012-11-01 15:26:32 +0000
 # ************************************************************
 
 
@@ -225,7 +225,9 @@ CREATE TABLE `games_kills` (
   `id` bigint(8) unsigned NOT NULL AUTO_INCREMENT,
   `game_id` bigint(8) unsigned NOT NULL,
   `killer_id` bigint(8) unsigned NOT NULL,
+  `killer_team` bigint(8) unsigned NOT NULL,
   `victim_id` bigint(8) unsigned NOT NULL,
+  `victim_team` bigint(8) unsigned NOT NULL,
   `weapon_id` bigint(8) unsigned NOT NULL,
   `time_of_kill` datetime NOT NULL,
   PRIMARY KEY (`id`)
