@@ -134,6 +134,26 @@ if (!isset($_GET['player']) || intval($_GET['player']) <= 0) {
             <div class="navbar-inner">
                 <div class="container-fluid">
                     <a class="brand" href="#">OpenArena Statistics</a>
+                    <ul class="nav" role="navigation">
+                        <li class="dropdown">
+                            <a id="players" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Players <b class="caret"></b></a>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="players">
+                                <?php if (!isset($_GET['player'])) : ?>
+                                <li class="active"><a href="/">Overall</a></li>
+                                <?php else : ?>
+                                <li><a href="/">Overall</a></li>
+                                <?php endif; ?>
+                                <li class="divider"></li>
+                                <?php while ($player_row = mysqli_fetch_array($players_result, MYSQLI_ASSOC)) : ?>
+                                    <?php if (isset($_GET['player']) && $player_row['id'] == $_GET['player']) : ?>
+                                        <li class="active"><a href="?player=<?php echo $player_row['id']; ?>"><?php echo $player_row['nickname']; ?></a></li>
+                                    <?php else : ?>
+                                        <li><a href="?player=<?php echo $player_row['id']; ?>"><?php echo $player_row['nickname']; ?></a></li>
+                                    <?php endif; ?>
+                                <?php endwhile; ?>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -166,19 +186,7 @@ if (!isset($_GET['player']) || intval($_GET['player']) <= 0) {
                     -->
                     <div class="well sidebar-nav">
                         <ul class="nav nav-list">
-                            <li class="nav-header">Players</li>
-                            <?php if (!isset($_GET['player'])) : ?>
-                            <li class="active"><a href="/">Overall</a></li>
-                            <?php else : ?>
-                            <li><a href="/">Overall</a></li>
-                            <?php endif; ?>
-                            <?php while ($player_row = mysqli_fetch_array($players_result, MYSQLI_ASSOC)) : ?>
-                                <?php if (isset($_GET['player']) && $player_row['id'] == $_GET['player']) : ?>
-                                    <li class="active"><a href="?player=<?php echo $player_row['id']; ?>"><?php echo $player_row['nickname']; ?></a></li>
-                                <?php else : ?>
-                                    <li><a href="?player=<?php echo $player_row['id']; ?>"><?php echo $player_row['nickname']; ?></a></li>
-                                <?php endif; ?>
-                            <?php endwhile; ?>
+                            <li class="nav-header">Filters</li>
                         </ul>
                     </div>
                 </div>
@@ -379,6 +387,8 @@ if (!isset($_GET['player']) || intval($_GET['player']) <= 0) {
         </div>
 
         <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
 
     </body>
 </html>
