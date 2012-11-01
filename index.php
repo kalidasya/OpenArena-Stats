@@ -61,7 +61,7 @@ if (!isset($_GET['player']) || intval($_GET['player']) <= 0) {
     $general_kill_row = mysqli_fetch_assoc($general_kill_results);
     $general_death_results = mysqli_query($link, "SELECT COUNT(*) AS deaths FROM games_kills WHERE games_kills.killer_id != 1022 AND games_kills.killer_id != games_kills.victim_id AND games_kills.victim_id = '". mysqli_real_escape_string($link, $_GET['player']) ."'");
     $general_death_row = mysqli_fetch_assoc($general_death_results);
-    $general_suicide_results = mysqli_query($link, "SELECT COUNT(*) AS suicides FROM games_kills WHERE games_kills.killer_id = 1022 OR games_kills.killer_id = games_kills.victim_id AND games_kills.killer_id = '". mysqli_real_escape_string($link, $_GET['player']) ."'");
+    $general_suicide_results = mysqli_query($link, "SELECT COUNT(*) AS suicides FROM games_kills WHERE (games_kills.killer_id = 1022 AND games_kills.victim_id = '". mysqli_real_escape_string($link, $_GET['player']) ."') OR (games_kills.killer_id = games_kills.victim_id AND games_kills.killer_id = '". mysqli_real_escape_string($link, $_GET['player']) ."')");
     $general_suicide_row = mysqli_fetch_assoc($general_suicide_results);
     if ($general_death_row['deaths'] > 0) {
         $general_ratio = number_format($general_kill_row['kills'] / $general_death_row['deaths'], 2);
