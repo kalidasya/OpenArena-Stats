@@ -38,11 +38,11 @@
                                         <td><?php echo $general_suicide_row['suicides']; ?></td>
                                     </tr>
                                     <tr>
-                                        <td>K/D Ratio (average)</td>
+                                        <td>K/D Ratio</td>
                                         <td><?php echo $general_kd_ratio; ?></td>
                                     </tr>
                                     <tr>
-                                        <td>Corrected Ratio (average)</td>
+                                        <td>Corrected Ratio</td>
                                         <td><?php echo $general_corrected_ratio; ?></td>
                                     </tr>
                                 </tbody>

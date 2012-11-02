@@ -31,7 +31,7 @@ if (!isset($_GET['player']) || intval($_GET['player']) <= 0) {
     $corrected_kills = $general_kill_row['kills'] - $general_teamkill_row['kills'];
     $corrected_deaths = $general_death_row['deaths'] + $general_suicide_row['suicides'];
     if ( $corrected_deaths > 0 ) {
-        $general_kd_ratio = number_format($corrected_kills / $corrected_deaths, 2);
+        $general_corrected_ratio = number_format($corrected_kills / $corrected_deaths, 2);
     } else {
         $general_corrected_ratio = '-';
     }
@@ -88,7 +88,7 @@ if (!isset($_GET['player']) || intval($_GET['player']) <= 0) {
     $corrected_kills = $general_kill_row['kills'] - $general_teamkill_row['kills'];
     $corrected_deaths = $general_death_row['deaths'] + $general_suicide_row['suicides'];
     if ( $corrected_deaths > 0 ) {
-        $general_kd_ratio = number_format($corrected_kills / $corrected_deaths, 2);
+        $general_corrected_ratio = number_format($corrected_kills / $corrected_deaths, 2);
     } else {
         $general_corrected_ratio = '-';
     }
