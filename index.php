@@ -24,9 +24,16 @@ if (!isset($_GET['player']) || intval($_GET['player']) <= 0) {
     $general_suicide_results = mysqli_query($link, "SELECT COUNT(*) AS suicides FROM games_kills WHERE games_kills.killer_id = 1022 OR games_kills.killer_id = games_kills.victim_id");
     $general_suicide_row = mysqli_fetch_assoc($general_suicide_results);
     if ($general_death_row['deaths'] > 0) {
-        $general_ratio = number_format($general_kill_row['kills'] / $general_death_row['deaths'], 2);
+        $general_kd_ratio = number_format($general_kill_row['kills'] / $general_death_row['deaths'], 2);
     } else {
-        $general_ratio = '-';
+        $general_kd_ratio = '-';
+    }
+    $corrected_kills = $general_kill_row['kills'] - $general_teamkill_row['kills'];
+    $corrected_deaths = $general_death_row['deaths'] + $general_suicide_row['suicides'];
+    if ( $corrected_deaths > 0 ) {
+        $general_kd_ratio = number_format($corrected_kills / $corrected_deaths, 2);
+    } else {
+        $general_corrected_ratio = '-';
     }
 
     // CTF
@@ -55,7 +62,7 @@ if (!isset($_GET['player']) || intval($_GET['player']) <= 0) {
     // WEAPONS
     $weapon_results = mysqli_query($link, "SELECT weapons.nicename, weapons.description, COUNT(games_kills.weapon_id) AS amount FROM games_kills INNER JOIN weapons ON games_kills.weapon_id = weapons.id GROUP BY games_kills.weapon_id ORDER BY amount DESC");
     $weapon_rows = mysqli_fetch_all($weapon_results, MYSQLI_ASSOC);
-    
+
 } else {
     // Player specific statistics
     $pagefile = 'player';
@@ -74,9 +81,16 @@ if (!isset($_GET['player']) || intval($_GET['player']) <= 0) {
     $general_suicide_results = mysqli_query($link, "SELECT COUNT(*) AS suicides FROM games_kills WHERE (games_kills.killer_id = 1022 AND games_kills.victim_id = '". mysqli_real_escape_string($link, $_GET['player']) ."') OR (games_kills.killer_id = games_kills.victim_id AND games_kills.killer_id = '". mysqli_real_escape_string($link, $_GET['player']) ."')");
     $general_suicide_row = mysqli_fetch_assoc($general_suicide_results);
     if ($general_death_row['deaths'] > 0) {
-        $general_ratio = number_format($general_kill_row['kills'] / $general_death_row['deaths'], 2);
+        $general_kd_ratio = number_format($general_kill_row['kills'] / $general_death_row['deaths'], 2);
     } else {
-        $general_ratio = '-';
+        $general_kd_ratio = '-';
+    }
+    $corrected_kills = $general_kill_row['kills'] - $general_teamkill_row['kills'];
+    $corrected_deaths = $general_death_row['deaths'] + $general_suicide_row['suicides'];
+    if ( $corrected_deaths > 0 ) {
+        $general_kd_ratio = number_format($corrected_kills / $corrected_deaths, 2);
+    } else {
+        $general_corrected_ratio = '-';
     }
 
     // CTF
