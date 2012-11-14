@@ -5,11 +5,14 @@ date_default_timezone_set('Europe/Amsterdam');
 require_once('config.php');
 require_once('functions.php');
 
-$logfile            = fopen('games.log', 'r');
-$start_time          = microtime(true);
+$logfile    = fopen('games.log', 'r');
+$start_time = microtime(true);
 
 $link   = mysqli_connect($config['db']['host'], $config['db']['user'], $config['db']['pass'], $config['db']['name']);
 mysqli_autocommit($link, FALSE);
+
+$gametype     = NULL;
+$team_counter = 0;
 
 // Walk through all lines in the logfile
 while(($line = fgets($logfile, 4096)) !== false) {
@@ -38,6 +41,7 @@ while(($line = fgets($logfile, 4096)) !== false) {
                                                 starttime = '". mysqli_real_escape_string($link, $info['g_timestamp']) ."'");
                 $gameid = mysqli_insert_id($link);
                 $round_players = array();
+                $gametype = $info['g_gametype'];
             break;
 
             case 'shutdowngame':
@@ -87,6 +91,11 @@ while(($line = fgets($logfile, 4096)) !== false) {
                 }
                 else {
                     $round_players[$playerid]['t'] = $info['t'];
+                }
+
+                if (!in_array($gametype, array(1,2,3,10))) {
+                    // Non-team based game, put everyone in a different team
+                    $round_players[$playerid]['t'] = $team_counter++;
                 }
             break;
 
