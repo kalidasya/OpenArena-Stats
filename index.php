@@ -8,7 +8,6 @@ $players_result = mysqli_query($link, "SELECT id, nickname FROM players ORDER BY
 
 if (!isset($_GET['player']) || intval($_GET['player']) <= 0) {
     // Overall statistics
-    $pagefile = 'overall';
     $player['name'] = 'Overall';
     $player['nickname'] = '';
 
@@ -65,7 +64,6 @@ if (!isset($_GET['player']) || intval($_GET['player']) <= 0) {
 
 } else {
     // Player specific statistics
-    $pagefile = 'player';
     $player_result  = mysqli_query($link, "SELECT id, name, nickname FROM players WHERE players.id = '". mysqli_real_escape_string($link, $_GET['player']) ."' LIMIT 1");
     $player = mysqli_fetch_assoc($player_result);
 
@@ -123,6 +121,6 @@ if (!isset($_GET['player']) || intval($_GET['player']) <= 0) {
 
 require_once('include/header.php');
 
-require_once('include/'. $pagefile .'.php');
+require_once('include/overall.php');
 
 require_once('include/footer.php');
