@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+	<base href="http://quake.brensen.com/stats/" target="_blank"></base>
         <meta charset="utf-8">
         <title>OpenArena Statistics</title>
-        <link href="/stats/css/bootstrap.css" rel="stylesheet">
-        <link href="/stats/css/style.css" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
         <style type="text/css">
             body {
                 padding-top: 60px;
@@ -31,9 +32,9 @@
                             <a id="players" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Players <b class="caret"></b></a>
                             <ul class="dropdown-menu" role="menu" aria-labelledby="players">
                                 <?php if (!isset($_GET['player'])) : ?>
-                                <li class="active"><a href="/">Overall</a></li>
+                                <li class="active"><a href="#">Overall</a></li>
                                 <?php else : ?>
-                                <li><a href="/">Overall</a></li>
+                                <li><a href="#">Overall</a></li>
                                 <?php endif; ?>
                                 <li class="divider"></li>
                                 <?php while ($player_row = mysqli_fetch_array($players_result, MYSQLI_ASSOC)) : ?>
