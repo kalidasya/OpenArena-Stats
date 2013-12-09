@@ -9,7 +9,7 @@ $logfile    = fopen('games.log', 'r');
 $start_time = microtime(true);
 
 $link   = mysqli_connect($config['db']['host'], $config['db']['user'], $config['db']['pass'], $config['db']['name']);
-mysqli_autocommit($link, FALSE);
+mysqli_autocommit($link, TRUE);
 
 $gametype     = NULL;
 $team_counter = 0;
