@@ -6,6 +6,9 @@
                 <div class="span9">
                     <div class="page-header">
                         <h1><?php echo $player['name']; ?> <small><?php echo $player['nickname']; ?></small></h1>
+			<?php if ($player['last_seen']){?>
+			<p class="muted">Last seen: <?php echo $player['last_seen']; ?></p>
+			<?php }?>
                     </div>
 
                     <div class="row-fluid">

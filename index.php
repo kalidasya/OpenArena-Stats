@@ -10,6 +10,7 @@ if (!isset($_GET['player']) || intval($_GET['player']) <= 0) {
     // Overall statistics
     $player['name'] = 'Overall';
     $player['nickname'] = '';
+    $player['last_seen'] = '';
 
     // GENERAL
     $general_kill_results = mysqli_query($link, "SELECT COUNT(*) AS kills FROM games_kills WHERE games_kills.killer_id != 1022 AND games_kills.killer_id != games_kills.victim_id AND games_kills.killer_team != games_kills.victim_team");
@@ -76,7 +77,7 @@ if (!isset($_GET['player']) || intval($_GET['player']) <= 0) {
 
 } else {
     // Player specific statistics
-    $player_result  = mysqli_query($link, "SELECT id, name, nickname FROM players WHERE players.id = '". mysqli_real_escape_string($link, $_GET['player']) ."' LIMIT 1");
+    $player_result  = mysqli_query($link, "SELECT id, name, nickname, last_seen FROM players WHERE players.id = '". mysqli_real_escape_string($link, $_GET['player']) ."' LIMIT 1");
     $player = mysqli_fetch_assoc($player_result);
 
     // GENERAL
