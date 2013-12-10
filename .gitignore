@@ -1,4 +1,4 @@
 .DS_Store
 games.log*
 logfiles/*.log
-includes/config.php
+include/config.php
