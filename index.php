@@ -22,6 +22,18 @@ if (!isset($_GET['player']) || intval($_GET['player']) <= 0) {
     $general_teamdeath_row = mysqli_fetch_assoc($general_teamdeath_results);
     $general_suicide_results = mysqli_query($link, "SELECT COUNT(*) AS suicides FROM games_kills WHERE games_kills.killer_id = 1022 OR games_kills.killer_id = games_kills.victim_id");
     $general_suicide_row = mysqli_fetch_assoc($general_suicide_results);
+    $general_stats_results = mysqli_query($link, "SELECT SUM(1) as kills,
+														 SUM(0) as deaths,
+														 YEAR(time_of_kill) as year,
+														 MONTH(time_of_kill) as month,
+														 DAY(time_of_kill) as day
+												  FROM games_kills
+												  WHERE games_kills.killer_id !=1022
+														AND games_kills.killer_id != games_kills.victim_id
+												  GROUP BY YEAR(time_of_kill), MONTH(time_of_kill), DAY(time_of_kill)");
+    
+    $general_stats_rows = mysqli_fetch_all($general_stats_results, MYSQLI_ASSOC);
+    
     if ($general_death_row['deaths'] > 0) {
         $general_kd_ratio = number_format($general_kill_row['kills'] / $general_death_row['deaths'], 2);
     } else {
@@ -86,7 +98,9 @@ if (!isset($_GET['player']) || intval($_GET['player']) <= 0) {
 												  FROM games_kills
 												  WHERE games_kills.killer_id !=1022
 														AND games_kills.killer_id != games_kills.victim_id
+    													AND (killer_id ='".mysqli_real_escape_string($link, $_GET['player'])."' OR victim_id='".mysqli_real_escape_string($link, $_GET['player'])."')
 												  GROUP BY YEAR(time_of_kill), MONTH(time_of_kill), DAY(time_of_kill)");
+    
     $general_stats_rows = mysqli_fetch_all($general_stats_results, MYSQLI_ASSOC);
     
     if ($general_death_row['deaths'] > 0) {

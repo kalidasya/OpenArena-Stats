@@ -198,7 +198,7 @@
                             </table>
                         </div>
                     </div>
-                    <?php if (isset($_GET['player']) && intval($_GET['player']) > 0) :?>
+
                     <div class="row-fluid">
                     	<div class="span6">
                     		<table class="table table-striped">
@@ -221,10 +221,15 @@
 	                                      var options = {
 	                                        title: 'User stats'
 	                                      };
-	                                      <?php foreach ($general_stats_rows as $stats)
-	                                      {
+	                                      <?php 
+	                                      foreach ($general_stats_rows as $stats){
 	                                      	echo "data.addRow([new Date(".$stats['year'].",".$stats['month'].",".$stats['day']."), ".$stats['kills'].", ".$stats['deaths']."]);";
-										  }?>	
+										  }
+										  //If it is not player specific context remove deaths line (set to 0 anyway)
+										  if(!isset($_GET['player']) || intval($_GET['player']) <= 0){
+						                    echo "data.removeColumn(2)";
+						                  }
+						                  ?>	
 	                                      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
 	                                      chart.draw(data, options);
 	                                    }
@@ -235,7 +240,6 @@
                             </table>
                     	</div>
                     </div>
-                    <?php endif;?>
                 </div>
             </div>
         </div>
