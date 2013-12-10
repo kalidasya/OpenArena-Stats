@@ -8,7 +8,6 @@ $players_result = mysqli_query($link, "SELECT id, nickname FROM players ORDER BY
 
 if (!isset($_GET['player']) || intval($_GET['player']) <= 0) {
     // Overall statistics
-    $pagefile = 'overall';
     $player['name'] = 'Overall';
     $player['nickname'] = '';
 
@@ -65,7 +64,6 @@ if (!isset($_GET['player']) || intval($_GET['player']) <= 0) {
 
 } else {
     // Player specific statistics
-    $pagefile = 'player';
     $player_result  = mysqli_query($link, "SELECT id, name, nickname FROM players WHERE players.id = '". mysqli_real_escape_string($link, $_GET['player']) ."' LIMIT 1");
     $player = mysqli_fetch_assoc($player_result);
 
@@ -80,6 +78,17 @@ if (!isset($_GET['player']) || intval($_GET['player']) <= 0) {
     $general_teamdeath_row = mysqli_fetch_assoc($general_teamdeath_results);
     $general_suicide_results = mysqli_query($link, "SELECT COUNT(*) AS suicides FROM games_kills WHERE (games_kills.killer_id = 1022 AND games_kills.victim_id = '". mysqli_real_escape_string($link, $_GET['player']) ."') OR (games_kills.killer_id = games_kills.victim_id AND games_kills.killer_id = '". mysqli_real_escape_string($link, $_GET['player']) ."')");
     $general_suicide_row = mysqli_fetch_assoc($general_suicide_results);
+    $general_stats_results = mysqli_query($link, "SELECT SUM(CASE WHEN killer_id =  '". mysqli_real_escape_string($link, $_GET['player']) ."' THEN 1 ELSE 0 END) as kills,
+														 SUM(CASE WHEN victim_id =  '". mysqli_real_escape_string($link, $_GET['player']) ."' THEN 1 ELSE 0 END) as deaths,
+														 YEAR(time_of_kill) as year, 
+														 MONTH(time_of_kill) as month, 
+														 DAY(time_of_kill) as day
+												  FROM games_kills
+												  WHERE games_kills.killer_id !=1022
+														AND games_kills.killer_id != games_kills.victim_id
+												  GROUP BY YEAR(time_of_kill), MONTH(time_of_kill), DAY(time_of_kill)");
+    $general_stats_rows = mysqli_fetch_all($general_stats_results, MYSQLI_ASSOC);
+    
     if ($general_death_row['deaths'] > 0) {
         $general_kd_ratio = number_format($general_kill_row['kills'] / $general_death_row['deaths'], 2);
     } else {
@@ -123,6 +132,6 @@ if (!isset($_GET['player']) || intval($_GET['player']) <= 0) {
 
 require_once('include/header.php');
 
-require_once('include/'. $pagefile .'.php');
+require_once('include/overall.php');
 
 require_once('include/footer.php');
