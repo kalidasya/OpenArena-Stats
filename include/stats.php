@@ -5,7 +5,12 @@ date_default_timezone_set('Europe/Amsterdam');
 require_once('config.php');
 require_once('functions.php');
 
-$logfile    = fopen('games.log', 'r');
+if ($argv[1]){
+	$logfile    = fopen($argv[1], 'r');
+} else {
+	$logfile    = fopen('games.log', 'r');
+}
+
 $start_time = microtime(true);
 
 $link   = mysqli_connect($config['db']['host'], $config['db']['user'], $config['db']['pass'], $config['db']['name']);
@@ -187,12 +192,14 @@ while(($line = fgets($logfile, 4096)) !== false) {
 fclose($logfile);
 mysqli_close($link);
 
-if (!copy('games.log', 'logfiles/'. time() .'.log')) {
-    echo 'FAILED TO COPY FILE.'.PHP_EOL;
-} else {
-    $logfile = fopen('games.log', 'w');
-    ftruncate($logfile, 0);
-    fclose($logfile);
+if ($logfile == 'games.log'){
+	if (!copy('games.log', 'logfiles/'. time() .'.log')) {
+	    echo 'FAILED TO COPY FILE.'.PHP_EOL;
+	} else {
+	    $logfile = fopen('games.log', 'w');
+	    ftruncate($logfile, 0);
+	    fclose($logfile);
+	}
 }
 
 $endtime    = microtime(true);
