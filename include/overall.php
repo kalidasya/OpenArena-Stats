@@ -229,7 +229,7 @@
 	                                      	echo "data.addRow([new Date(".$stats['year'].",".$stats['month'].",".$stats['day']."), ".$stats['kills'].", ".$stats['deaths']."]);";
 										  }
 										  //If it is not player specific context remove deaths line (set to 0 anyway)
-										  if(!isset($_GET['player']) || intval($_GET['player']) <= 0){
+										  if($is_overall){
 						                    echo "data.removeColumn(2)";
 						                  }
 						                  ?>	
