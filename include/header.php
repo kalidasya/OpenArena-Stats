@@ -48,6 +48,13 @@
                             </ul>
                         </li>
                     </ul>
+					<ul class="nav pull-right">
+							<li>
+								<a href="#">
+									<iframe src="http://ghbtns.com/github-btn.html?user=kalidasya&repo=OpenArena-Stats&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"></iframe>
+								</a>
+							</li>
+					</ul>
                 </div>
             </div>
         </div>
