@@ -91,6 +91,7 @@ while(($line = fgets($logfile, 4096)) !== false) {
                         $local_player_id = $player_row[0];
                     }
                     mysqli_query($link, "INSERT INTO nicknames SET player_id = ".$local_player_id.", nickname = '". mysqli_real_escape_string($link, $info['n']) ."'");
+                    mysqli_query($link, "UPDATE players SET nickname = '". mysqli_real_escape_string($link, $info['n']) ."' WHERE id = '". mysqli_real_escape_string($link, $local_player_id) ."'");
                     $round_players[$playerid] = $info;
                     $round_players[$playerid]['localid'] = $local_player_id;
                     $round_players[$playerid]['participate'] = 0;
