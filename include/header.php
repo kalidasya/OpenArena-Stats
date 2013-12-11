@@ -48,6 +48,16 @@
                             </ul>
                         </li>
                     </ul>
+                    <ul class="nav">
+                    <?php $t_val = ($today)?0:1;?>
+                    	<li>
+                    		<?php if (isset($_GET['player'])) : ?>
+                    			<a href="?player=<?php echo $player['id']; ?>&today=<?php echo $t_val; ?>">Today only</a>
+                   			<?php else : ?>
+                   				<a href="?today=<?php echo $t_val; ?>">Today only</a>
+                    		<?php endif; ?>
+                    	</li>
+                    </ul>
 					<ul class="nav pull-right">
 							<li>
 								<a href="#">

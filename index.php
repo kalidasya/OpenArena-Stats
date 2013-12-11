@@ -6,17 +6,34 @@ $link = mysqli_connect ( $config ['db'] ['host'], $config ['db'] ['user'], $conf
 $players_result = mysqli_query ( $link, "SELECT id, nickname FROM players ORDER BY nickname ASC" );
 
 $is_overall = ! isset ( $_GET ['player'] ) || intval ( $_GET ['player'] ) <= 0;
+$today = isset ( $_GET ['today'] ) && intval ( $_GET ['today'] ) == 1;
+if ($today){
+	$today_filter_a = " AND DATE(games_kills.time_of_kill) = DATE(NOW())";
+	$today_filter_w = " WHERE DATE(games_kills.time_of_kill) = DATE(NOW())";
+	$today_filter_ctf_a = " AND DATE(games_ctf.time_of_action) = DATE(NOW())";
+	$today_filter_ctf_w = " WHERE DATE(games_ctf.time_of_action) = DATE(NOW())";
+	$today_filter_award_a = " AND DATE(games_awards.time_of_award) = DATE(NOW())";
+	$today_filter_award_w = " WHERE DATE(games_awards.time_of_award) = DATE(NOW())";
+	$today_filter_challenges_a = " AND DATE(games_challenges.time_of_challenge) = DATE(NOW())";
+	$today_filter_challenges_w = " WHERE DATE(games_challenges.time_of_challenge) = DATE(NOW())";
+} else {
+	$today_filter_a = "";
+	$today_filter_w = "";
+	$today_filter_ctf = "";
+	$today_filter_award = "";
+}
 
 if ($is_overall) {
-	// Overall statistics
-	$killer_filter = "";
-	$victim_filter = "";
-	$ctf_filter = "";
-	$awards_filter = "";
-	$challenge_filter = "";
-	$weapon_filter = "";
 	
-	$general_suicide_q = "SELECT COUNT(*) AS suicides FROM games_kills WHERE games_kills.killer_id = 1022 OR games_kills.killer_id = games_kills.victim_id";
+	// Overall statistics
+	$killer_filter = "".$today_filter_a;
+	$victim_filter = "".$today_filter_a;
+	$ctf_filter = "".$today_filter_ctf_w;
+	$awards_filter = "".$today_filter_award_w;
+	$challenge_filter = "".$today_filter_challenges_w;
+	$weapon_filter = "".$today_filter_w;
+	
+	$general_suicide_q = "SELECT COUNT(*) AS suicides FROM games_kills WHERE games_kills.killer_id = 1022 OR games_kills.killer_id = games_kills.victim_id".$today_filter_a;
 	$general_stats_q = "SELECT SUM(1) as kills,
 														 SUM(0) as deaths,
 														 YEAR(time_of_kill) as year,
@@ -24,7 +41,7 @@ if ($is_overall) {
 														 DAY(time_of_kill) as day
 												  FROM games_kills
 												  WHERE games_kills.killer_id !=1022
-														AND games_kills.killer_id != games_kills.victim_id
+														AND games_kills.killer_id != games_kills.victim_id".$today_filter_a."
 												  GROUP BY YEAR(time_of_kill), MONTH(time_of_kill), DAY(time_of_kill)";
 	
 	$player ['name'] = 'Overall';
@@ -33,14 +50,14 @@ if ($is_overall) {
 } else {
 	// Player specific statistics
 	
-	$killer_filter = " AND games_kills.killer_id = '" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "'";
-	$victim_filter = " AND games_kills.victim_id = '" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "'";
-	$ctf_filter = " WHERE games_ctf.player_id = '" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "'";
-	$awards_filter = "WHERE games_awards.player_id = '" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "'";
-	$challenge_filter = "WHERE games_challenges.player_id = '" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "'";
-	$weapon_filter = "WHERE games_kills.killer_id = '" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "'";
+	$killer_filter = " AND games_kills.killer_id = '" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "'".$today_filter_a;
+	$victim_filter = " AND games_kills.victim_id = '" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "'".$today_filter_a;
+	$ctf_filter = " WHERE games_ctf.player_id = '" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "'".$today_filter_ctf_a;
+	$awards_filter = "WHERE games_awards.player_id = '" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "'".$today_filter_award_a;
+	$challenge_filter = "WHERE games_challenges.player_id = '" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "'".$today_filter_challenges_a;
+	$weapon_filter = "WHERE games_kills.killer_id = '" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "'".$today_filter_a;
 	
-	$general_suicide_q = "SELECT COUNT(*) AS suicides FROM games_kills WHERE (games_kills.killer_id = 1022 AND games_kills.victim_id = '". mysqli_real_escape_string($link, $_GET['player']) ."') OR (games_kills.killer_id = games_kills.victim_id AND games_kills.killer_id = '". mysqli_real_escape_string($link, $_GET['player']) ."')";
+	$general_suicide_q = "SELECT COUNT(*) AS suicides FROM games_kills WHERE (games_kills.killer_id = 1022 AND games_kills.victim_id = '". mysqli_real_escape_string($link, $_GET['player']) ."') OR (games_kills.killer_id = games_kills.victim_id AND games_kills.killer_id = '". mysqli_real_escape_string($link, $_GET['player']) ."')".$today_filter_a;
 	
 	$general_stats_q = "SELECT SUM(CASE WHEN killer_id =  '" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "' THEN 1 ELSE 0 END) as kills,
 														 SUM(CASE WHEN victim_id =  '" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "' THEN 1 ELSE 0 END) as deaths,
@@ -50,7 +67,7 @@ if ($is_overall) {
 												  FROM games_kills
 												  WHERE games_kills.killer_id !=1022
 														AND games_kills.killer_id != games_kills.victim_id
-    													AND (killer_id ='" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "' OR victim_id='" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "')
+    													AND (killer_id ='" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "' OR victim_id='" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "')".$today_filter_a."
 												  GROUP BY YEAR(time_of_kill), MONTH(time_of_kill), DAY(time_of_kill)";
 	
 	$player_result  = mysqli_query($link, "SELECT id, name, nickname, last_seen FROM players WHERE players.id = '". mysqli_real_escape_string($link, $_GET['player']) ."' LIMIT 1");
@@ -88,7 +105,7 @@ if ($corrected_deaths > 0) {
 } else {
 	$general_corrected_ratio = '-';
 }
-
+ 
 // CTF
 $ctf_stats = array ();
 $ctf_results = mysqli_query ( $link, sprintf ( "SELECT flag, ctf_action_id, COUNT(*) AS times FROM games_ctf %s GROUP BY flag, ctf_action_id", $ctf_filter ) );
