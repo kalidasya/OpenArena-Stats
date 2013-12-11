@@ -41,7 +41,7 @@ if ($is_overall) {
 														 DAY(time_of_kill) as day
 												  FROM games_kills
 												  WHERE games_kills.killer_id !=1022
-														AND games_kills.killer_id != games_kills.victim_id".$today_filter_a."
+														AND games_kills.killer_id != games_kills.victim_id
 												  GROUP BY YEAR(time_of_kill), MONTH(time_of_kill), DAY(time_of_kill)";
 	
 	$player ['name'] = 'Overall';
@@ -67,7 +67,7 @@ if ($is_overall) {
 												  FROM games_kills
 												  WHERE games_kills.killer_id !=1022
 														AND games_kills.killer_id != games_kills.victim_id
-    													AND (killer_id ='" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "' OR victim_id='" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "')".$today_filter_a."
+    													AND (killer_id ='" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "' OR victim_id='" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "')
 												  GROUP BY YEAR(time_of_kill), MONTH(time_of_kill), DAY(time_of_kill)";
 	
 	$player_result  = mysqli_query($link, "SELECT id, name, nickname, last_seen FROM players WHERE players.id = '". mysqli_real_escape_string($link, $_GET['player']) ."' LIMIT 1");
