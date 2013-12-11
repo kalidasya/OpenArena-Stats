@@ -33,7 +33,7 @@ if ($is_overall) {
 	$challenge_filter = "".$today_filter_challenges_w;
 	$weapon_filter = "".$today_filter_w;
 	
-	$general_suicide_q = "SELECT COUNT(*) AS suicides FROM games_kills WHERE games_kills.killer_id = 1022 OR games_kills.killer_id = games_kills.victim_id".$today_filter_a;
+	$general_suicide_q = "SELECT COUNT(*) AS suicides FROM games_kills WHERE (games_kills.killer_id = 1022 OR games_kills.killer_id = games_kills.victim_id )".$today_filter_a;
 	$general_stats_q = "SELECT SUM(1) as kills,
 														 SUM(0) as deaths,
 														 YEAR(time_of_kill) as year,
@@ -57,7 +57,7 @@ if ($is_overall) {
 	$challenge_filter = "WHERE games_challenges.player_id = '" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "'".$today_filter_challenges_a;
 	$weapon_filter = "WHERE games_kills.killer_id = '" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "'".$today_filter_a;
 	
-	$general_suicide_q = "SELECT COUNT(*) AS suicides FROM games_kills WHERE (games_kills.killer_id = 1022 AND games_kills.victim_id = '". mysqli_real_escape_string($link, $_GET['player']) ."') OR (games_kills.killer_id = games_kills.victim_id AND games_kills.killer_id = '". mysqli_real_escape_string($link, $_GET['player']) ."')".$today_filter_a;
+	$general_suicide_q = "SELECT COUNT(*) AS suicides FROM games_kills WHERE ((games_kills.killer_id = 1022 AND games_kills.victim_id = '". mysqli_real_escape_string($link, $_GET['player']) ."') OR (games_kills.killer_id = games_kills.victim_id AND games_kills.killer_id = '". mysqli_real_escape_string($link, $_GET['player']) ."'))".$today_filter_a;
 	
 	$general_stats_q = "SELECT SUM(CASE WHEN killer_id =  '" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "' THEN 1 ELSE 0 END) as kills,
 														 SUM(CASE WHEN victim_id =  '" . mysqli_real_escape_string ( $link, $_GET ['player'] ) . "' THEN 1 ELSE 0 END) as deaths,
