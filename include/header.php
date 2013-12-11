@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-	<base href="http://quake.brensen.com/stats/" target="_blank"></base>
+	<base href="http://quake.brensen.com/stats/" target="_self"></base>
         <meta charset="utf-8">
         <title>OpenArena Statistics</title>
         <link href="css/bootstrap.css" rel="stylesheet">
