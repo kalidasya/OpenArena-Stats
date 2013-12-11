@@ -120,7 +120,7 @@
                                 <tbody>
                                     <?php foreach ($kill_rows as $kill) : ?>
                                     <tr>
-                                        <td><?php echo $kill['nickname']; ?></td>
+                                        <td><a href="?player=<?php echo $kill['id']; ?>"><?php echo $kill['nickname']; ?></a></td>
                                         <td><?php echo $kill['kills']; ?></td>
                                     </tr>
                                     <?php endforeach; ?>
@@ -136,7 +136,7 @@
                                 </thead>
                                     <?php foreach ($death_rows as $death) : ?>
                                     <tr>
-                                        <td><?php echo $death['nickname']; ?></td>
+                                        <td><a href="?player=<?php echo $death['id']; ?>"><?php echo $death['nickname']; ?></a></td>
                                         <td><?php echo $death['deaths']; ?></td>
                                     </tr>
                                     <?php endforeach; ?>
