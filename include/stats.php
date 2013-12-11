@@ -79,17 +79,18 @@ while(($line = fgets($logfile, 4096)) !== false) {
                 if (!array_key_exists($playerid, $round_players)) {
                     $result = mysqli_query($link, "SELECT id FROM players WHERE oa_guid = '". mysqli_real_escape_string($link, $info['id']) ."' LIMIT 1");
                     if($result->num_rows == 0) {
-                    $timeparts = explode(':', $match['time']);
-                    $firstseen = date('Y-m-d H:i:s', strtotime($starttime .'+'. $timeparts[0] .'minutes +'. $timeparts[1] .'seconds'));
-                    mysqli_query($link, "INSERT INTO players SET nickname = '". mysqli_real_escape_string($link, $info['n']) ."', 
-                        oa_guid = '". mysqli_real_escape_string($link, $info['id']) ."', 
-                        first_seen = '". mysqli_real_escape_string($link, $firstseen) ."', 
-                        last_seen = '". mysqli_real_escape_string($link, $firstseen) ."'");
+                        $timeparts = explode(':', $match['time']);
+                        $firstseen = date('Y-m-d H:i:s', strtotime($starttime .'+'. $timeparts[0] .'minutes +'. $timeparts[1] .'seconds'));
+                        mysqli_query($link, "INSERT INTO players SET nickname = '". mysqli_real_escape_string($link, $info['n']) ."', 
+                            oa_guid = '". mysqli_real_escape_string($link, $info['id']) ."', 
+                            first_seen = '". mysqli_real_escape_string($link, $firstseen) ."', 
+                            last_seen = '". mysqli_real_escape_string($link, $firstseen) ."'");
                         $local_player_id = mysqli_insert_id($link);
                     } else {
                         $player_row = $result->fetch_row();
                         $local_player_id = $player_row[0];
                     }
+                    mysqli_query($link, "INSERT INTO nicknames SET player_id = ".$local_player_id.", nickname = '". mysqli_real_escape_string($link, $info['n']) ."'");
                     $round_players[$playerid] = $info;
                     $round_players[$playerid]['localid'] = $local_player_id;
                     $round_players[$playerid]['participate'] = 0;

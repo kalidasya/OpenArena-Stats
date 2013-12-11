@@ -286,6 +286,15 @@ CREATE TABLE `players` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
+DROP TABLE IF EXISTS `nicknames`;
+
+CREATE TABLE `nicknames` (
+  `id` bigint(8) unsigned NOT NULL AUTO_INCREMENT,
+  `player_id` bigint(8) unsigned NOT NULL,
+  `nickname` varchar(40) NOT NULL DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
 
 # Dump of table weapons
 # ------------------------------------------------------------

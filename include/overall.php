@@ -9,6 +9,16 @@
 			<?php if ($player['last_seen']){?>
 			<p class="muted">Last seen: <?php echo $player['last_seen']; ?></p>
 			<?php }?>
+			<?php 
+            if ($player_nicknames){
+                echo "<p class=muted>Nicknames:</p>";
+                echo "<ul>";
+                foreach($player_nicknames as $key => $value){
+                    echo "<li class=muted>$value</li>";
+                }
+                echo "</ul>";
+			}
+			?>
                     </div>
 
                     <div class="row-fluid">
