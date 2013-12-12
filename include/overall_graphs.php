@@ -38,7 +38,7 @@
                             overallData.forEach(function(val, i, a){
 								data_kill.addColumn('string',val.player.name,val.player.id);
 								data_death.addColumn('string',val.player.name,val.player.id);
-								colIds[val.player.id]=i;
+								colIds[val.player.id]=i+1;
 								
                             });
                             overallData.forEach(function(val, i, a){
