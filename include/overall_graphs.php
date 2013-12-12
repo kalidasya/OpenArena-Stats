@@ -19,7 +19,7 @@
 						echo "{'player':{'id':".$stats['id'].", 'name':'".$stats['name']."'}, 'scores': [\n";
 						$prev_id =  $stats['id'];
 					} 
-					echo "{'date':'".$stats ['year'] . "-" . $stats ['month'] . "-" . $stats ['day']."', 'kills': ".$stats['kills'].", 'deaths': ".$stats['deats']."},\n";
+					echo "{'date':'".$stats ['year'] . "-" . $stats ['month'] . "-" . $stats ['day']."', 'kills': ".$stats['kills'].", 'deaths': ".$stats['deaths']."},\n";
 				}
 				echo "]}];"
 				?>
