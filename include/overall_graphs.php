@@ -34,24 +34,24 @@
                             var options = {
                             	title: 'User stats'
                             };
+                            var colIds = [];
                             overallData.forEach(function(val, i, a){
 								data_kill.addColumn('string',val.player.name,val.player.id);
 								data_death.addColumn('string',val.player.name,val.player.id);
+								colIds[val.player.id]=i;
 								
                             });
                             overallData.forEach(function(val, i, a){
                                 
 								val.scores.forEach(function(val2, i2, a2){
-									var rowId = 0;
 									data_kill.addRow();
 									data_death.addRow();
-									
-									data_kill.setCell(rowId, 'date', new Date(val2.date));
-									data_kill.setCell(rowId, val.player.id, val2.kills);
+									var colid = colIds[val.player.id];
+									data_kill.setCell(i2, 0, new Date(val2.date));
+									data_kill.setCell(i2, colid, val2.kills);
 
-									data_death.setCell(rowId, 'date', new Date(val2.date));
-									data_death.setCell(rowId, val.player.id, val2.deaths);
-									rowId++;
+									data_death.setCell(i2, 0, new Date(val2.date));
+									data_death.setCell(i2, colid, val2.deaths);
 								});
 								
                             });
