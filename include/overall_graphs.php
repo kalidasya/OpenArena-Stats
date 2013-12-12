@@ -8,16 +8,18 @@
 				<script>
 				var overallData = [];
 				<?php
-				$prev_name = "";
+				$prev_id = "";
 				echo "overallData = [";
 				foreach ( $general_stats_rows as $stats ) {
-					if($prev_name == ""){
-						echo "{'player':{'id':".$stats['id'].", 'name':'".$stats['name']."'}, 'scores': [\n"; 
-					} elseif($prev_name != $stats['nickname']){
+					if($prev_id == ""){
+						echo "{'player':{'id':".$stats['id'].", 'name':'".$stats['name']."'}, 'scores': [\n";
+						$prev_id =  $stats['id'];
+					} elseif($prev_id != $stats['id']){
 						echo "]},\n";
-					} else {
-						echo "{'date':'".$stats ['year'] . "-" . $stats ['month'] . "-" . $stats ['day']."', 'kills': ".$stats['kills'].", 'deaths': ".$stats['deats']."},\n";
-					}
+						echo "{'player':{'id':".$stats['id'].", 'name':'".$stats['name']."'}, 'scores': [\n";
+						$prev_id =  $stats['id'];
+					} 
+					echo "{'date':'".$stats ['year'] . "-" . $stats ['month'] . "-" . $stats ['day']."', 'kills': ".$stats['kills'].", 'deaths': ".$stats['deats']."},\n";
 				}
 				echo "]}];"
 				?>
