@@ -33,20 +33,30 @@ if ($is_overall) {
 	$challenge_filter = "".$today_filter_challenges_w;
 	$weapon_filter = "".$today_filter_w;
 	
-	$general_suicide_q = "SELECT COUNT(*) AS suicides FROM games_kills WHERE (games_kills.killer_id = 1022 OR games_kills.killer_id = games_kills.victim_id )".$today_filter_a;
-	$general_stats_q = "SELECT SUM(1) as kills,
-														 SUM(0) as deaths,
-														 YEAR(time_of_kill) as year,
-														 MONTH(time_of_kill) as month,
-														 DAY(time_of_kill) as day
-												  FROM games_kills
-												  WHERE games_kills.killer_id !=1022
-														AND games_kills.killer_id != games_kills.victim_id
-												  GROUP BY YEAR(time_of_kill), MONTH(time_of_kill), DAY(time_of_kill)";
+	$general_suicide_q = "SELECT COUNT(*) AS suicides 
+						FROM games_kills 
+						WHERE (games_kills.killer_id = 1022 OR games_kills.killer_id = games_kills.victim_id )".$today_filter_a;
+	
+	$general_stats_q = "SELECT 
+							SUM(CASE WHEN killer_id =  players.id THEN 1 ELSE 0 END) as kills, 
+							SUM(CASE WHEN victim_id =  players.id THEN 1 ELSE 0 END) as deaths, 
+							players.id as id, 
+							players.nickname as nickname, 
+							YEAR(time_of_kill) as year, 
+							MONTH(time_of_kill) as month, 
+							DAY(time_of_kill) as day 
+						FROM games_kills 
+						INNER JOIN players ON 
+							(games_kills.killer_id = players.id OR games_kills.victim_id = players.id) 
+						WHERE games_kills.killer_id !=1022 
+							AND games_kills.killer_id != games_kills.victim_id 
+						GROUP BY players.nickname, YEAR(time_of_kill), MONTH(time_of_kill), DAY(time_of_kill) 
+						ORDER BY players.id, games_kills.time_of_kill;";
 	
 	$player ['name'] = 'Overall';
 	$player ['nickname'] = '';
 	$player ['last_seen'] = '';
+	
 } else {
 	// Player specific statistics
 	
