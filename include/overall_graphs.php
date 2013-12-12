@@ -12,7 +12,7 @@
 				echo "overallData = [";
 				foreach ( $general_stats_rows as $stats ) {
 					if($prev_name == ""){
-						echo "{'player':{'id':".$stats['id'].", 'name':".$stats['name']."}, 'scores': [\n"; 
+						echo "{'player':{'id':".$stats['id'].", 'name':'".$stats['name']."'}, 'scores': [\n"; 
 					} elseif($prev_name != $stats['nickname']){
 						echo "]},\n";
 					} else {
