@@ -36,8 +36,8 @@
                             };
                             var colIds = [];
                             overallData.forEach(function(val, i, a){
-								data_kill.addColumn('string',val.player.name,val.player.id);
-								data_death.addColumn('string',val.player.name,val.player.id);
+								data_kill.addColumn('number',val.player.name,val.player.id);
+								data_death.addColumn('number',val.player.name,val.player.id);
 								colIds[val.player.id]=i+1;
 								
                             });
