@@ -41,7 +41,7 @@ if ($is_overall) {
 							SUM(CASE WHEN killer_id =  players.id THEN 1 ELSE 0 END) as kills, 
 							SUM(CASE WHEN victim_id =  players.id THEN 1 ELSE 0 END) as deaths, 
 							players.id as id, 
-							players.nickname as nickname, 
+							players.nickname as name, 
 							YEAR(time_of_kill) as year, 
 							MONTH(time_of_kill) as month, 
 							DAY(time_of_kill) as day 
