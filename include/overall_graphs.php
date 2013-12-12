@@ -44,8 +44,12 @@
                             overallData.forEach(function(val, i, a){
                                 
 								val.scores.forEach(function(val2, i2, a2){
-									data_kill.addRow();
-									data_death.addRow();
+									if(data_kill.getNumberOfRows()+1<i2){
+										data_kill.addRow();
+									}
+									if(data_death.getNumberOfRows()+1<i2){
+										data_death.addRow();
+									}
 									var colid = colIds[val.player.id];
 									data_kill.setCell(i2, 0, new Date(val2.date));
 									data_kill.setCell(i2, colid, val2.kills);
