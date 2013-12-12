@@ -19,7 +19,7 @@
 						echo "{'date':'".$stats ['year'] . "-" . $stats ['month'] . "-" . $stats ['day']."', 'kills': ".$stats['kills'].", 'deaths': ".$stats['deats']."},\n";
 					}
 				}
-				echo "];"
+				echo "]}];"
 				?>
 					google.load("visualization", "1", {packages:["corechart"]});
 					google.setOnLoadCallback(drawChart);
