@@ -44,18 +44,22 @@
                             overallData.forEach(function(val, i, a){
                                 
 								val.scores.forEach(function(val2, i2, a2){
-									if(data_kill.getNumberOfRows()<=i2){
-										data_kill.addRow();
-									}
-									if(data_death.getNumberOfRows()<=i2){
-										data_death.addRow();
-									}
+                                    var kill_row = data_kill.getFilteredRows([{column:0, value:new Date(val2.date+" 01:00:00")}])
+                                    if(kill_row.length===0){
+                                        data_kill.addRow();
+                                        kill_row[0] = data_kill.getNumberOfRows()-1;
+                                    }
+                                    var death_row = data_death.getFilteredRows([{column:0, value:new Date(val2.date+" 01:00:00")}]);
+                                    if(death_row.length===0){
+                                        data_death.addRow();
+                                        death_row[0] = data_death.getNumberOfRows()-1;;
+                                    }
 									var colid = colIds[val.player.id];
-									data_kill.setCell(i2, 0, new Date(val2.date));
-									data_kill.setCell(i2, colid, val2.kills);
+									data_kill.setCell(kill_row[0], 0, new Date(val2.date+" 01:00:00"));
+									data_kill.setCell(kill_row[0], colid, val2.kills);
 
-									data_death.setCell(i2, 0, new Date(val2.date));
-									data_death.setCell(i2, colid, val2.deaths);
+									data_death.setCell(death_row[0], 0, new Date(val2.date+" 01:00:00"));
+									data_death.setCell(death_row[0], colid, val2.deaths);
 								});
 								
                             });
@@ -70,10 +74,10 @@
 			<tbody>
 				<tr>
 					<td>
-						<div id="chart_kills" style="width: 600px; height: 450px;"></div>
+						<div id="chart_kills" style="width: 700px; height: 450px;"></div>
 					</td>
 					<td>
-						<div id="chart_deaths" style="width: 600px; height: 450px;"></div>
+						<div id="chart_deaths" style="width: 700px; height: 450px;"></div>
 					</td>
 				</tr>
 			</tbody>
