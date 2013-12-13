@@ -23,6 +23,6 @@
                     -->
                     <div class="well sidebar-nav">
                         <ul class="nav nav-list">
-                            <li class="nav-header">Filters</li>
+                            <!--<li class="nav-header">Filters</li>-->
                         </ul>
                     </div>

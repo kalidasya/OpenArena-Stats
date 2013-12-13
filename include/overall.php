@@ -1,26 +1,32 @@
         <div class="container-fluid">
             <div class="row-fluid">
-                <div class="span3">
+                 <div class="span2">
                     <?php require_once('include/sidebar.php'); ?>
                 </div>
-                <div class="span9">
+                <div class="span10">
                     <div class="page-header">
                         <h1><?php echo $player['name']; ?> <small><?php echo $player['nickname']; ?></small></h1>
-			<?php if ($player['last_seen']){?>
-			<p class="muted">Last seen: <?php echo $player['last_seen']; ?></p>
-			<?php }?>
-			<?php 
-            if ($player_nicknames){
-                echo "<p class=muted>Nicknames:</p>";
-                echo "<ul>";
-                foreach($player_nicknames as $key => $value){
-                    echo "<li class=muted>$value</li>";
-                }
-                echo "</ul>";
-			}
-			?>
+						<?php if ($player['last_seen']){?>
+							<p class="muted">Last seen: <?php echo $player['last_seen']; ?></p>
+						<?php }?>
+						<?php 
+            				if ($player_nicknames){
+				                echo "<p class=muted>Nicknames:</p>";
+				                echo "<ul>";
+				                foreach($player_nicknames as $key => $value){
+				                    echo "<li class=muted>$value</li>";
+				                }
+				                echo "</ul>";
+							}
+						?>
                     </div>
-
+                    <?php
+                        if ($is_overall) {
+                            require_once('include/overall_graphs.php');
+                        } else {
+                            require_once('include/player_graphs.php');
+                        }
+                    ?>
                     <div class="row-fluid">
                         <div class="span4">
                             <table class="table table-striped">
@@ -210,48 +216,6 @@
                                 </tbody>
                             </table>
                         </div>
-                    </div>
-
-                    <div class="row-fluid">
-                    	<div class="span6">
-                    		<table class="table table-striped">
-                                <thead>
-                                    <tr>
-                                        <th>Stats</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                	<tr><td>
- 									<script>
-	                                    google.load("visualization", "1", {packages:["corechart"]});
-	                                    google.setOnLoadCallback(drawChart);
-
-	                                    function drawChart() {
-	                                      var data = new google.visualization.DataTable();
-										  data.addColumn('date', 'Date');
-										  data.addColumn('number', 'Kills');
-										  data.addColumn('number', 'Deaths');
-	                                      var options = {
-	                                        title: 'User stats'
-	                                      };
-	                                      <?php 
-	                                      foreach ($general_stats_rows as $stats){
-	                                      	echo "data.addRow([new Date(".$stats['year'].",".$stats['month'].",".$stats['day']."), ".$stats['kills'].", ".$stats['deaths']."]);";
-										  }
-										  //If it is not player specific context remove deaths line (set to 0 anyway)
-										  if($is_overall){
-						                    echo "data.removeColumn(2)";
-						                  }
-						                  ?>	
-	                                      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
-	                                      chart.draw(data, options);
-	                                    }
-                                    </script>
-                                    <div id="chart_div" style="width: 900px; height: 500px;"></div>
-                                    </td></tr>
-                                </tbody>
-                            </table>
-                    	</div>
                     </div>
                 </div>
             </div>
