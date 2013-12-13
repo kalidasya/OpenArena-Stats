@@ -1,6 +1,9 @@
         <div class="container-fluid">
             <div class="row-fluid">
-                <div class="span9">
+                 <div class="span2">
+                    <?php require_once('include/sidebar.php'); ?>
+                </div>
+                <div class="span10">
                     <div class="page-header">
                         <h1><?php echo $player['name']; ?> <small><?php echo $player['nickname']; ?></small></h1>
 						<?php if ($player['last_seen']){?>
@@ -17,7 +20,13 @@
 							}
 						?>
                     </div>
-
+                    <?php
+                        if ($is_overall) {
+                            require_once('include/overall_graphs.php');
+                        } else {
+                            require_once('include/player_graphs.php');
+                        }
+                    ?>
                     <div class="row-fluid">
                         <div class="span4">
                             <table class="table table-striped">
@@ -208,13 +217,6 @@
                             </table>
                         </div>
                     </div>
-					<?php 
-					if ($is_overall) {
-						require_once('include/overall_graphs.php');
-					} else {
-						require_once('include/player_graphs.php');
-					}
-					?>
                 </div>
             </div>
         </div>
