@@ -27,8 +27,7 @@
 
             var options = {
                 title: 'User stats',
-                chartArea: {left:5,top:5,width:"80%",height:"90%"},
-                vAxis: {maxValue: 10, textPosition: "out", slantedText: true},
+                chartArea: {left:20,top:10,width:"80%",height:"80%"},
                 titlePosition:"in"
             };
             var colIds = [];
@@ -68,10 +67,6 @@
 		 chart_deaths.draw(data_death, options);
        }
 	</script>
-    <div class="span5">
-	    <div id="chart_kills" style="height: 300px;"></div>
-    </div>
-    <div class="span5">
-	    <div id="chart_deaths" style="height: 300px;"></div>
-    </div>
+	<div id="chart_kills" class="span6" style="height: 300px;"></div>
+	<div id="chart_deaths" class="span6" style="height: 300px;"></div>
 </div>
