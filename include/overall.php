@@ -14,7 +14,7 @@
 				                echo "<p class=muted>Nicknames:</p>";
 				                echo "<ul>";
 				                foreach($player_nicknames as $key => $value){
-				                    echo "<li class=muted>$value</li>";
+				                    echo "<li class=muted>" . $value[0]. "</li>";
 				                }
 				                echo "</ul>";
 							}

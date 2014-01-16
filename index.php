@@ -82,7 +82,7 @@ if ($is_overall) {
 	
 	$player_result  = mysqli_query($link, "SELECT id, name, nickname, last_seen FROM players WHERE players.id = '". mysqli_real_escape_string($link, $_GET['player']) ."' LIMIT 1");
 	$player = mysqli_fetch_assoc($player_result);
-    $player_nicknames = mysqli_fetch_assoc(mysqli_query($link, "SELECT nickname FROM nicknames WHERE player_id = ". mysqli_real_escape_string($link, $_GET['player'])));
+    $player_nicknames = mysqli_fetch_all(mysqli_query($link, "SELECT DISTINCT nickname FROM nicknames WHERE player_id = ". mysqli_real_escape_string($link, $_GET['player'])));
 }
 
 //---------------------------------------------------------------------
