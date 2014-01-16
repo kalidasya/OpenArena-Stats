@@ -169,7 +169,11 @@ while(($line = fgets($logfile, 4096)) !== false) {
             break;
 
             case 'score':
-                preg_match('/^(?P<score>[0-9]+) .* client\: (?P<playerid>[0-9]+)/i', trim($match['rest']), $score);
+                preg_match('/^(?P<score>[0-9]+) +ping\: (?P<ping>[0-9]+) +client\: (?P<playerid>[0-9]+)/i', trim($match['rest']), $score);
+                mysqli_query($link, "INSERT INTO games_scores SET game_id = '". mysqli_real_escape_string($link, $gameid) ."',
+                    player_id = '". mysqli_real_escape_string($link, $round_players[$ctf['playerid']]['localid']) ."',
+                    ping = '". mysqli_real_escape_string($link, $score['ping']) ."',
+                    score = '". mysqli_real_escape_string($link, $score['score']) ."'");
             break;
 
             case 'ctf':
