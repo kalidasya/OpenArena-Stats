@@ -166,6 +166,21 @@ CREATE TABLE `games` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
+# Dump of table games_scores
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `games_scores`;
+
+CREATE TABLE `games_scores` (
+  `id` bigint(8) unsigned NOT NULL AUTO_INCREMENT,
+  `game_id` bigint(8) unsigned NOT NULL,
+  `player_id` bigint(8) unsigned NOT NULL,
+  `score` int(11) unsigned NOT NULL,
+  `ping` int(11) unsigned NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
 
 # Dump of table games_awards
 # ------------------------------------------------------------
