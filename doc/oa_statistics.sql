@@ -369,3 +369,17 @@ UNLOCK TABLES;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+
+/*test queries*/
+/*
+SELECT player_id, score, @rank := @rank + 1 AS rank FROM
+(
+  SELECT u.player_id, u.score
+  FROM games_scores u
+  LEFT JOIN games_scores u2
+    ON u.player_id=u2.player_id
+   AND u.game_id = u2.game_id
+  WHERE u.game_id = 2017
+  ORDER BY u.score DESC
+) zz, (SELECT @rank := 0) z;*/
