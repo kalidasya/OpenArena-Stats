@@ -393,3 +393,7 @@ SELECT player_id, score, @rank := @rank + 1 AS rank_number FROM
   GROUP BY p.id
   ORDER BY score DESC
 ) AS rankings, (SELECT @rank := 0) AS r;*/
+--# of players per game:
+--select game_id, count(1) from games_scores group by game_id;
+--only non team games
+--select game_id, count(1) as c from games_scores LEFT JOIN games ON games_scores.game_id=games.id WHERE games.gametype_id IN (0,1,2) group by game_id having c >1;
