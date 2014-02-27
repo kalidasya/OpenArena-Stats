@@ -377,23 +377,19 @@ SELECT player_id, score, @rank := @rank + 1 AS rank FROM
 (
   SELECT u.player_id, u.score
   FROM games_scores u
-  LEFT JOIN games_scores u2
-    ON u.player_id=u2.player_id
-   AND u.game_id = u2.game_id
   WHERE u.game_id = 2017
   ORDER BY u.score DESC
 ) zz, (SELECT @rank := 0) z;
-
-SELECT rank_number, player_id, score FROM
+*/
+/*
+--overall ranking based on sum of scores
+SELECT player_id, score, @rank := @rank + 1 AS rank_number FROM
 (
-  SELECT player_id, score, @rank := @rank + 1 AS rank_number FROM
-  (
-    SELECT p.id as player_id, SUM(s.score) as score
-    FROM players p
-    LEFT JOIN games_scores s
-      ON s.player_id=p.id
-    WHERE score != 0
-    GROUP BY p.id
-    ORDER BY score DESC
-  ) AS rankings, (SELECT @rank := 0) AS r
-) AS overall_rankins LIMIT 0, 100;*/
+  SELECT p.id as player_id, SUM(s.score) as score
+  FROM players p
+  LEFT JOIN games_scores s
+    ON s.player_id=p.id
+  WHERE score != 0
+  GROUP BY p.id
+  ORDER BY score DESC
+) AS rankings, (SELECT @rank := 0) AS r;*/
